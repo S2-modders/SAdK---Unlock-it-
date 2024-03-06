@@ -1,0 +1,3270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="GitHubIcon.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="GitHubIcon.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="GitHubIcon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 225</value>
+  </data>
+  <data name="GitHubIcon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 39</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="GitHubIcon.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;GitHubIcon.Name" xml:space="preserve">
+    <value>GitHubIcon</value>
+  </data>
+  <data name="&gt;&gt;GitHubIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GitHubIcon.Parent" xml:space="preserve">
+    <value>SaveAndInfoPage</value>
+  </data>
+  <data name="&gt;&gt;GitHubIcon.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ModDBIcon.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="ModDBIcon.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ModDBIcon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 106</value>
+  </data>
+  <data name="ModDBIcon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 50</value>
+  </data>
+  <data name="ModDBIcon.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;ModDBIcon.Name" xml:space="preserve">
+    <value>ModDBIcon</value>
+  </data>
+  <data name="&gt;&gt;ModDBIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ModDBIcon.Parent" xml:space="preserve">
+    <value>SaveAndInfoPage</value>
+  </data>
+  <data name="&gt;&gt;ModDBIcon.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pictureBox1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 106</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 45</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>SaveAndInfoPage</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GitHubEncouragement.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GitHubEncouragement.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="GitHubEncouragement.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GitHubEncouragement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 198</value>
+  </data>
+  <data name="GitHubEncouragement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>383, 24</value>
+  </data>
+  <data name="GitHubEncouragement.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="GitHubEncouragement.Text" xml:space="preserve">
+    <value>If you won't submit an error, it will stay forever</value>
+  </data>
+  <data name="&gt;&gt;GitHubEncouragement.Name" xml:space="preserve">
+    <value>GitHubEncouragement</value>
+  </data>
+  <data name="&gt;&gt;GitHubEncouragement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GitHubEncouragement.Parent" xml:space="preserve">
+    <value>SaveAndInfoPage</value>
+  </data>
+  <data name="&gt;&gt;GitHubEncouragement.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="GitHub.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GitHub.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="GitHub.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GitHub.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 236</value>
+  </data>
+  <data name="GitHub.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 24</value>
+  </data>
+  <data name="GitHub.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="GitHub.Text" xml:space="preserve">
+    <value>Report an issue</value>
+  </data>
+  <data name="&gt;&gt;GitHub.Name" xml:space="preserve">
+    <value>GitHub</value>
+  </data>
+  <data name="&gt;&gt;GitHub.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GitHub.Parent" xml:space="preserve">
+    <value>SaveAndInfoPage</value>
+  </data>
+  <data name="&gt;&gt;GitHub.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="MapSite.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="MapSite.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="MapSite.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="MapSite.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 154</value>
+  </data>
+  <data name="MapSite.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 24</value>
+  </data>
+  <data name="MapSite.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="MapSite.Text" xml:space="preserve">
+    <value>Upload and download a map</value>
+  </data>
+  <data name="&gt;&gt;MapSite.Name" xml:space="preserve">
+    <value>MapSite</value>
+  </data>
+  <data name="&gt;&gt;MapSite.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MapSite.Parent" xml:space="preserve">
+    <value>SaveAndInfoPage</value>
+  </data>
+  <data name="&gt;&gt;MapSite.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Discord.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Discord.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="Discord.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Discord.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 130</value>
+  </data>
+  <data name="Discord.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 24</value>
+  </data>
+  <data name="Discord.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Discord.Text" xml:space="preserve">
+    <value>Join our discord</value>
+  </data>
+  <data name="&gt;&gt;Discord.Name" xml:space="preserve">
+    <value>Discord</value>
+  </data>
+  <data name="&gt;&gt;Discord.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Discord.Parent" xml:space="preserve">
+    <value>SaveAndInfoPage</value>
+  </data>
+  <data name="&gt;&gt;Discord.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="SupportUs.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SupportUs.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="SupportUs.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SupportUs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 106</value>
+  </data>
+  <data name="SupportUs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 24</value>
+  </data>
+  <data name="SupportUs.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="SupportUs.Text" xml:space="preserve">
+    <value>Support us!</value>
+  </data>
+  <data name="&gt;&gt;SupportUs.Name" xml:space="preserve">
+    <value>SupportUs</value>
+  </data>
+  <data name="&gt;&gt;SupportUs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SupportUs.Parent" xml:space="preserve">
+    <value>SaveAndInfoPage</value>
+  </data>
+  <data name="&gt;&gt;SupportUs.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="SaveButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="SaveButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SaveButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 80</value>
+  </data>
+  <data name="SaveButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="SaveButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="SaveButton.Text" xml:space="preserve">
+    <value>Save and exit</value>
+  </data>
+  <data name="&gt;&gt;SaveButton.Name" xml:space="preserve">
+    <value>SaveButton</value>
+  </data>
+  <data name="&gt;&gt;SaveButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SaveButton.Parent" xml:space="preserve">
+    <value>SaveAndInfoPage</value>
+  </data>
+  <data name="&gt;&gt;SaveButton.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="SaveInfoConsequences.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SaveInfoConsequences.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15pt</value>
+  </data>
+  <data name="SaveInfoConsequences.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SaveInfoConsequences.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 52</value>
+  </data>
+  <data name="SaveInfoConsequences.Size" type="System.Drawing.Size, System.Drawing">
+    <value>429, 25</value>
+  </data>
+  <data name="SaveInfoConsequences.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="SaveInfoConsequences.Text" xml:space="preserve">
+    <value>override the original file and close the application</value>
+  </data>
+  <data name="&gt;&gt;SaveInfoConsequences.Name" xml:space="preserve">
+    <value>SaveInfoConsequences</value>
+  </data>
+  <data name="&gt;&gt;SaveInfoConsequences.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SaveInfoConsequences.Parent" xml:space="preserve">
+    <value>SaveAndInfoPage</value>
+  </data>
+  <data name="&gt;&gt;SaveInfoConsequences.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="SaveInfoAutomatically.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SaveInfoAutomatically.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt</value>
+  </data>
+  <data name="SaveInfoAutomatically.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SaveInfoAutomatically.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 34</value>
+  </data>
+  <data name="SaveInfoAutomatically.Size" type="System.Drawing.Size, System.Drawing">
+    <value>431, 18</value>
+  </data>
+  <data name="SaveInfoAutomatically.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="SaveInfoAutomatically.Text" xml:space="preserve">
+    <value>Clicking this button will automatically without need of permission:</value>
+  </data>
+  <data name="&gt;&gt;SaveInfoAutomatically.Name" xml:space="preserve">
+    <value>SaveInfoAutomatically</value>
+  </data>
+  <data name="&gt;&gt;SaveInfoAutomatically.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SaveInfoAutomatically.Parent" xml:space="preserve">
+    <value>SaveAndInfoPage</value>
+  </data>
+  <data name="&gt;&gt;SaveInfoAutomatically.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="SaveInfoWarning.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SaveInfoWarning.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="SaveInfoWarning.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SaveInfoWarning.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 3</value>
+  </data>
+  <data name="SaveInfoWarning.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 31</value>
+  </data>
+  <data name="SaveInfoWarning.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="SaveInfoWarning.Text" xml:space="preserve">
+    <value>⚠️ Warning ⚠️</value>
+  </data>
+  <data name="&gt;&gt;SaveInfoWarning.Name" xml:space="preserve">
+    <value>SaveInfoWarning</value>
+  </data>
+  <data name="&gt;&gt;SaveInfoWarning.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SaveInfoWarning.Parent" xml:space="preserve">
+    <value>SaveAndInfoPage</value>
+  </data>
+  <data name="&gt;&gt;SaveInfoWarning.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="SaveAndInfoPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="SaveAndInfoPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="SaveAndInfoPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>443, 267</value>
+  </data>
+  <data name="SaveAndInfoPage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="SaveAndInfoPage.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;SaveAndInfoPage.Name" xml:space="preserve">
+    <value>SaveAndInfoPage</value>
+  </data>
+  <data name="&gt;&gt;SaveAndInfoPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SaveAndInfoPage.Parent" xml:space="preserve">
+    <value>PagesWithCategories</value>
+  </data>
+  <data name="&gt;&gt;SaveAndInfoPage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PlainsButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PlainsButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 241</value>
+  </data>
+  <data name="PlainsButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="PlainsButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="PlainsButton.Text" xml:space="preserve">
+    <value>Switch</value>
+  </data>
+  <data name="&gt;&gt;PlainsButton.Name" xml:space="preserve">
+    <value>PlainsButton</value>
+  </data>
+  <data name="&gt;&gt;PlainsButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PlainsButton.Parent" xml:space="preserve">
+    <value>PlainsPage</value>
+  </data>
+  <data name="&gt;&gt;PlainsButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PlainsArrow.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk1aCwAAAAAAADYAAAAoAAAAHgAAAB8AAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn59vb28/Pz8/Pz9vb2+Pj4+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5AAD5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn39/fu
+        7u7k5OTj4+Pp6eny8vL39/f5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fkAAPn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fT09OTk5MSrnsW/vNPT0+Pj4+/v7/b29vn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+QAA+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5
+        8vLy4ODgmzUDnkcbtqOZy8vL3t7e7Ozs9PT0+Pj4+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5
+        AAD5+fn4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj29vbx8fHd3d2dOQbPhmGhQA6sgWvExMTY2Njn5+fy
+        8vL39/f5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fkAAPb29vLy8u/v7+7u7u7u7u7u7u7u7u7u7u7u
+        7u3t7ejo6NbW1p87CeaqjN2ce6xQIadpSr64tdHR0eTk5PDw8Pf39/n5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+QAA7u7u4uLi2dnZ1tbW1tbW1tbW1tbW1tbW1tbW1tbW0tLSxcXFoT4M5qqM5qqM4aOEu2Y8pFUs
+        t6Wbzc3N4ODg7e3t9fX1+Pj4+fn5+fn5+fn5+fn5+fn5+fn5AADk5OTNzc29vb25ubm4uLi4uLi4uLi4
+        uLi4uLi4uLi3t7exsbGjQhDmqozmqozmqozmqozMgl2oUCKzlIXIyMjb29vq6urz8/P4+Pj5+fn5+fn5
+        +fn5+fn5+fkAAN/f36VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE+aqjOaqjNmRauSn
+        iOaqjNmWda1RIq53XMHBwdTU1OXl5fHx8ff39/n5+fn5+fn5+fn5+QAA3t7eqEcW5qqM5qqM5qqM5qqM
+        5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM04Va14xj46WF5qqM4qOEu2Y6qlw0u7Wyz8/P4uLi7+/v
+        9vb2+fn5+fn5+fn5AADe3t6qShnmqozmqozmqozmqozmqozmqozmqozmqozmqozmqozmqozmqozmqozV
+        iF3ViF3WimDgn33mqozmqozHelKrUiS3oJTLy8ve3t7s7Oz09PT4+Pj5+fkAAN7e3qxNHOaqjOaqjNaK
+        YdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYd2YdOaqjOaqjNeScK9TI7OK
+        dcTExNjY2Ofn5/Ly8vj4+AAA3t7erlAg5qqM5qqM141k141k141k141k141k141k141k141k141k141k
+        141k141k141k141k141k141k25Ru5aiJ5qqM4qSFuGE0sXFQv7m20dHR5OTk8vLyAADe3t6wUyPmqozm
+        qozYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjZkWrjpYXm
+        qozmqozHeFCxXza6qaDQ0NDm5uYAAN7e3rJWJuaqjOaqjNqSa9qSa9qSa9qSa9qSa9qSa9qSa9qSa9qS
+        a9qSa9qSa9qSa9qSa9qSa9qSa9qSa9qSa9qSa9qSa+GffuaqjOaqjNKKZbZiNr2bitzc3AAA3t7etVkp
+        5qqM5qqM25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv
+        25Vv25Vv3pt45aiK5qqM3Zx7vmk90bWmAADe3t63XCzmqozmqozcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lc
+        l3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3LfnXrlqIrnsJTfo4XAbEDZva4AAN7e
+        3rlfL+aqjOaqjN6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6a
+        dt6adt6aduKiguasj+q4n9iYd79uQta0ovLy8gAA3t7eu2Iz5qqM5qqM35x535x535x535x535x535x5
+        35x535x535x535x535x535x535x535x535x535x535x535165KaH57CU7MCq0YtnwHNJ4NDH8vLy+Pj4
+        AADe3t69ZTbmqozmqozgn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33g
+        n33hoYDlqYvquqLrwq3Gd03JjGvp4+D09PT4+Pj5+fkAAN7e3r9oOeaqjOaqjOGhgOGhgOGhgOGhgOGh
+        gOGhgOGhgOGhgOGhgOGhgOGhgOGhgOGhgOGhgOGhgOOlheasj+3EsOS1ncJuQdWvmu3t7fX19fj4+Pn5
+        +fn5+QAA39/fwWs85qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM46SE46SE46SE
+        5aeJ6LKX8dHA2qCBxHNH38m+8fHx9/f3+fn5+fn5+fn5+fn5AADk5OTEbj/x0L/x0L/x0L/x0L/x0L/x
+        0L/x0L/x0L/x0L/x0L/x0L/mqozmqozkp4fkp4jlqYvrvabx1cfTkGzKhV/p5OHz8/P4+Pj5+fn5+fn5
+        +fn5+fn5+fkAAO7u7sZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ+aqjOaqjOWpi+et
+        kfDOve3Ovcx/VdWli+3t7fX19fj4+Pn5+fn5+fn5+fn5+fn5+fn5+QAA9vb28vLy7+/v7u7u7u7u7u7u
+        7u7u7u7u7u7u7e3t6Ojo1tbWyHRG5qqM5qqM6LKX9d7T5r2nzINa3cO08PDw9/f3+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5AAD5+fn4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj29vbx8fHd3d3Kd0nmqozswKv2
+        5dzcpIbPi2bj1Mvy8vL39/f5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fkAAPn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fLy8t/f38x6TPPWyPbo4NWRa9ajhuvl4/T09Pj4+Pn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+QAA+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn59PT05OTkzn1P79XH
+        0YVa3bml7+/v9vb2+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5AAD5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn39/fu7u7QgFPTjWbk1s3x8fH39/f5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fkAAPn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fb29uzY
+        zfHs6fX19fj4+Pn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+QAA+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+Pj4+Pj4+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5AAA=
+</value>
+  </data>
+  <data name="PlainsArrow.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="PlainsArrow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PlainsArrow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 6</value>
+  </data>
+  <data name="PlainsArrow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 57</value>
+  </data>
+  <data name="PlainsArrow.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;PlainsArrow.Name" xml:space="preserve">
+    <value>PlainsArrow</value>
+  </data>
+  <data name="&gt;&gt;PlainsArrow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PlainsArrow.Parent" xml:space="preserve">
+    <value>PlainsPage</value>
+  </data>
+  <data name="&gt;&gt;PlainsArrow.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PlainsAdK.Items" xml:space="preserve">
+    <value>__Highland meadow bright</value>
+  </data>
+  <data name="PlainsAdK.Items1" xml:space="preserve">
+    <value>__Highland meadow bright rocks</value>
+  </data>
+  <data name="PlainsAdK.Items2" xml:space="preserve">
+    <value>__Highland meadow medium</value>
+  </data>
+  <data name="PlainsAdK.Items3" xml:space="preserve">
+    <value>__Highland meadow medium rocks</value>
+  </data>
+  <data name="PlainsAdK.Items4" xml:space="preserve">
+    <value>__Highland meadow dark</value>
+  </data>
+  <data name="PlainsAdK.Items5" xml:space="preserve">
+    <value>__Highland meadow dark rocks</value>
+  </data>
+  <data name="PlainsAdK.Items6" xml:space="preserve">
+    <value>__Highland earth fir moss</value>
+  </data>
+  <data name="PlainsAdK.Items7" xml:space="preserve">
+    <value>__Highland earth fir</value>
+  </data>
+  <data name="PlainsAdK.Items8" xml:space="preserve">
+    <value>__Highland earth</value>
+  </data>
+  <data name="PlainsAdK.Items9" xml:space="preserve">
+    <value>__Highland stone ground</value>
+  </data>
+  <data name="PlainsAdK.Items10" xml:space="preserve">
+    <value>--Snow meadow</value>
+  </data>
+  <data name="PlainsAdK.Items11" xml:space="preserve">
+    <value>--Snow meadow snow</value>
+  </data>
+  <data name="PlainsAdK.Items12" xml:space="preserve">
+    <value>--Snow meadow snow 2</value>
+  </data>
+  <data name="PlainsAdK.Items13" xml:space="preserve">
+    <value>--Snow meadow snow 3</value>
+  </data>
+  <data name="PlainsAdK.Items14" xml:space="preserve">
+    <value>--Snow meadow Treeground 80x80,200x200</value>
+  </data>
+  <data name="PlainsAdK.Items15" xml:space="preserve">
+    <value>--Snow meadow Treeground 125x125</value>
+  </data>
+  <data name="PlainsAdK.Items16" xml:space="preserve">
+    <value>--Snow meadow Treeground 170x170</value>
+  </data>
+  <data name="PlainsAdK.Items17" xml:space="preserve">
+    <value>--Snow meadow Treeground 255x255</value>
+  </data>
+  <data name="PlainsAdK.Items18" xml:space="preserve">
+    <value>__Highland swamp meadow (unblocked)</value>
+  </data>
+  <data name="PlainsAdK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>246, 0</value>
+  </data>
+  <data name="PlainsAdK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 264</value>
+  </data>
+  <data name="PlainsAdK.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;PlainsAdK.Name" xml:space="preserve">
+    <value>PlainsAdK</value>
+  </data>
+  <data name="&gt;&gt;PlainsAdK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PlainsAdK.Parent" xml:space="preserve">
+    <value>PlainsPage</value>
+  </data>
+  <data name="&gt;&gt;PlainsAdK.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Plains10.Items" xml:space="preserve">
+    <value>DO NOT USE</value>
+  </data>
+  <data name="Plains10.Items1" xml:space="preserve">
+    <value>meadow</value>
+  </data>
+  <data name="Plains10.Items2" xml:space="preserve">
+    <value>meadow yellow flowers</value>
+  </data>
+  <data name="Plains10.Items3" xml:space="preserve">
+    <value>earth</value>
+  </data>
+  <data name="Plains10.Items4" xml:space="preserve">
+    <value>meadow bright</value>
+  </data>
+  <data name="Plains10.Items5" xml:space="preserve">
+    <value>leaf</value>
+  </data>
+  <data name="Plains10.Items6" xml:space="preserve">
+    <value>meadow leaf</value>
+  </data>
+  <data name="Plains10.Items7" xml:space="preserve">
+    <value>meadow dark small</value>
+  </data>
+  <data name="Plains10.Items8" xml:space="preserve">
+    <value>meadow red flowers</value>
+  </data>
+  <data name="Plains10.Items9" xml:space="preserve">
+    <value>§§Desert meadow</value>
+  </data>
+  <data name="Plains10.Items10" xml:space="preserve">
+    <value>sand stones</value>
+  </data>
+  <data name="Plains10.Items11" xml:space="preserve">
+    <value>§§Desert earth</value>
+  </data>
+  <data name="Plains10.Items12" xml:space="preserve">
+    <value>stone ground</value>
+  </data>
+  <data name="Plains10.Items13" xml:space="preserve">
+    <value>swamp meadow (unblocked)</value>
+  </data>
+  <data name="Plains10.Items14" xml:space="preserve">
+    <value>HARBOR</value>
+  </data>
+  <data name="Plains10.Items15" xml:space="preserve">
+    <value>meadow ground</value>
+  </data>
+  <data name="Plains10.Items16" xml:space="preserve">
+    <value>((00 LAVA ground</value>
+  </data>
+  <data name="Plains10.Items17" xml:space="preserve">
+    <value>((00 LAVA ground rough</value>
+  </data>
+  <data name="Plains10.Items18" xml:space="preserve">
+    <value>((00 LAVA ground flat</value>
+  </data>
+  <data name="Plains10.Items19" xml:space="preserve">
+    <value>((00 LAVA Meadow 00</value>
+  </data>
+  <data name="Plains10.Items20" xml:space="preserve">
+    <value>!!!MED meadow 00</value>
+  </data>
+  <data name="Plains10.Items21" xml:space="preserve">
+    <value>!!!MED meadow 01</value>
+  </data>
+  <data name="Plains10.Items22" xml:space="preserve">
+    <value>!!!MED meadow 02</value>
+  </data>
+  <data name="Plains10.Items23" xml:space="preserve">
+    <value>!!!MED meadow 03</value>
+  </data>
+  <data name="Plains10.Items24" xml:space="preserve">
+    <value>!!!MED ground 00</value>
+  </data>
+  <data name="Plains10.Items25" xml:space="preserve">
+    <value>!!!MED ground 01</value>
+  </data>
+  <data name="Plains10.Items26" xml:space="preserve">
+    <value>!!!MED stone ground</value>
+  </data>
+  <data name="Plains10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Plains10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 264</value>
+  </data>
+  <data name="Plains10.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Plains10.Name" xml:space="preserve">
+    <value>Plains10</value>
+  </data>
+  <data name="&gt;&gt;Plains10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Plains10.Parent" xml:space="preserve">
+    <value>PlainsPage</value>
+  </data>
+  <data name="&gt;&gt;Plains10.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="PlainsPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="PlainsPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="PlainsPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>443, 267</value>
+  </data>
+  <data name="PlainsPage.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="PlainsPage.Text" xml:space="preserve">
+    <value>Plains</value>
+  </data>
+  <data name="&gt;&gt;PlainsPage.Name" xml:space="preserve">
+    <value>PlainsPage</value>
+  </data>
+  <data name="&gt;&gt;PlainsPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PlainsPage.Parent" xml:space="preserve">
+    <value>PagesWithCategories</value>
+  </data>
+  <data name="&gt;&gt;PlainsPage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="RocksButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RocksButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 241</value>
+  </data>
+  <data name="RocksButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="RocksButton.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="RocksButton.Text" xml:space="preserve">
+    <value>Switch</value>
+  </data>
+  <data name="&gt;&gt;RocksButton.Name" xml:space="preserve">
+    <value>RocksButton</value>
+  </data>
+  <data name="&gt;&gt;RocksButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RocksButton.Parent" xml:space="preserve">
+    <value>RocksPage</value>
+  </data>
+  <data name="&gt;&gt;RocksButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RocksArrow.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk1aCwAAAAAAADYAAAAoAAAAHgAAAB8AAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn59vb28/Pz8/Pz9vb2+Pj4+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5AAD5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn39/fu
+        7u7k5OTj4+Pp6eny8vL39/f5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fkAAPn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fT09OTk5MSrnsW/vNPT0+Pj4+/v7/b29vn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+QAA+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5
+        8vLy4ODgmzUDnkcbtqOZy8vL3t7e7Ozs9PT0+Pj4+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5
+        AAD5+fn4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj29vbx8fHd3d2dOQbPhmGhQA6sgWvExMTY2Njn5+fy
+        8vL39/f5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fkAAPb29vLy8u/v7+7u7u7u7u7u7u7u7u7u7u7u
+        7u3t7ejo6NbW1p87CeaqjN2ce6xQIadpSr64tdHR0eTk5PDw8Pf39/n5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+QAA7u7u4uLi2dnZ1tbW1tbW1tbW1tbW1tbW1tbW1tbW0tLSxcXFoT4M5qqM5qqM4aOEu2Y8pFUs
+        t6Wbzc3N4ODg7e3t9fX1+Pj4+fn5+fn5+fn5+fn5+fn5+fn5AADk5OTNzc29vb25ubm4uLi4uLi4uLi4
+        uLi4uLi4uLi3t7exsbGjQhDmqozmqozmqozmqozMgl2oUCKzlIXIyMjb29vq6urz8/P4+Pj5+fn5+fn5
+        +fn5+fn5+fkAAN/f36VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE+aqjOaqjNmRauSn
+        iOaqjNmWda1RIq53XMHBwdTU1OXl5fHx8ff39/n5+fn5+fn5+fn5+QAA3t7eqEcW5qqM5qqM5qqM5qqM
+        5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM04Va14xj46WF5qqM4qOEu2Y6qlw0u7Wyz8/P4uLi7+/v
+        9vb2+fn5+fn5+fn5AADe3t6qShnmqozmqozmqozmqozmqozmqozmqozmqozmqozmqozmqozmqozmqozV
+        iF3ViF3WimDgn33mqozmqozHelKrUiS3oJTLy8ve3t7s7Oz09PT4+Pj5+fkAAN7e3qxNHOaqjOaqjNaK
+        YdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYd2YdOaqjOaqjNeScK9TI7OK
+        dcTExNjY2Ofn5/Ly8vj4+AAA3t7erlAg5qqM5qqM141k141k141k141k141k141k141k141k141k141k
+        141k141k141k141k141k141k25Ru5aiJ5qqM4qSFuGE0sXFQv7m20dHR5OTk8vLyAADe3t6wUyPmqozm
+        qozYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjZkWrjpYXm
+        qozmqozHeFCxXza6qaDQ0NDm5uYAAN7e3rJWJuaqjOaqjNqSa9qSa9qSa9qSa9qSa9qSa9qSa9qSa9qS
+        a9qSa9qSa9qSa9qSa9qSa9qSa9qSa9qSa9qSa9qSa+GffuaqjOaqjNKKZbZiNr2bitzc3AAA3t7etVkp
+        5qqM5qqM25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv
+        25Vv25Vv3pt45aiK5qqM3Zx7vmk90bWmAADe3t63XCzmqozmqozcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lc
+        l3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3LfnXrlqIrnsJTfo4XAbEDZva4AAN7e
+        3rlfL+aqjOaqjN6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6a
+        dt6adt6aduKiguasj+q4n9iYd79uQta0ovLy8gAA3t7eu2Iz5qqM5qqM35x535x535x535x535x535x5
+        35x535x535x535x535x535x535x535x535x535x535x535165KaH57CU7MCq0YtnwHNJ4NDH8vLy+Pj4
+        AADe3t69ZTbmqozmqozgn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33g
+        n33hoYDlqYvquqLrwq3Gd03JjGvp4+D09PT4+Pj5+fkAAN7e3r9oOeaqjOaqjOGhgOGhgOGhgOGhgOGh
+        gOGhgOGhgOGhgOGhgOGhgOGhgOGhgOGhgOGhgOGhgOOlheasj+3EsOS1ncJuQdWvmu3t7fX19fj4+Pn5
+        +fn5+QAA39/fwWs85qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM46SE46SE46SE
+        5aeJ6LKX8dHA2qCBxHNH38m+8fHx9/f3+fn5+fn5+fn5+fn5AADk5OTEbj/x0L/x0L/x0L/x0L/x0L/x
+        0L/x0L/x0L/x0L/x0L/x0L/mqozmqozkp4fkp4jlqYvrvabx1cfTkGzKhV/p5OHz8/P4+Pj5+fn5+fn5
+        +fn5+fn5+fkAAO7u7sZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ+aqjOaqjOWpi+et
+        kfDOve3Ovcx/VdWli+3t7fX19fj4+Pn5+fn5+fn5+fn5+fn5+fn5+QAA9vb28vLy7+/v7u7u7u7u7u7u
+        7u7u7u7u7u7u7e3t6Ojo1tbWyHRG5qqM5qqM6LKX9d7T5r2nzINa3cO08PDw9/f3+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5AAD5+fn4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj29vbx8fHd3d3Kd0nmqozswKv2
+        5dzcpIbPi2bj1Mvy8vL39/f5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fkAAPn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fLy8t/f38x6TPPWyPbo4NWRa9ajhuvl4/T09Pj4+Pn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+QAA+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn59PT05OTkzn1P79XH
+        0YVa3bml7+/v9vb2+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5AAD5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn39/fu7u7QgFPTjWbk1s3x8fH39/f5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fkAAPn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fb29uzY
+        zfHs6fX19fj4+Pn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+QAA+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+Pj4+Pj4+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5AAA=
+</value>
+  </data>
+  <data name="RocksArrow.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="RocksArrow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RocksArrow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 3</value>
+  </data>
+  <data name="RocksArrow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 57</value>
+  </data>
+  <data name="RocksArrow.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;RocksArrow.Name" xml:space="preserve">
+    <value>RocksArrow</value>
+  </data>
+  <data name="&gt;&gt;RocksArrow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RocksArrow.Parent" xml:space="preserve">
+    <value>RocksPage</value>
+  </data>
+  <data name="&gt;&gt;RocksArrow.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="RocksAdK.Items" xml:space="preserve">
+    <value>__Highland rock</value>
+  </data>
+  <data name="RocksAdK.Items1" xml:space="preserve">
+    <value>__Highland rock big</value>
+  </data>
+  <data name="RocksAdK.Items2" xml:space="preserve">
+    <value>__Highland (RES) rocky earth</value>
+  </data>
+  <data name="RocksAdK.Items3" xml:space="preserve">
+    <value>__Highland rock flat</value>
+  </data>
+  <data name="RocksAdK.Items4" xml:space="preserve">
+    <value>__Highland rock dark big</value>
+  </data>
+  <data name="RocksAdK.Items5" xml:space="preserve">
+    <value>__Highland rock dark flat</value>
+  </data>
+  <data name="RocksAdK.Items6" xml:space="preserve">
+    <value>__Highland rock braid flat</value>
+  </data>
+  <data name="RocksAdK.Items7" xml:space="preserve">
+    <value>--Snow highland rock much</value>
+  </data>
+  <data name="RocksAdK.Items8" xml:space="preserve">
+    <value>--Snow highland rock</value>
+  </data>
+  <data name="RocksAdK.Items9" xml:space="preserve">
+    <value>--Snow highland rock part</value>
+  </data>
+  <data name="RocksAdK.Items10" xml:space="preserve">
+    <value>--Snow (RES) rocky earth</value>
+  </data>
+  <data name="RocksAdK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>273, 0</value>
+  </data>
+  <data name="RocksAdK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 264</value>
+  </data>
+  <data name="RocksAdK.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;RocksAdK.Name" xml:space="preserve">
+    <value>RocksAdK</value>
+  </data>
+  <data name="&gt;&gt;RocksAdK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RocksAdK.Parent" xml:space="preserve">
+    <value>RocksPage</value>
+  </data>
+  <data name="&gt;&gt;RocksAdK.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Rocks10.Items" xml:space="preserve">
+    <value>rock</value>
+  </data>
+  <data name="Rocks10.Items1" xml:space="preserve">
+    <value>rock big</value>
+  </data>
+  <data name="Rocks10.Items2" xml:space="preserve">
+    <value>rock small</value>
+  </data>
+  <data name="Rocks10.Items3" xml:space="preserve">
+    <value>(RES) rocky earth</value>
+  </data>
+  <data name="Rocks10.Items4" xml:space="preserve">
+    <value>rock stretched x</value>
+  </data>
+  <data name="Rocks10.Items5" xml:space="preserve">
+    <value>rock stretched y</value>
+  </data>
+  <data name="Rocks10.Items6" xml:space="preserve">
+    <value>(RES) rocky earth big</value>
+  </data>
+  <data name="Rocks10.Items7" xml:space="preserve">
+    <value>(RES) rocky plants</value>
+  </data>
+  <data name="Rocks10.Items8" xml:space="preserve">
+    <value>(RES) rocky earth dark</value>
+  </data>
+  <data name="Rocks10.Items9" xml:space="preserve">
+    <value>((00 LAVA rock</value>
+  </data>
+  <data name="Rocks10.Items10" xml:space="preserve">
+    <value>((00 LAVA rock big</value>
+  </data>
+  <data name="Rocks10.Items11" xml:space="preserve">
+    <value>((00 LAVA rock small</value>
+  </data>
+  <data name="Rocks10.Items12" xml:space="preserve">
+    <value>((00 LAVA rock floating lava</value>
+  </data>
+  <data name="Rocks10.Items13" xml:space="preserve">
+    <value>!!!MED rock</value>
+  </data>
+  <data name="Rocks10.Items14" xml:space="preserve">
+    <value>!!!MED rock big</value>
+  </data>
+  <data name="Rocks10.Items15" xml:space="preserve">
+    <value>!!!MED rock small</value>
+  </data>
+  <data name="Rocks10.Items16" xml:space="preserve">
+    <value>!!!MED rock red</value>
+  </data>
+  <data name="Rocks10.Items17" xml:space="preserve">
+    <value>!!!MED rock red small</value>
+  </data>
+  <data name="Rocks10.Items18" xml:space="preserve">
+    <value>!!!MED rock red big</value>
+  </data>
+  <data name="Rocks10.Items19" xml:space="preserve">
+    <value>!!!MED (RES) rocky earth big</value>
+  </data>
+  <data name="Rocks10.Items20" xml:space="preserve">
+    <value>!!!MED (RES) rocky plants</value>
+  </data>
+  <data name="Rocks10.Items21" xml:space="preserve">
+    <value>!!!MED (RES) rocky earth dark</value>
+  </data>
+  <data name="Rocks10.Items22" xml:space="preserve">
+    <value>!!!MED (RES) rocky earth</value>
+  </data>
+  <data name="Rocks10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Rocks10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 264</value>
+  </data>
+  <data name="Rocks10.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Rocks10.Name" xml:space="preserve">
+    <value>Rocks10</value>
+  </data>
+  <data name="&gt;&gt;Rocks10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Rocks10.Parent" xml:space="preserve">
+    <value>RocksPage</value>
+  </data>
+  <data name="&gt;&gt;Rocks10.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="RocksPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="RocksPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>443, 267</value>
+  </data>
+  <data name="RocksPage.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="RocksPage.Text" xml:space="preserve">
+    <value>Rocks</value>
+  </data>
+  <data name="&gt;&gt;RocksPage.Name" xml:space="preserve">
+    <value>RocksPage</value>
+  </data>
+  <data name="&gt;&gt;RocksPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RocksPage.Parent" xml:space="preserve">
+    <value>PagesWithCategories</value>
+  </data>
+  <data name="&gt;&gt;RocksPage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="SandsAdK.Items" xml:space="preserve">
+    <value>__Highland seaground rocks</value>
+  </data>
+  <data name="SandsAdK.Items1" xml:space="preserve">
+    <value>__Highland seaground rocks dark flat</value>
+  </data>
+  <data name="SandsAdK.Items2" xml:space="preserve">
+    <value>__Highland seaground pebbles</value>
+  </data>
+  <data name="SandsAdK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>253, 0</value>
+  </data>
+  <data name="SandsAdK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 264</value>
+  </data>
+  <data name="SandsAdK.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;SandsAdK.Name" xml:space="preserve">
+    <value>SandsAdK</value>
+  </data>
+  <data name="&gt;&gt;SandsAdK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SandsAdK.Parent" xml:space="preserve">
+    <value>SandsPage</value>
+  </data>
+  <data name="&gt;&gt;SandsAdK.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Sands10.Items" xml:space="preserve">
+    <value>sand</value>
+  </data>
+  <data name="Sands10.Items1" xml:space="preserve">
+    <value>§§Desert sand dune</value>
+  </data>
+  <data name="Sands10.Items2" xml:space="preserve">
+    <value>§§Desert sand yellow</value>
+  </data>
+  <data name="Sands10.Items3" xml:space="preserve">
+    <value>§§Desert sand small dune</value>
+  </data>
+  <data name="Sands10.Items4" xml:space="preserve">
+    <value>§§Desert sand ripple</value>
+  </data>
+  <data name="Sands10.Items5" xml:space="preserve">
+    <value>§§Desert sand small ripple</value>
+  </data>
+  <data name="Sands10.Items6" xml:space="preserve">
+    <value>seaground</value>
+  </data>
+  <data name="Sands10.Items7" xml:space="preserve">
+    <value>seaground plants</value>
+  </data>
+  <data name="Sands10.Items8" xml:space="preserve">
+    <value>seaground sand</value>
+  </data>
+  <data name="Sands10.Items9" xml:space="preserve">
+    <value>seaground plants rock</value>
+  </data>
+  <data name="Sands10.Items10" xml:space="preserve">
+    <value>seaground rock</value>
+  </data>
+  <data name="Sands10.Items11" xml:space="preserve">
+    <value>seaground rocky</value>
+  </data>
+  <data name="Sands10.Items12" xml:space="preserve">
+    <value>((00 LAVA Sand 00</value>
+  </data>
+  <data name="Sands10.Items13" xml:space="preserve">
+    <value>!!!MED seaground rock</value>
+  </data>
+  <data name="Sands10.Items14" xml:space="preserve">
+    <value>!!!MED seaground rock red</value>
+  </data>
+  <data name="Sands10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Sands10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 264</value>
+  </data>
+  <data name="Sands10.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Sands10.Name" xml:space="preserve">
+    <value>Sands10</value>
+  </data>
+  <data name="&gt;&gt;Sands10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sands10.Parent" xml:space="preserve">
+    <value>SandsPage</value>
+  </data>
+  <data name="&gt;&gt;Sands10.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SandsButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SandsButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>172, 241</value>
+  </data>
+  <data name="SandsButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="SandsButton.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="SandsButton.Text" xml:space="preserve">
+    <value>Switch</value>
+  </data>
+  <data name="&gt;&gt;SandsButton.Name" xml:space="preserve">
+    <value>SandsButton</value>
+  </data>
+  <data name="&gt;&gt;SandsButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SandsButton.Parent" xml:space="preserve">
+    <value>SandsPage</value>
+  </data>
+  <data name="&gt;&gt;SandsButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="SandsArrow.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk1aCwAAAAAAADYAAAAoAAAAHgAAAB8AAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn59vb28/Pz8/Pz9vb2+Pj4+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5AAD5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn39/fu
+        7u7k5OTj4+Pp6eny8vL39/f5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fkAAPn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fT09OTk5MSrnsW/vNPT0+Pj4+/v7/b29vn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+QAA+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5
+        8vLy4ODgmzUDnkcbtqOZy8vL3t7e7Ozs9PT0+Pj4+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5
+        AAD5+fn4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj29vbx8fHd3d2dOQbPhmGhQA6sgWvExMTY2Njn5+fy
+        8vL39/f5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fkAAPb29vLy8u/v7+7u7u7u7u7u7u7u7u7u7u7u
+        7u3t7ejo6NbW1p87CeaqjN2ce6xQIadpSr64tdHR0eTk5PDw8Pf39/n5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+QAA7u7u4uLi2dnZ1tbW1tbW1tbW1tbW1tbW1tbW1tbW0tLSxcXFoT4M5qqM5qqM4aOEu2Y8pFUs
+        t6Wbzc3N4ODg7e3t9fX1+Pj4+fn5+fn5+fn5+fn5+fn5+fn5AADk5OTNzc29vb25ubm4uLi4uLi4uLi4
+        uLi4uLi4uLi3t7exsbGjQhDmqozmqozmqozmqozMgl2oUCKzlIXIyMjb29vq6urz8/P4+Pj5+fn5+fn5
+        +fn5+fn5+fkAAN/f36VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE+aqjOaqjNmRauSn
+        iOaqjNmWda1RIq53XMHBwdTU1OXl5fHx8ff39/n5+fn5+fn5+fn5+QAA3t7eqEcW5qqM5qqM5qqM5qqM
+        5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM04Va14xj46WF5qqM4qOEu2Y6qlw0u7Wyz8/P4uLi7+/v
+        9vb2+fn5+fn5+fn5AADe3t6qShnmqozmqozmqozmqozmqozmqozmqozmqozmqozmqozmqozmqozmqozV
+        iF3ViF3WimDgn33mqozmqozHelKrUiS3oJTLy8ve3t7s7Oz09PT4+Pj5+fkAAN7e3qxNHOaqjOaqjNaK
+        YdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYd2YdOaqjOaqjNeScK9TI7OK
+        dcTExNjY2Ofn5/Ly8vj4+AAA3t7erlAg5qqM5qqM141k141k141k141k141k141k141k141k141k141k
+        141k141k141k141k141k141k25Ru5aiJ5qqM4qSFuGE0sXFQv7m20dHR5OTk8vLyAADe3t6wUyPmqozm
+        qozYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjZkWrjpYXm
+        qozmqozHeFCxXza6qaDQ0NDm5uYAAN7e3rJWJuaqjOaqjNqSa9qSa9qSa9qSa9qSa9qSa9qSa9qSa9qS
+        a9qSa9qSa9qSa9qSa9qSa9qSa9qSa9qSa9qSa9qSa+GffuaqjOaqjNKKZbZiNr2bitzc3AAA3t7etVkp
+        5qqM5qqM25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv
+        25Vv25Vv3pt45aiK5qqM3Zx7vmk90bWmAADe3t63XCzmqozmqozcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lc
+        l3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3LfnXrlqIrnsJTfo4XAbEDZva4AAN7e
+        3rlfL+aqjOaqjN6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6a
+        dt6adt6aduKiguasj+q4n9iYd79uQta0ovLy8gAA3t7eu2Iz5qqM5qqM35x535x535x535x535x535x5
+        35x535x535x535x535x535x535x535x535x535x535x535165KaH57CU7MCq0YtnwHNJ4NDH8vLy+Pj4
+        AADe3t69ZTbmqozmqozgn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33g
+        n33hoYDlqYvquqLrwq3Gd03JjGvp4+D09PT4+Pj5+fkAAN7e3r9oOeaqjOaqjOGhgOGhgOGhgOGhgOGh
+        gOGhgOGhgOGhgOGhgOGhgOGhgOGhgOGhgOGhgOGhgOOlheasj+3EsOS1ncJuQdWvmu3t7fX19fj4+Pn5
+        +fn5+QAA39/fwWs85qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM46SE46SE46SE
+        5aeJ6LKX8dHA2qCBxHNH38m+8fHx9/f3+fn5+fn5+fn5+fn5AADk5OTEbj/x0L/x0L/x0L/x0L/x0L/x
+        0L/x0L/x0L/x0L/x0L/x0L/mqozmqozkp4fkp4jlqYvrvabx1cfTkGzKhV/p5OHz8/P4+Pj5+fn5+fn5
+        +fn5+fn5+fkAAO7u7sZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ+aqjOaqjOWpi+et
+        kfDOve3Ovcx/VdWli+3t7fX19fj4+Pn5+fn5+fn5+fn5+fn5+fn5+QAA9vb28vLy7+/v7u7u7u7u7u7u
+        7u7u7u7u7u7u7e3t6Ojo1tbWyHRG5qqM5qqM6LKX9d7T5r2nzINa3cO08PDw9/f3+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5AAD5+fn4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj29vbx8fHd3d3Kd0nmqozswKv2
+        5dzcpIbPi2bj1Mvy8vL39/f5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fkAAPn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fLy8t/f38x6TPPWyPbo4NWRa9ajhuvl4/T09Pj4+Pn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+QAA+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn59PT05OTkzn1P79XH
+        0YVa3bml7+/v9vb2+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5AAD5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn39/fu7u7QgFPTjWbk1s3x8fH39/f5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fkAAPn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fb29uzY
+        zfHs6fX19fj4+Pn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+QAA+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+Pj4+Pj4+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5AAA=
+</value>
+  </data>
+  <data name="SandsArrow.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="SandsArrow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SandsArrow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>172, 3</value>
+  </data>
+  <data name="SandsArrow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 57</value>
+  </data>
+  <data name="SandsArrow.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;SandsArrow.Name" xml:space="preserve">
+    <value>SandsArrow</value>
+  </data>
+  <data name="&gt;&gt;SandsArrow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SandsArrow.Parent" xml:space="preserve">
+    <value>SandsPage</value>
+  </data>
+  <data name="&gt;&gt;SandsArrow.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="SandsPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="SandsPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>443, 267</value>
+  </data>
+  <data name="SandsPage.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="SandsPage.Text" xml:space="preserve">
+    <value>Sands</value>
+  </data>
+  <data name="&gt;&gt;SandsPage.Name" xml:space="preserve">
+    <value>SandsPage</value>
+  </data>
+  <data name="&gt;&gt;SandsPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SandsPage.Parent" xml:space="preserve">
+    <value>PagesWithCategories</value>
+  </data>
+  <data name="&gt;&gt;SandsPage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="BlockedAdK.Items" xml:space="preserve">
+    <value>__Highland swamp land</value>
+  </data>
+  <data name="BlockedAdK.Items1" xml:space="preserve">
+    <value>__Highland swamp water</value>
+  </data>
+  <data name="BlockedAdK.Items2" xml:space="preserve">
+    <value>--Snow Ice Crackles</value>
+  </data>
+  <data name="BlockedAdK.Items3" xml:space="preserve">
+    <value>--Snow Ice Crackles Dark</value>
+  </data>
+  <data name="BlockedAdK.Items4" xml:space="preserve">
+    <value>--Snow Ice Clean</value>
+  </data>
+  <data name="BlockedAdK.Items5" xml:space="preserve">
+    <value>--Snow Ice Clean Dark</value>
+  </data>
+  <data name="BlockedAdK.Items6" xml:space="preserve">
+    <value>--Snow medium border</value>
+  </data>
+  <data name="BlockedAdK.Items7" xml:space="preserve">
+    <value>--Snow soft border</value>
+  </data>
+  <data name="BlockedAdK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 0</value>
+  </data>
+  <data name="BlockedAdK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 264</value>
+  </data>
+  <data name="BlockedAdK.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;BlockedAdK.Name" xml:space="preserve">
+    <value>BlockedAdK</value>
+  </data>
+  <data name="&gt;&gt;BlockedAdK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlockedAdK.Parent" xml:space="preserve">
+    <value>BlockedPage</value>
+  </data>
+  <data name="&gt;&gt;BlockedAdK.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Blocked10.Items" xml:space="preserve">
+    <value>border</value>
+  </data>
+  <data name="Blocked10.Items1" xml:space="preserve">
+    <value>water</value>
+  </data>
+  <data name="Blocked10.Items2" xml:space="preserve">
+    <value>snow</value>
+  </data>
+  <data name="Blocked10.Items3" xml:space="preserve">
+    <value>swamp land</value>
+  </data>
+  <data name="Blocked10.Items4" xml:space="preserve">
+    <value>swamp water</value>
+  </data>
+  <data name="Blocked10.Items5" xml:space="preserve">
+    <value>((00 LAVA 01</value>
+  </data>
+  <data name="Blocked10.Items6" xml:space="preserve">
+    <value>((00 LAVA 02</value>
+  </data>
+  <data name="Blocked10.Items7" xml:space="preserve">
+    <value>((00 LAVA 01 soft</value>
+  </data>
+  <data name="Blocked10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Blocked10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 264</value>
+  </data>
+  <data name="Blocked10.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Blocked10.Name" xml:space="preserve">
+    <value>Blocked10</value>
+  </data>
+  <data name="&gt;&gt;Blocked10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Blocked10.Parent" xml:space="preserve">
+    <value>BlockedPage</value>
+  </data>
+  <data name="&gt;&gt;Blocked10.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BlockedButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BlockedButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>186, 241</value>
+  </data>
+  <data name="BlockedButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="BlockedButton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="BlockedButton.Text" xml:space="preserve">
+    <value>Switch</value>
+  </data>
+  <data name="&gt;&gt;BlockedButton.Name" xml:space="preserve">
+    <value>BlockedButton</value>
+  </data>
+  <data name="&gt;&gt;BlockedButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlockedButton.Parent" xml:space="preserve">
+    <value>BlockedPage</value>
+  </data>
+  <data name="&gt;&gt;BlockedButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="BlockedArrow.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk1aCwAAAAAAADYAAAAoAAAAHgAAAB8AAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn59vb28/Pz8/Pz9vb2+Pj4+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5AAD5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn39/fu
+        7u7k5OTj4+Pp6eny8vL39/f5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fkAAPn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fT09OTk5MSrnsW/vNPT0+Pj4+/v7/b29vn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+QAA+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5
+        8vLy4ODgmzUDnkcbtqOZy8vL3t7e7Ozs9PT0+Pj4+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5
+        AAD5+fn4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj29vbx8fHd3d2dOQbPhmGhQA6sgWvExMTY2Njn5+fy
+        8vL39/f5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fkAAPb29vLy8u/v7+7u7u7u7u7u7u7u7u7u7u7u
+        7u3t7ejo6NbW1p87CeaqjN2ce6xQIadpSr64tdHR0eTk5PDw8Pf39/n5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+QAA7u7u4uLi2dnZ1tbW1tbW1tbW1tbW1tbW1tbW1tbW0tLSxcXFoT4M5qqM5qqM4aOEu2Y8pFUs
+        t6Wbzc3N4ODg7e3t9fX1+Pj4+fn5+fn5+fn5+fn5+fn5+fn5AADk5OTNzc29vb25ubm4uLi4uLi4uLi4
+        uLi4uLi4uLi3t7exsbGjQhDmqozmqozmqozmqozMgl2oUCKzlIXIyMjb29vq6urz8/P4+Pj5+fn5+fn5
+        +fn5+fn5+fkAAN/f36VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE+aqjOaqjNmRauSn
+        iOaqjNmWda1RIq53XMHBwdTU1OXl5fHx8ff39/n5+fn5+fn5+fn5+QAA3t7eqEcW5qqM5qqM5qqM5qqM
+        5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM04Va14xj46WF5qqM4qOEu2Y6qlw0u7Wyz8/P4uLi7+/v
+        9vb2+fn5+fn5+fn5AADe3t6qShnmqozmqozmqozmqozmqozmqozmqozmqozmqozmqozmqozmqozmqozV
+        iF3ViF3WimDgn33mqozmqozHelKrUiS3oJTLy8ve3t7s7Oz09PT4+Pj5+fkAAN7e3qxNHOaqjOaqjNaK
+        YdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYd2YdOaqjOaqjNeScK9TI7OK
+        dcTExNjY2Ofn5/Ly8vj4+AAA3t7erlAg5qqM5qqM141k141k141k141k141k141k141k141k141k141k
+        141k141k141k141k141k141k25Ru5aiJ5qqM4qSFuGE0sXFQv7m20dHR5OTk8vLyAADe3t6wUyPmqozm
+        qozYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjZkWrjpYXm
+        qozmqozHeFCxXza6qaDQ0NDm5uYAAN7e3rJWJuaqjOaqjNqSa9qSa9qSa9qSa9qSa9qSa9qSa9qSa9qS
+        a9qSa9qSa9qSa9qSa9qSa9qSa9qSa9qSa9qSa9qSa+GffuaqjOaqjNKKZbZiNr2bitzc3AAA3t7etVkp
+        5qqM5qqM25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv
+        25Vv25Vv3pt45aiK5qqM3Zx7vmk90bWmAADe3t63XCzmqozmqozcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lc
+        l3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3LfnXrlqIrnsJTfo4XAbEDZva4AAN7e
+        3rlfL+aqjOaqjN6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6a
+        dt6adt6aduKiguasj+q4n9iYd79uQta0ovLy8gAA3t7eu2Iz5qqM5qqM35x535x535x535x535x535x5
+        35x535x535x535x535x535x535x535x535x535x535x535165KaH57CU7MCq0YtnwHNJ4NDH8vLy+Pj4
+        AADe3t69ZTbmqozmqozgn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33g
+        n33hoYDlqYvquqLrwq3Gd03JjGvp4+D09PT4+Pj5+fkAAN7e3r9oOeaqjOaqjOGhgOGhgOGhgOGhgOGh
+        gOGhgOGhgOGhgOGhgOGhgOGhgOGhgOGhgOGhgOGhgOOlheasj+3EsOS1ncJuQdWvmu3t7fX19fj4+Pn5
+        +fn5+QAA39/fwWs85qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM46SE46SE46SE
+        5aeJ6LKX8dHA2qCBxHNH38m+8fHx9/f3+fn5+fn5+fn5+fn5AADk5OTEbj/x0L/x0L/x0L/x0L/x0L/x
+        0L/x0L/x0L/x0L/x0L/x0L/mqozmqozkp4fkp4jlqYvrvabx1cfTkGzKhV/p5OHz8/P4+Pj5+fn5+fn5
+        +fn5+fn5+fkAAO7u7sZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ+aqjOaqjOWpi+et
+        kfDOve3Ovcx/VdWli+3t7fX19fj4+Pn5+fn5+fn5+fn5+fn5+fn5+QAA9vb28vLy7+/v7u7u7u7u7u7u
+        7u7u7u7u7u7u7e3t6Ojo1tbWyHRG5qqM5qqM6LKX9d7T5r2nzINa3cO08PDw9/f3+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5AAD5+fn4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj29vbx8fHd3d3Kd0nmqozswKv2
+        5dzcpIbPi2bj1Mvy8vL39/f5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fkAAPn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fLy8t/f38x6TPPWyPbo4NWRa9ajhuvl4/T09Pj4+Pn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+QAA+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn59PT05OTkzn1P79XH
+        0YVa3bml7+/v9vb2+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5AAD5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn39/fu7u7QgFPTjWbk1s3x8fH39/f5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fkAAPn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fb29uzY
+        zfHs6fX19fj4+Pn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+QAA+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+Pj4+Pj4+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5AAA=
+</value>
+  </data>
+  <data name="BlockedArrow.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="BlockedArrow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BlockedArrow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>186, 3</value>
+  </data>
+  <data name="BlockedArrow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 57</value>
+  </data>
+  <data name="BlockedArrow.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;BlockedArrow.Name" xml:space="preserve">
+    <value>BlockedArrow</value>
+  </data>
+  <data name="&gt;&gt;BlockedArrow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlockedArrow.Parent" xml:space="preserve">
+    <value>BlockedPage</value>
+  </data>
+  <data name="&gt;&gt;BlockedArrow.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="BlockedPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="BlockedPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>443, 267</value>
+  </data>
+  <data name="BlockedPage.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="BlockedPage.Text" xml:space="preserve">
+    <value>Blocked</value>
+  </data>
+  <data name="&gt;&gt;BlockedPage.Name" xml:space="preserve">
+    <value>BlockedPage</value>
+  </data>
+  <data name="&gt;&gt;BlockedPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlockedPage.Parent" xml:space="preserve">
+    <value>PagesWithCategories</value>
+  </data>
+  <data name="&gt;&gt;BlockedPage.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="DepositsAdK.Items" xml:space="preserve">
+    <value>field_egypt</value>
+  </data>
+  <data name="DepositsAdK.Items1" xml:space="preserve">
+    <value>__HighlandFirA</value>
+  </data>
+  <data name="DepositsAdK.Items2" xml:space="preserve">
+    <value>__HighlandFirB</value>
+  </data>
+  <data name="DepositsAdK.Items3" xml:space="preserve">
+    <value>__HighlandFirC</value>
+  </data>
+  <data name="DepositsAdK.Items4" xml:space="preserve">
+    <value>--SnowFirA straight pos</value>
+  </data>
+  <data name="DepositsAdK.Items5" xml:space="preserve">
+    <value>--SnowFirB straight pos</value>
+  </data>
+  <data name="DepositsAdK.Items6" xml:space="preserve">
+    <value>--SnowFirC straight pos</value>
+  </data>
+  <data name="DepositsAdK.Items7" xml:space="preserve">
+    <value>--SnowFirA random pos</value>
+  </data>
+  <data name="DepositsAdK.Items8" xml:space="preserve">
+    <value>--SnowFirB random pos</value>
+  </data>
+  <data name="DepositsAdK.Items9" xml:space="preserve">
+    <value>--SnowFirC random pos</value>
+  </data>
+  <data name="DepositsAdK.Items10" xml:space="preserve">
+    <value>--SnowFirD random pos</value>
+  </data>
+  <data name="DepositsAdK.Items11" xml:space="preserve">
+    <value>--SnowFirE random pos</value>
+  </data>
+  <data name="DepositsAdK.Items12" xml:space="preserve">
+    <value>--SnowFirF random pos</value>
+  </data>
+  <data name="DepositsAdK.Items13" xml:space="preserve">
+    <value>Weeping Willow</value>
+  </data>
+  <data name="DepositsAdK.Items14" xml:space="preserve">
+    <value>Birch New 1</value>
+  </data>
+  <data name="DepositsAdK.Items15" xml:space="preserve">
+    <value>Birch New 2</value>
+  </data>
+  <data name="DepositsAdK.Items16" xml:space="preserve">
+    <value>Birch New 3</value>
+  </data>
+  <data name="DepositsAdK.Items17" xml:space="preserve">
+    <value>Chestnut 1</value>
+  </data>
+  <data name="DepositsAdK.Items18" xml:space="preserve">
+    <value>Chestnut 2</value>
+  </data>
+  <data name="DepositsAdK.Items19" xml:space="preserve">
+    <value>Chestnut 3</value>
+  </data>
+  <data name="DepositsAdK.Items20" xml:space="preserve">
+    <value>Apple Tree 1</value>
+  </data>
+  <data name="DepositsAdK.Items21" xml:space="preserve">
+    <value>Apple Tree 2</value>
+  </data>
+  <data name="DepositsAdK.Items22" xml:space="preserve">
+    <value>Tent</value>
+  </data>
+  <data name="DepositsAdK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>261, 0</value>
+  </data>
+  <data name="DepositsAdK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 264</value>
+  </data>
+  <data name="DepositsAdK.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;DepositsAdK.Name" xml:space="preserve">
+    <value>DepositsAdK</value>
+  </data>
+  <data name="&gt;&gt;DepositsAdK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DepositsAdK.Parent" xml:space="preserve">
+    <value>DepositsPage</value>
+  </data>
+  <data name="&gt;&gt;DepositsAdK.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Deposits10.Items" xml:space="preserve">
+    <value>Wheatfield</value>
+  </data>
+  <data name="Deposits10.Items1" xml:space="preserve">
+    <value>StoneResourceA01</value>
+  </data>
+  <data name="Deposits10.Items2" xml:space="preserve">
+    <value>StoneResourceA02</value>
+  </data>
+  <data name="Deposits10.Items3" xml:space="preserve">
+    <value>StoneResourceA03</value>
+  </data>
+  <data name="Deposits10.Items4" xml:space="preserve">
+    <value>StoneResourceA04</value>
+  </data>
+  <data name="Deposits10.Items5" xml:space="preserve">
+    <value>StoneResourceA05</value>
+  </data>
+  <data name="Deposits10.Items6" xml:space="preserve">
+    <value>StoneResourceA06</value>
+  </data>
+  <data name="Deposits10.Items7" xml:space="preserve">
+    <value>!!!MED StoneResourceA01</value>
+  </data>
+  <data name="Deposits10.Items8" xml:space="preserve">
+    <value>!!!MED StoneResourceA02</value>
+  </data>
+  <data name="Deposits10.Items9" xml:space="preserve">
+    <value>!!!MED StoneResourceA03</value>
+  </data>
+  <data name="Deposits10.Items10" xml:space="preserve">
+    <value>!!!MED StoneResourceA04</value>
+  </data>
+  <data name="Deposits10.Items11" xml:space="preserve">
+    <value>!!!MED StoneResourceA05</value>
+  </data>
+  <data name="Deposits10.Items12" xml:space="preserve">
+    <value>!!!MED StoneResourceA06</value>
+  </data>
+  <data name="Deposits10.Items13" xml:space="preserve">
+    <value>BirchA</value>
+  </data>
+  <data name="Deposits10.Items14" xml:space="preserve">
+    <value>BirchB</value>
+  </data>
+  <data name="Deposits10.Items15" xml:space="preserve">
+    <value>BirchC</value>
+  </data>
+  <data name="Deposits10.Items16" xml:space="preserve">
+    <value>BroadLeafA</value>
+  </data>
+  <data name="Deposits10.Items17" xml:space="preserve">
+    <value>BroadLeafB</value>
+  </data>
+  <data name="Deposits10.Items18" xml:space="preserve">
+    <value>BroadLeafC</value>
+  </data>
+  <data name="Deposits10.Items19" xml:space="preserve">
+    <value>FirA</value>
+  </data>
+  <data name="Deposits10.Items20" xml:space="preserve">
+    <value>FirB</value>
+  </data>
+  <data name="Deposits10.Items21" xml:space="preserve">
+    <value>PalmA</value>
+  </data>
+  <data name="Deposits10.Items22" xml:space="preserve">
+    <value>PalmB</value>
+  </data>
+  <data name="Deposits10.Items23" xml:space="preserve">
+    <value>CypressA</value>
+  </data>
+  <data name="Deposits10.Items24" xml:space="preserve">
+    <value>OliveA</value>
+  </data>
+  <data name="Deposits10.Items25" xml:space="preserve">
+    <value>AfricanA</value>
+  </data>
+  <data name="Deposits10.Items26" xml:space="preserve">
+    <value>LavaTreeA</value>
+  </data>
+  <data name="Deposits10.Items27" xml:space="preserve">
+    <value>LavaTreeB</value>
+  </data>
+  <data name="Deposits10.Items28" xml:space="preserve">
+    <value>LavaTreeC</value>
+  </data>
+  <data name="Deposits10.Items29" xml:space="preserve">
+    <value>AsianA</value>
+  </data>
+  <data name="Deposits10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Deposits10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 264</value>
+  </data>
+  <data name="Deposits10.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;Deposits10.Name" xml:space="preserve">
+    <value>Deposits10</value>
+  </data>
+  <data name="&gt;&gt;Deposits10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Deposits10.Parent" xml:space="preserve">
+    <value>DepositsPage</value>
+  </data>
+  <data name="&gt;&gt;Deposits10.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="DepositsButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DepositsButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 241</value>
+  </data>
+  <data name="DepositsButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="DepositsButton.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="DepositsButton.Text" xml:space="preserve">
+    <value>Switch</value>
+  </data>
+  <data name="&gt;&gt;DepositsButton.Name" xml:space="preserve">
+    <value>DepositsButton</value>
+  </data>
+  <data name="&gt;&gt;DepositsButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DepositsButton.Parent" xml:space="preserve">
+    <value>DepositsPage</value>
+  </data>
+  <data name="&gt;&gt;DepositsButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="DepositsArrow.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk1aCwAAAAAAADYAAAAoAAAAHgAAAB8AAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn59vb28/Pz8/Pz9vb2+Pj4+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5AAD5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn39/fu
+        7u7k5OTj4+Pp6eny8vL39/f5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fkAAPn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fT09OTk5MSrnsW/vNPT0+Pj4+/v7/b29vn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+QAA+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5
+        8vLy4ODgmzUDnkcbtqOZy8vL3t7e7Ozs9PT0+Pj4+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5
+        AAD5+fn4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj29vbx8fHd3d2dOQbPhmGhQA6sgWvExMTY2Njn5+fy
+        8vL39/f5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fkAAPb29vLy8u/v7+7u7u7u7u7u7u7u7u7u7u7u
+        7u3t7ejo6NbW1p87CeaqjN2ce6xQIadpSr64tdHR0eTk5PDw8Pf39/n5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+QAA7u7u4uLi2dnZ1tbW1tbW1tbW1tbW1tbW1tbW1tbW0tLSxcXFoT4M5qqM5qqM4aOEu2Y8pFUs
+        t6Wbzc3N4ODg7e3t9fX1+Pj4+fn5+fn5+fn5+fn5+fn5+fn5AADk5OTNzc29vb25ubm4uLi4uLi4uLi4
+        uLi4uLi4uLi3t7exsbGjQhDmqozmqozmqozmqozMgl2oUCKzlIXIyMjb29vq6urz8/P4+Pj5+fn5+fn5
+        +fn5+fn5+fkAAN/f36VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE+aqjOaqjNmRauSn
+        iOaqjNmWda1RIq53XMHBwdTU1OXl5fHx8ff39/n5+fn5+fn5+fn5+QAA3t7eqEcW5qqM5qqM5qqM5qqM
+        5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM04Va14xj46WF5qqM4qOEu2Y6qlw0u7Wyz8/P4uLi7+/v
+        9vb2+fn5+fn5+fn5AADe3t6qShnmqozmqozmqozmqozmqozmqozmqozmqozmqozmqozmqozmqozmqozV
+        iF3ViF3WimDgn33mqozmqozHelKrUiS3oJTLy8ve3t7s7Oz09PT4+Pj5+fkAAN7e3qxNHOaqjOaqjNaK
+        YdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYd2YdOaqjOaqjNeScK9TI7OK
+        dcTExNjY2Ofn5/Ly8vj4+AAA3t7erlAg5qqM5qqM141k141k141k141k141k141k141k141k141k141k
+        141k141k141k141k141k141k25Ru5aiJ5qqM4qSFuGE0sXFQv7m20dHR5OTk8vLyAADe3t6wUyPmqozm
+        qozYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjZkWrjpYXm
+        qozmqozHeFCxXza6qaDQ0NDm5uYAAN7e3rJWJuaqjOaqjNqSa9qSa9qSa9qSa9qSa9qSa9qSa9qSa9qS
+        a9qSa9qSa9qSa9qSa9qSa9qSa9qSa9qSa9qSa9qSa+GffuaqjOaqjNKKZbZiNr2bitzc3AAA3t7etVkp
+        5qqM5qqM25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv
+        25Vv25Vv3pt45aiK5qqM3Zx7vmk90bWmAADe3t63XCzmqozmqozcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lc
+        l3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3LfnXrlqIrnsJTfo4XAbEDZva4AAN7e
+        3rlfL+aqjOaqjN6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6a
+        dt6adt6aduKiguasj+q4n9iYd79uQta0ovLy8gAA3t7eu2Iz5qqM5qqM35x535x535x535x535x535x5
+        35x535x535x535x535x535x535x535x535x535x535x535165KaH57CU7MCq0YtnwHNJ4NDH8vLy+Pj4
+        AADe3t69ZTbmqozmqozgn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33g
+        n33hoYDlqYvquqLrwq3Gd03JjGvp4+D09PT4+Pj5+fkAAN7e3r9oOeaqjOaqjOGhgOGhgOGhgOGhgOGh
+        gOGhgOGhgOGhgOGhgOGhgOGhgOGhgOGhgOGhgOGhgOOlheasj+3EsOS1ncJuQdWvmu3t7fX19fj4+Pn5
+        +fn5+QAA39/fwWs85qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM46SE46SE46SE
+        5aeJ6LKX8dHA2qCBxHNH38m+8fHx9/f3+fn5+fn5+fn5+fn5AADk5OTEbj/x0L/x0L/x0L/x0L/x0L/x
+        0L/x0L/x0L/x0L/x0L/x0L/mqozmqozkp4fkp4jlqYvrvabx1cfTkGzKhV/p5OHz8/P4+Pj5+fn5+fn5
+        +fn5+fn5+fkAAO7u7sZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ+aqjOaqjOWpi+et
+        kfDOve3Ovcx/VdWli+3t7fX19fj4+Pn5+fn5+fn5+fn5+fn5+fn5+QAA9vb28vLy7+/v7u7u7u7u7u7u
+        7u7u7u7u7u7u7e3t6Ojo1tbWyHRG5qqM5qqM6LKX9d7T5r2nzINa3cO08PDw9/f3+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5AAD5+fn4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj29vbx8fHd3d3Kd0nmqozswKv2
+        5dzcpIbPi2bj1Mvy8vL39/f5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fkAAPn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fLy8t/f38x6TPPWyPbo4NWRa9ajhuvl4/T09Pj4+Pn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+QAA+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn59PT05OTkzn1P79XH
+        0YVa3bml7+/v9vb2+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5AAD5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn39/fu7u7QgFPTjWbk1s3x8fH39/f5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fkAAPn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fb29uzY
+        zfHs6fX19fj4+Pn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+QAA+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+Pj4+Pj4+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5AAA=
+</value>
+  </data>
+  <data name="DepositsArrow.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="DepositsArrow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DepositsArrow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 3</value>
+  </data>
+  <data name="DepositsArrow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 57</value>
+  </data>
+  <data name="DepositsArrow.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;DepositsArrow.Name" xml:space="preserve">
+    <value>DepositsArrow</value>
+  </data>
+  <data name="&gt;&gt;DepositsArrow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DepositsArrow.Parent" xml:space="preserve">
+    <value>DepositsPage</value>
+  </data>
+  <data name="&gt;&gt;DepositsArrow.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="DepositsPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="DepositsPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>443, 267</value>
+  </data>
+  <data name="DepositsPage.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="DepositsPage.Text" xml:space="preserve">
+    <value>Deposits</value>
+  </data>
+  <data name="&gt;&gt;DepositsPage.Name" xml:space="preserve">
+    <value>DepositsPage</value>
+  </data>
+  <data name="&gt;&gt;DepositsPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DepositsPage.Parent" xml:space="preserve">
+    <value>PagesWithCategories</value>
+  </data>
+  <data name="&gt;&gt;DepositsPage.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="DoodadsAdK.Items" xml:space="preserve">
+    <value>Chest</value>
+  </data>
+  <data name="DoodadsAdK.Items1" xml:space="preserve">
+    <value>OpenChest</value>
+  </data>
+  <data name="DoodadsAdK.Items2" xml:space="preserve">
+    <value>Anchor</value>
+  </data>
+  <data name="DoodadsAdK.Items3" xml:space="preserve">
+    <value>Coal (endless)</value>
+  </data>
+  <data name="DoodadsAdK.Items4" xml:space="preserve">
+    <value>Iron (endless)</value>
+  </data>
+  <data name="DoodadsAdK.Items5" xml:space="preserve">
+    <value>Gold (endless)</value>
+  </data>
+  <data name="DoodadsAdK.Items6" xml:space="preserve">
+    <value>Granite (endless)</value>
+  </data>
+  <data name="DoodadsAdK.Items7" xml:space="preserve">
+    <value>Gemstones (few)</value>
+  </data>
+  <data name="DoodadsAdK.Items8" xml:space="preserve">
+    <value>Gemstones (medium)</value>
+  </data>
+  <data name="DoodadsAdK.Items9" xml:space="preserve">
+    <value>Gemstones (much)</value>
+  </data>
+  <data name="DoodadsAdK.Items10" xml:space="preserve">
+    <value>Gemstones (endless)</value>
+  </data>
+  <data name="DoodadsAdK.Items11" xml:space="preserve">
+    <value>Salt (few)</value>
+  </data>
+  <data name="DoodadsAdK.Items12" xml:space="preserve">
+    <value>Salt (medium)</value>
+  </data>
+  <data name="DoodadsAdK.Items13" xml:space="preserve">
+    <value>Salt (much)</value>
+  </data>
+  <data name="DoodadsAdK.Items14" xml:space="preserve">
+    <value>Salt (endless)</value>
+  </data>
+  <data name="DoodadsAdK.Items15" xml:space="preserve">
+    <value>--Snow Ice Floe 01 moving</value>
+  </data>
+  <data name="DoodadsAdK.Items16" xml:space="preserve">
+    <value>--Snow Ice Floe 01 static</value>
+  </data>
+  <data name="DoodadsAdK.Items17" xml:space="preserve">
+    <value>--Snow Ice Floe 02 static</value>
+  </data>
+  <data name="DoodadsAdK.Items18" xml:space="preserve">
+    <value>--Snow Ice Floe 03 static</value>
+  </data>
+  <data name="DoodadsAdK.Items19" xml:space="preserve">
+    <value>--Snow Ice Floe 04 static</value>
+  </data>
+  <data name="DoodadsAdK.Items20" xml:space="preserve">
+    <value>--Snow Ice Floe 05 static</value>
+  </data>
+  <data name="DoodadsAdK.Items21" xml:space="preserve">
+    <value>--Snow Ice Floe 06 moving</value>
+  </data>
+  <data name="DoodadsAdK.Items22" xml:space="preserve">
+    <value>--Snow Ice Floe 07 moving</value>
+  </data>
+  <data name="DoodadsAdK.Items23" xml:space="preserve">
+    <value>--Snow Ice Floe 08 moving</value>
+  </data>
+  <data name="DoodadsAdK.Items24" xml:space="preserve">
+    <value>--Snow Ice Floe 09 moving</value>
+  </data>
+  <data name="DoodadsAdK.Items25" xml:space="preserve">
+    <value>__Highland fern big</value>
+  </data>
+  <data name="DoodadsAdK.Items26" xml:space="preserve">
+    <value>__Highland fern miedium</value>
+  </data>
+  <data name="DoodadsAdK.Items27" xml:space="preserve">
+    <value>__Highland fern small</value>
+  </data>
+  <data name="DoodadsAdK.Items28" xml:space="preserve">
+    <value>__Highland nettle</value>
+  </data>
+  <data name="DoodadsAdK.Items29" xml:space="preserve">
+    <value>__Highland nettle big</value>
+  </data>
+  <data name="DoodadsAdK.Items30" xml:space="preserve">
+    <value>__Highland nettle high</value>
+  </data>
+  <data name="DoodadsAdK.Items31" xml:space="preserve">
+    <value>__Highland Edelweiss 1</value>
+  </data>
+  <data name="DoodadsAdK.Items32" xml:space="preserve">
+    <value>__Highland Edelweiss 2</value>
+  </data>
+  <data name="DoodadsAdK.Items33" xml:space="preserve">
+    <value>__Highland Edelweiss 3</value>
+  </data>
+  <data name="DoodadsAdK.Items34" xml:space="preserve">
+    <value>__Highland Snowdrop</value>
+  </data>
+  <data name="DoodadsAdK.Items35" xml:space="preserve">
+    <value>__Highland Crocus</value>
+  </data>
+  <data name="DoodadsAdK.Items36" xml:space="preserve">
+    <value>__Highland Foundling 1</value>
+  </data>
+  <data name="DoodadsAdK.Items37" xml:space="preserve">
+    <value>__Highland Foundling 2</value>
+  </data>
+  <data name="DoodadsAdK.Items38" xml:space="preserve">
+    <value>__Highland Foundling 3</value>
+  </data>
+  <data name="DoodadsAdK.Items39" xml:space="preserve">
+    <value>__Highland Underwater Foundling 1</value>
+  </data>
+  <data name="DoodadsAdK.Items40" xml:space="preserve">
+    <value>__Highland Underwater Foundling 2</value>
+  </data>
+  <data name="DoodadsAdK.Items41" xml:space="preserve">
+    <value>__Highland Underwater Foundling 3</value>
+  </data>
+  <data name="DoodadsAdK.Items42" xml:space="preserve">
+    <value>__Highland swamp calmus 01</value>
+  </data>
+  <data name="DoodadsAdK.Items43" xml:space="preserve">
+    <value>__Highland swamp calmus 02</value>
+  </data>
+  <data name="DoodadsAdK.Items44" xml:space="preserve">
+    <value>__Highland swamp calmus 03</value>
+  </data>
+  <data name="DoodadsAdK.Items45" xml:space="preserve">
+    <value>__Highland Fog 01</value>
+  </data>
+  <data name="DoodadsAdK.Items46" xml:space="preserve">
+    <value>__Highland Fog 02</value>
+  </data>
+  <data name="DoodadsAdK.Items47" xml:space="preserve">
+    <value>Male Duck</value>
+  </data>
+  <data name="DoodadsAdK.Items48" xml:space="preserve">
+    <value>Female Duck</value>
+  </data>
+  <data name="DoodadsAdK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 0</value>
+  </data>
+  <data name="DoodadsAdK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 264</value>
+  </data>
+  <data name="DoodadsAdK.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;DoodadsAdK.Name" xml:space="preserve">
+    <value>DoodadsAdK</value>
+  </data>
+  <data name="&gt;&gt;DoodadsAdK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DoodadsAdK.Parent" xml:space="preserve">
+    <value>DoodadsPage</value>
+  </data>
+  <data name="&gt;&gt;DoodadsAdK.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Doodads10.Items" xml:space="preserve">
+    <value>bush01</value>
+  </data>
+  <data name="Doodads10.Items1" xml:space="preserve">
+    <value>stone01</value>
+  </data>
+  <data name="Doodads10.Items2" xml:space="preserve">
+    <value>stone02</value>
+  </data>
+  <data name="Doodads10.Items3" xml:space="preserve">
+    <value>stone03</value>
+  </data>
+  <data name="Doodads10.Items4" xml:space="preserve">
+    <value>stone04</value>
+  </data>
+  <data name="Doodads10.Items5" xml:space="preserve">
+    <value>stone01 grey</value>
+  </data>
+  <data name="Doodads10.Items6" xml:space="preserve">
+    <value>stone02 grey</value>
+  </data>
+  <data name="Doodads10.Items7" xml:space="preserve">
+    <value>stone03 grey</value>
+  </data>
+  <data name="Doodads10.Items8" xml:space="preserve">
+    <value>stone04 grey</value>
+  </data>
+  <data name="Doodads10.Items9" xml:space="preserve">
+    <value>dead Tree 1</value>
+  </data>
+  <data name="Doodads10.Items10" xml:space="preserve">
+    <value>dead Tree 2</value>
+  </data>
+  <data name="Doodads10.Items11" xml:space="preserve">
+    <value>grass01</value>
+  </data>
+  <data name="Doodads10.Items12" xml:space="preserve">
+    <value>grass02</value>
+  </data>
+  <data name="Doodads10.Items13" xml:space="preserve">
+    <value>grass03</value>
+  </data>
+  <data name="Doodads10.Items14" xml:space="preserve">
+    <value>grass04</value>
+  </data>
+  <data name="Doodads10.Items15" xml:space="preserve">
+    <value>cactus01</value>
+  </data>
+  <data name="Doodads10.Items16" xml:space="preserve">
+    <value>cactus02</value>
+  </data>
+  <data name="Doodads10.Items17" xml:space="preserve">
+    <value>cactus03</value>
+  </data>
+  <data name="Doodads10.Items18" xml:space="preserve">
+    <value>high flower white big</value>
+  </data>
+  <data name="Doodads10.Items19" xml:space="preserve">
+    <value>high flower white</value>
+  </data>
+  <data name="Doodads10.Items20" xml:space="preserve">
+    <value>fern big</value>
+  </data>
+  <data name="Doodads10.Items21" xml:space="preserve">
+    <value>fern medium</value>
+  </data>
+  <data name="Doodads10.Items22" xml:space="preserve">
+    <value>fern small</value>
+  </data>
+  <data name="Doodads10.Items23" xml:space="preserve">
+    <value>high flower red big</value>
+  </data>
+  <data name="Doodads10.Items24" xml:space="preserve">
+    <value>high flower red</value>
+  </data>
+  <data name="Doodads10.Items25" xml:space="preserve">
+    <value>high flower yellow big</value>
+  </data>
+  <data name="Doodads10.Items26" xml:space="preserve">
+    <value>high flower yellow</value>
+  </data>
+  <data name="Doodads10.Items27" xml:space="preserve">
+    <value>cactus04</value>
+  </data>
+  <data name="Doodads10.Items28" xml:space="preserve">
+    <value>swampthing01</value>
+  </data>
+  <data name="Doodads10.Items29" xml:space="preserve">
+    <value>swampthing02</value>
+  </data>
+  <data name="Doodads10.Items30" xml:space="preserve">
+    <value>swamp calmus 01</value>
+  </data>
+  <data name="Doodads10.Items31" xml:space="preserve">
+    <value>swamp calmus 02</value>
+  </data>
+  <data name="Doodads10.Items32" xml:space="preserve">
+    <value>swamp calmus 03</value>
+  </data>
+  <data name="Doodads10.Items33" xml:space="preserve">
+    <value>nettle</value>
+  </data>
+  <data name="Doodads10.Items34" xml:space="preserve">
+    <value>nettle big</value>
+  </data>
+  <data name="Doodads10.Items35" xml:space="preserve">
+    <value>nettle high</value>
+  </data>
+  <data name="Doodads10.Items36" xml:space="preserve">
+    <value>flower red</value>
+  </data>
+  <data name="Doodads10.Items37" xml:space="preserve">
+    <value>flower red big</value>
+  </data>
+  <data name="Doodads10.Items38" xml:space="preserve">
+    <value>flower red high</value>
+  </data>
+  <data name="Doodads10.Items39" xml:space="preserve">
+    <value>flower white</value>
+  </data>
+  <data name="Doodads10.Items40" xml:space="preserve">
+    <value>flower white big</value>
+  </data>
+  <data name="Doodads10.Items41" xml:space="preserve">
+    <value>flower white high</value>
+  </data>
+  <data name="Doodads10.Items42" xml:space="preserve">
+    <value>flower yellow</value>
+  </data>
+  <data name="Doodads10.Items43" xml:space="preserve">
+    <value>flower yellow big</value>
+  </data>
+  <data name="Doodads10.Items44" xml:space="preserve">
+    <value>flower yellow high</value>
+  </data>
+  <data name="Doodads10.Items45" xml:space="preserve">
+    <value>flower violet</value>
+  </data>
+  <data name="Doodads10.Items46" xml:space="preserve">
+    <value>flower violet big</value>
+  </data>
+  <data name="Doodads10.Items47" xml:space="preserve">
+    <value>flower violet high</value>
+  </data>
+  <data name="Doodads10.Items48" xml:space="preserve">
+    <value>grass translucent</value>
+  </data>
+  <data name="Doodads10.Items49" xml:space="preserve">
+    <value>grass translucent big dark</value>
+  </data>
+  <data name="Doodads10.Items50" xml:space="preserve">
+    <value>waterplant 1</value>
+  </data>
+  <data name="Doodads10.Items51" xml:space="preserve">
+    <value>waterplant 2</value>
+  </data>
+  <data name="Doodads10.Items52" xml:space="preserve">
+    <value>waterplant 3</value>
+  </data>
+  <data name="Doodads10.Items53" xml:space="preserve">
+    <value>waterlily 1</value>
+  </data>
+  <data name="Doodads10.Items54" xml:space="preserve">
+    <value>waterlily 2</value>
+  </data>
+  <data name="Doodads10.Items55" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+  <data name="Doodads10.Items56" xml:space="preserve">
+    <value>Water</value>
+  </data>
+  <data name="Doodads10.Items57" xml:space="preserve">
+    <value>Coal (few)</value>
+  </data>
+  <data name="Doodads10.Items58" xml:space="preserve">
+    <value>Coal (medium)</value>
+  </data>
+  <data name="Doodads10.Items59" xml:space="preserve">
+    <value>Coal (much)</value>
+  </data>
+  <data name="Doodads10.Items60" xml:space="preserve">
+    <value>Iron (few)</value>
+  </data>
+  <data name="Doodads10.Items61" xml:space="preserve">
+    <value>Iron (medium)</value>
+  </data>
+  <data name="Doodads10.Items62" xml:space="preserve">
+    <value>Iron (much)</value>
+  </data>
+  <data name="Doodads10.Items63" xml:space="preserve">
+    <value>Gold (few)</value>
+  </data>
+  <data name="Doodads10.Items64" xml:space="preserve">
+    <value>Gold (medium)</value>
+  </data>
+  <data name="Doodads10.Items65" xml:space="preserve">
+    <value>Gold (much)</value>
+  </data>
+  <data name="Doodads10.Items66" xml:space="preserve">
+    <value>Granit (few)</value>
+  </data>
+  <data name="Doodads10.Items67" xml:space="preserve">
+    <value>Granit (medium)</value>
+  </data>
+  <data name="Doodads10.Items68" xml:space="preserve">
+    <value>Granit (much)</value>
+  </data>
+  <data name="Doodads10.Items69" xml:space="preserve">
+    <value>fingerpost E</value>
+  </data>
+  <data name="Doodads10.Items70" xml:space="preserve">
+    <value>fingerpost SE</value>
+  </data>
+  <data name="Doodads10.Items71" xml:space="preserve">
+    <value>fingerpost S</value>
+  </data>
+  <data name="Doodads10.Items72" xml:space="preserve">
+    <value>fingerpost SW</value>
+  </data>
+  <data name="Doodads10.Items73" xml:space="preserve">
+    <value>fingerpost W</value>
+  </data>
+  <data name="Doodads10.Items74" xml:space="preserve">
+    <value>fingerpost NW</value>
+  </data>
+  <data name="Doodads10.Items75" xml:space="preserve">
+    <value>fingerpost N</value>
+  </data>
+  <data name="Doodads10.Items76" xml:space="preserve">
+    <value>fingerpost NE</value>
+  </data>
+  <data name="Doodads10.Items77" xml:space="preserve">
+    <value>mushroom red</value>
+  </data>
+  <data name="Doodads10.Items78" xml:space="preserve">
+    <value>mushroom red big</value>
+  </data>
+  <data name="Doodads10.Items79" xml:space="preserve">
+    <value>mushroom brown</value>
+  </data>
+  <data name="Doodads10.Items80" xml:space="preserve">
+    <value>mushroom brown big</value>
+  </data>
+  <data name="Doodads10.Items81" xml:space="preserve">
+    <value>agave big</value>
+  </data>
+  <data name="Doodads10.Items82" xml:space="preserve">
+    <value>agave medium</value>
+  </data>
+  <data name="Doodads10.Items83" xml:space="preserve">
+    <value>agave small</value>
+  </data>
+  <data name="Doodads10.Items84" xml:space="preserve">
+    <value>bones0</value>
+  </data>
+  <data name="Doodads10.Items85" xml:space="preserve">
+    <value>bones1</value>
+  </data>
+  <data name="Doodads10.Items86" xml:space="preserve">
+    <value>bones2</value>
+  </data>
+  <data name="Doodads10.Items87" xml:space="preserve">
+    <value>bones3</value>
+  </data>
+  <data name="Doodads10.Items88" xml:space="preserve">
+    <value>wreck</value>
+  </data>
+  <data name="Doodads10.Items89" xml:space="preserve">
+    <value>wreck big</value>
+  </data>
+  <data name="Doodads10.Items90" xml:space="preserve">
+    <value>shell</value>
+  </data>
+  <data name="Doodads10.Items91" xml:space="preserve">
+    <value>shell small</value>
+  </data>
+  <data name="Doodads10.Items92" xml:space="preserve">
+    <value>((LAVA fog</value>
+  </data>
+  <data name="Doodads10.Items93" xml:space="preserve">
+    <value>((LAVA fog high</value>
+  </data>
+  <data name="Doodads10.Items94" xml:space="preserve">
+    <value>((LAVA fog highest</value>
+  </data>
+  <data name="Doodads10.Items95" xml:space="preserve">
+    <value>((LAVA fog vertical</value>
+  </data>
+  <data name="Doodads10.Items96" xml:space="preserve">
+    <value>!!MED nettle</value>
+  </data>
+  <data name="Doodads10.Items97" xml:space="preserve">
+    <value>!!MED nettle big</value>
+  </data>
+  <data name="Doodads10.Items98" xml:space="preserve">
+    <value>!!MED nettle high</value>
+  </data>
+  <data name="Doodads10.Items99" xml:space="preserve">
+    <value>DoNotUse-Skull01</value>
+  </data>
+  <data name="Doodads10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Doodads10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 264</value>
+  </data>
+  <data name="Doodads10.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Doodads10.Name" xml:space="preserve">
+    <value>Doodads10</value>
+  </data>
+  <data name="&gt;&gt;Doodads10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Doodads10.Parent" xml:space="preserve">
+    <value>DoodadsPage</value>
+  </data>
+  <data name="&gt;&gt;Doodads10.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="DoodadsButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DoodadsButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 241</value>
+  </data>
+  <data name="DoodadsButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="DoodadsButton.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="DoodadsButton.Text" xml:space="preserve">
+    <value>Switch</value>
+  </data>
+  <data name="&gt;&gt;DoodadsButton.Name" xml:space="preserve">
+    <value>DoodadsButton</value>
+  </data>
+  <data name="&gt;&gt;DoodadsButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DoodadsButton.Parent" xml:space="preserve">
+    <value>DoodadsPage</value>
+  </data>
+  <data name="&gt;&gt;DoodadsButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="DoodadsArrow.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk1aCwAAAAAAADYAAAAoAAAAHgAAAB8AAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn59vb28/Pz8/Pz9vb2+Pj4+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5AAD5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn39/fu
+        7u7k5OTj4+Pp6eny8vL39/f5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fkAAPn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fT09OTk5MSrnsW/vNPT0+Pj4+/v7/b29vn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+QAA+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5
+        8vLy4ODgmzUDnkcbtqOZy8vL3t7e7Ozs9PT0+Pj4+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5
+        AAD5+fn4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj29vbx8fHd3d2dOQbPhmGhQA6sgWvExMTY2Njn5+fy
+        8vL39/f5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fkAAPb29vLy8u/v7+7u7u7u7u7u7u7u7u7u7u7u
+        7u3t7ejo6NbW1p87CeaqjN2ce6xQIadpSr64tdHR0eTk5PDw8Pf39/n5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+QAA7u7u4uLi2dnZ1tbW1tbW1tbW1tbW1tbW1tbW1tbW0tLSxcXFoT4M5qqM5qqM4aOEu2Y8pFUs
+        t6Wbzc3N4ODg7e3t9fX1+Pj4+fn5+fn5+fn5+fn5+fn5+fn5AADk5OTNzc29vb25ubm4uLi4uLi4uLi4
+        uLi4uLi4uLi3t7exsbGjQhDmqozmqozmqozmqozMgl2oUCKzlIXIyMjb29vq6urz8/P4+Pj5+fn5+fn5
+        +fn5+fn5+fkAAN/f36VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE+aqjOaqjNmRauSn
+        iOaqjNmWda1RIq53XMHBwdTU1OXl5fHx8ff39/n5+fn5+fn5+fn5+QAA3t7eqEcW5qqM5qqM5qqM5qqM
+        5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM04Va14xj46WF5qqM4qOEu2Y6qlw0u7Wyz8/P4uLi7+/v
+        9vb2+fn5+fn5+fn5AADe3t6qShnmqozmqozmqozmqozmqozmqozmqozmqozmqozmqozmqozmqozmqozV
+        iF3ViF3WimDgn33mqozmqozHelKrUiS3oJTLy8ve3t7s7Oz09PT4+Pj5+fkAAN7e3qxNHOaqjOaqjNaK
+        YdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYd2YdOaqjOaqjNeScK9TI7OK
+        dcTExNjY2Ofn5/Ly8vj4+AAA3t7erlAg5qqM5qqM141k141k141k141k141k141k141k141k141k141k
+        141k141k141k141k141k141k25Ru5aiJ5qqM4qSFuGE0sXFQv7m20dHR5OTk8vLyAADe3t6wUyPmqozm
+        qozYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjZkWrjpYXm
+        qozmqozHeFCxXza6qaDQ0NDm5uYAAN7e3rJWJuaqjOaqjNqSa9qSa9qSa9qSa9qSa9qSa9qSa9qSa9qS
+        a9qSa9qSa9qSa9qSa9qSa9qSa9qSa9qSa9qSa9qSa+GffuaqjOaqjNKKZbZiNr2bitzc3AAA3t7etVkp
+        5qqM5qqM25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv
+        25Vv25Vv3pt45aiK5qqM3Zx7vmk90bWmAADe3t63XCzmqozmqozcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lc
+        l3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3LfnXrlqIrnsJTfo4XAbEDZva4AAN7e
+        3rlfL+aqjOaqjN6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6a
+        dt6adt6aduKiguasj+q4n9iYd79uQta0ovLy8gAA3t7eu2Iz5qqM5qqM35x535x535x535x535x535x5
+        35x535x535x535x535x535x535x535x535x535x535x535165KaH57CU7MCq0YtnwHNJ4NDH8vLy+Pj4
+        AADe3t69ZTbmqozmqozgn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33g
+        n33hoYDlqYvquqLrwq3Gd03JjGvp4+D09PT4+Pj5+fkAAN7e3r9oOeaqjOaqjOGhgOGhgOGhgOGhgOGh
+        gOGhgOGhgOGhgOGhgOGhgOGhgOGhgOGhgOGhgOGhgOOlheasj+3EsOS1ncJuQdWvmu3t7fX19fj4+Pn5
+        +fn5+QAA39/fwWs85qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM46SE46SE46SE
+        5aeJ6LKX8dHA2qCBxHNH38m+8fHx9/f3+fn5+fn5+fn5+fn5AADk5OTEbj/x0L/x0L/x0L/x0L/x0L/x
+        0L/x0L/x0L/x0L/x0L/x0L/mqozmqozkp4fkp4jlqYvrvabx1cfTkGzKhV/p5OHz8/P4+Pj5+fn5+fn5
+        +fn5+fn5+fkAAO7u7sZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ+aqjOaqjOWpi+et
+        kfDOve3Ovcx/VdWli+3t7fX19fj4+Pn5+fn5+fn5+fn5+fn5+fn5+QAA9vb28vLy7+/v7u7u7u7u7u7u
+        7u7u7u7u7u7u7e3t6Ojo1tbWyHRG5qqM5qqM6LKX9d7T5r2nzINa3cO08PDw9/f3+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5AAD5+fn4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj29vbx8fHd3d3Kd0nmqozswKv2
+        5dzcpIbPi2bj1Mvy8vL39/f5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fkAAPn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fLy8t/f38x6TPPWyPbo4NWRa9ajhuvl4/T09Pj4+Pn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+QAA+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn59PT05OTkzn1P79XH
+        0YVa3bml7+/v9vb2+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5AAD5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn39/fu7u7QgFPTjWbk1s3x8fH39/f5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fkAAPn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fb29uzY
+        zfHs6fX19fj4+Pn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+QAA+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+Pj4+Pj4+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5AAA=
+</value>
+  </data>
+  <data name="DoodadsArrow.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="DoodadsArrow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DoodadsArrow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 3</value>
+  </data>
+  <data name="DoodadsArrow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 57</value>
+  </data>
+  <data name="DoodadsArrow.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;DoodadsArrow.Name" xml:space="preserve">
+    <value>DoodadsArrow</value>
+  </data>
+  <data name="&gt;&gt;DoodadsArrow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DoodadsArrow.Parent" xml:space="preserve">
+    <value>DoodadsPage</value>
+  </data>
+  <data name="&gt;&gt;DoodadsArrow.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="DoodadsPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="DoodadsPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>443, 267</value>
+  </data>
+  <data name="DoodadsPage.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="DoodadsPage.Text" xml:space="preserve">
+    <value>Doodads</value>
+  </data>
+  <data name="&gt;&gt;DoodadsPage.Name" xml:space="preserve">
+    <value>DoodadsPage</value>
+  </data>
+  <data name="&gt;&gt;DoodadsPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DoodadsPage.Parent" xml:space="preserve">
+    <value>PagesWithCategories</value>
+  </data>
+  <data name="&gt;&gt;DoodadsPage.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="BlockedDoodadsAdK.Items" xml:space="preserve">
+    <value>__Highland rock 1</value>
+  </data>
+  <data name="BlockedDoodadsAdK.Items1" xml:space="preserve">
+    <value>__Highland rock 2</value>
+  </data>
+  <data name="BlockedDoodadsAdK.Items2" xml:space="preserve">
+    <value>__Highland rock 3</value>
+  </data>
+  <data name="BlockedDoodadsAdK.Items3" xml:space="preserve">
+    <value>__Highland rock 4</value>
+  </data>
+  <data name="BlockedDoodadsAdK.Items4" xml:space="preserve">
+    <value>--Snow Iceberg 1</value>
+  </data>
+  <data name="BlockedDoodadsAdK.Items5" xml:space="preserve">
+    <value>--Snow Iceberg 2</value>
+  </data>
+  <data name="BlockedDoodadsAdK.Items6" xml:space="preserve">
+    <value>Tent</value>
+  </data>
+  <data name="BlockedDoodadsAdK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 0</value>
+  </data>
+  <data name="BlockedDoodadsAdK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 264</value>
+  </data>
+  <data name="BlockedDoodadsAdK.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;BlockedDoodadsAdK.Name" xml:space="preserve">
+    <value>BlockedDoodadsAdK</value>
+  </data>
+  <data name="&gt;&gt;BlockedDoodadsAdK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlockedDoodadsAdK.Parent" xml:space="preserve">
+    <value>BlockedDoodadsPage</value>
+  </data>
+  <data name="&gt;&gt;BlockedDoodadsAdK.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BlockedDoodads10.Items" xml:space="preserve">
+    <value>Gate01</value>
+  </data>
+  <data name="BlockedDoodads10.Items1" xml:space="preserve">
+    <value>rock 1</value>
+  </data>
+  <data name="BlockedDoodads10.Items2" xml:space="preserve">
+    <value>rock 2</value>
+  </data>
+  <data name="BlockedDoodads10.Items3" xml:space="preserve">
+    <value>rock 3</value>
+  </data>
+  <data name="BlockedDoodads10.Items4" xml:space="preserve">
+    <value>rock 4</value>
+  </data>
+  <data name="BlockedDoodads10.Items5" xml:space="preserve">
+    <value>((LAVA rock 0</value>
+  </data>
+  <data name="BlockedDoodads10.Items6" xml:space="preserve">
+    <value>((LAVA rock 1</value>
+  </data>
+  <data name="BlockedDoodads10.Items7" xml:space="preserve">
+    <value>((LAVA rock 2</value>
+  </data>
+  <data name="BlockedDoodads10.Items8" xml:space="preserve">
+    <value>!!MED rock 1</value>
+  </data>
+  <data name="BlockedDoodads10.Items9" xml:space="preserve">
+    <value>!!MED rock 2</value>
+  </data>
+  <data name="BlockedDoodads10.Items10" xml:space="preserve">
+    <value>!!MED rock 3</value>
+  </data>
+  <data name="BlockedDoodads10.Items11" xml:space="preserve">
+    <value>!!MED rock 4</value>
+  </data>
+  <data name="BlockedDoodads10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="BlockedDoodads10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 264</value>
+  </data>
+  <data name="BlockedDoodads10.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;BlockedDoodads10.Name" xml:space="preserve">
+    <value>BlockedDoodads10</value>
+  </data>
+  <data name="&gt;&gt;BlockedDoodads10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlockedDoodads10.Parent" xml:space="preserve">
+    <value>BlockedDoodadsPage</value>
+  </data>
+  <data name="&gt;&gt;BlockedDoodads10.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BlockedDoodadsButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BlockedDoodadsButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 241</value>
+  </data>
+  <data name="BlockedDoodadsButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="BlockedDoodadsButton.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="BlockedDoodadsButton.Text" xml:space="preserve">
+    <value>Switch</value>
+  </data>
+  <data name="&gt;&gt;BlockedDoodadsButton.Name" xml:space="preserve">
+    <value>BlockedDoodadsButton</value>
+  </data>
+  <data name="&gt;&gt;BlockedDoodadsButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlockedDoodadsButton.Parent" xml:space="preserve">
+    <value>BlockedDoodadsPage</value>
+  </data>
+  <data name="&gt;&gt;BlockedDoodadsButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="BlockedDoodadsArrow.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk1aCwAAAAAAADYAAAAoAAAAHgAAAB8AAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn59vb28/Pz8/Pz9vb2+Pj4+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5AAD5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn39/fu
+        7u7k5OTj4+Pp6eny8vL39/f5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fkAAPn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fT09OTk5MSrnsW/vNPT0+Pj4+/v7/b29vn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+QAA+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5
+        8vLy4ODgmzUDnkcbtqOZy8vL3t7e7Ozs9PT0+Pj4+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5
+        AAD5+fn4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj29vbx8fHd3d2dOQbPhmGhQA6sgWvExMTY2Njn5+fy
+        8vL39/f5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fkAAPb29vLy8u/v7+7u7u7u7u7u7u7u7u7u7u7u
+        7u3t7ejo6NbW1p87CeaqjN2ce6xQIadpSr64tdHR0eTk5PDw8Pf39/n5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+QAA7u7u4uLi2dnZ1tbW1tbW1tbW1tbW1tbW1tbW1tbW0tLSxcXFoT4M5qqM5qqM4aOEu2Y8pFUs
+        t6Wbzc3N4ODg7e3t9fX1+Pj4+fn5+fn5+fn5+fn5+fn5+fn5AADk5OTNzc29vb25ubm4uLi4uLi4uLi4
+        uLi4uLi4uLi3t7exsbGjQhDmqozmqozmqozmqozMgl2oUCKzlIXIyMjb29vq6urz8/P4+Pj5+fn5+fn5
+        +fn5+fn5+fkAAN/f36VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE+aqjOaqjNmRauSn
+        iOaqjNmWda1RIq53XMHBwdTU1OXl5fHx8ff39/n5+fn5+fn5+fn5+QAA3t7eqEcW5qqM5qqM5qqM5qqM
+        5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM04Va14xj46WF5qqM4qOEu2Y6qlw0u7Wyz8/P4uLi7+/v
+        9vb2+fn5+fn5+fn5AADe3t6qShnmqozmqozmqozmqozmqozmqozmqozmqozmqozmqozmqozmqozmqozV
+        iF3ViF3WimDgn33mqozmqozHelKrUiS3oJTLy8ve3t7s7Oz09PT4+Pj5+fkAAN7e3qxNHOaqjOaqjNaK
+        YdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYd2YdOaqjOaqjNeScK9TI7OK
+        dcTExNjY2Ofn5/Ly8vj4+AAA3t7erlAg5qqM5qqM141k141k141k141k141k141k141k141k141k141k
+        141k141k141k141k141k141k25Ru5aiJ5qqM4qSFuGE0sXFQv7m20dHR5OTk8vLyAADe3t6wUyPmqozm
+        qozYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjZkWrjpYXm
+        qozmqozHeFCxXza6qaDQ0NDm5uYAAN7e3rJWJuaqjOaqjNqSa9qSa9qSa9qSa9qSa9qSa9qSa9qSa9qS
+        a9qSa9qSa9qSa9qSa9qSa9qSa9qSa9qSa9qSa9qSa+GffuaqjOaqjNKKZbZiNr2bitzc3AAA3t7etVkp
+        5qqM5qqM25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv
+        25Vv25Vv3pt45aiK5qqM3Zx7vmk90bWmAADe3t63XCzmqozmqozcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lc
+        l3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3LfnXrlqIrnsJTfo4XAbEDZva4AAN7e
+        3rlfL+aqjOaqjN6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6a
+        dt6adt6aduKiguasj+q4n9iYd79uQta0ovLy8gAA3t7eu2Iz5qqM5qqM35x535x535x535x535x535x5
+        35x535x535x535x535x535x535x535x535x535x535x535165KaH57CU7MCq0YtnwHNJ4NDH8vLy+Pj4
+        AADe3t69ZTbmqozmqozgn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33g
+        n33hoYDlqYvquqLrwq3Gd03JjGvp4+D09PT4+Pj5+fkAAN7e3r9oOeaqjOaqjOGhgOGhgOGhgOGhgOGh
+        gOGhgOGhgOGhgOGhgOGhgOGhgOGhgOGhgOGhgOGhgOOlheasj+3EsOS1ncJuQdWvmu3t7fX19fj4+Pn5
+        +fn5+QAA39/fwWs85qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM46SE46SE46SE
+        5aeJ6LKX8dHA2qCBxHNH38m+8fHx9/f3+fn5+fn5+fn5+fn5AADk5OTEbj/x0L/x0L/x0L/x0L/x0L/x
+        0L/x0L/x0L/x0L/x0L/x0L/mqozmqozkp4fkp4jlqYvrvabx1cfTkGzKhV/p5OHz8/P4+Pj5+fn5+fn5
+        +fn5+fn5+fkAAO7u7sZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ+aqjOaqjOWpi+et
+        kfDOve3Ovcx/VdWli+3t7fX19fj4+Pn5+fn5+fn5+fn5+fn5+fn5+QAA9vb28vLy7+/v7u7u7u7u7u7u
+        7u7u7u7u7u7u7e3t6Ojo1tbWyHRG5qqM5qqM6LKX9d7T5r2nzINa3cO08PDw9/f3+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5AAD5+fn4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj29vbx8fHd3d3Kd0nmqozswKv2
+        5dzcpIbPi2bj1Mvy8vL39/f5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fkAAPn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fLy8t/f38x6TPPWyPbo4NWRa9ajhuvl4/T09Pj4+Pn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+QAA+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn59PT05OTkzn1P79XH
+        0YVa3bml7+/v9vb2+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5AAD5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn39/fu7u7QgFPTjWbk1s3x8fH39/f5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fkAAPn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fb29uzY
+        zfHs6fX19fj4+Pn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+QAA+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+Pj4+Pj4+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5AAA=
+</value>
+  </data>
+  <data name="BlockedDoodadsArrow.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="BlockedDoodadsArrow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BlockedDoodadsArrow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 3</value>
+  </data>
+  <data name="BlockedDoodadsArrow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 57</value>
+  </data>
+  <data name="BlockedDoodadsArrow.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;BlockedDoodadsArrow.Name" xml:space="preserve">
+    <value>BlockedDoodadsArrow</value>
+  </data>
+  <data name="&gt;&gt;BlockedDoodadsArrow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlockedDoodadsArrow.Parent" xml:space="preserve">
+    <value>BlockedDoodadsPage</value>
+  </data>
+  <data name="&gt;&gt;BlockedDoodadsArrow.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="BlockedDoodadsPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="BlockedDoodadsPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>443, 267</value>
+  </data>
+  <data name="BlockedDoodadsPage.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="BlockedDoodadsPage.Text" xml:space="preserve">
+    <value>Blocked Doodads</value>
+  </data>
+  <data name="&gt;&gt;BlockedDoodadsPage.Name" xml:space="preserve">
+    <value>BlockedDoodadsPage</value>
+  </data>
+  <data name="&gt;&gt;BlockedDoodadsPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlockedDoodadsPage.Parent" xml:space="preserve">
+    <value>PagesWithCategories</value>
+  </data>
+  <data name="&gt;&gt;BlockedDoodadsPage.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="AnimalsAdK.Items" xml:space="preserve">
+    <value>Sheep</value>
+  </data>
+  <data name="AnimalsAdK.Items1" xml:space="preserve">
+    <value>Bear</value>
+  </data>
+  <data name="AnimalsAdK.Items2" xml:space="preserve">
+    <value>Ox</value>
+  </data>
+  <data name="AnimalsAdK.Items3" xml:space="preserve">
+    <value>Highland Cattle</value>
+  </data>
+  <data name="AnimalsAdK.Items4" xml:space="preserve">
+    <value>Goat</value>
+  </data>
+  <data name="AnimalsAdK.Items5" xml:space="preserve">
+    <value>Polarbear</value>
+  </data>
+  <data name="AnimalsAdK.Items6" xml:space="preserve">
+    <value>Mountain Hare</value>
+  </data>
+  <data name="AnimalsAdK.Items7" xml:space="preserve">
+    <value>Boar</value>
+  </data>
+  <data name="AnimalsAdK.Items8" xml:space="preserve">
+    <value>Camel</value>
+  </data>
+  <data name="AnimalsAdK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 0</value>
+  </data>
+  <data name="AnimalsAdK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 264</value>
+  </data>
+  <data name="AnimalsAdK.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;AnimalsAdK.Name" xml:space="preserve">
+    <value>AnimalsAdK</value>
+  </data>
+  <data name="&gt;&gt;AnimalsAdK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AnimalsAdK.Parent" xml:space="preserve">
+    <value>AnimalsPage</value>
+  </data>
+  <data name="&gt;&gt;AnimalsAdK.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Animals10.Items" xml:space="preserve">
+    <value>Deer</value>
+  </data>
+  <data name="Animals10.Items1" xml:space="preserve">
+    <value>Rabbit</value>
+  </data>
+  <data name="Animals10.Items2" xml:space="preserve">
+    <value>Elk</value>
+  </data>
+  <data name="Animals10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Animals10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 264</value>
+  </data>
+  <data name="Animals10.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;Animals10.Name" xml:space="preserve">
+    <value>Animals10</value>
+  </data>
+  <data name="&gt;&gt;Animals10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Animals10.Parent" xml:space="preserve">
+    <value>AnimalsPage</value>
+  </data>
+  <data name="&gt;&gt;Animals10.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="AnimalsButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AnimalsButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 241</value>
+  </data>
+  <data name="AnimalsButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="AnimalsButton.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="AnimalsButton.Text" xml:space="preserve">
+    <value>Switch</value>
+  </data>
+  <data name="&gt;&gt;AnimalsButton.Name" xml:space="preserve">
+    <value>AnimalsButton</value>
+  </data>
+  <data name="&gt;&gt;AnimalsButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AnimalsButton.Parent" xml:space="preserve">
+    <value>AnimalsPage</value>
+  </data>
+  <data name="&gt;&gt;AnimalsButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="AnimalsArrow.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk1aCwAAAAAAADYAAAAoAAAAHgAAAB8AAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn59vb28/Pz8/Pz9vb2+Pj4+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5AAD5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn39/fu
+        7u7k5OTj4+Pp6eny8vL39/f5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fkAAPn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fT09OTk5MSrnsW/vNPT0+Pj4+/v7/b29vn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+QAA+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5
+        8vLy4ODgmzUDnkcbtqOZy8vL3t7e7Ozs9PT0+Pj4+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5
+        AAD5+fn4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj29vbx8fHd3d2dOQbPhmGhQA6sgWvExMTY2Njn5+fy
+        8vL39/f5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fkAAPb29vLy8u/v7+7u7u7u7u7u7u7u7u7u7u7u
+        7u3t7ejo6NbW1p87CeaqjN2ce6xQIadpSr64tdHR0eTk5PDw8Pf39/n5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+QAA7u7u4uLi2dnZ1tbW1tbW1tbW1tbW1tbW1tbW1tbW0tLSxcXFoT4M5qqM5qqM4aOEu2Y8pFUs
+        t6Wbzc3N4ODg7e3t9fX1+Pj4+fn5+fn5+fn5+fn5+fn5+fn5AADk5OTNzc29vb25ubm4uLi4uLi4uLi4
+        uLi4uLi4uLi3t7exsbGjQhDmqozmqozmqozmqozMgl2oUCKzlIXIyMjb29vq6urz8/P4+Pj5+fn5+fn5
+        +fn5+fn5+fkAAN/f36VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE+aqjOaqjNmRauSn
+        iOaqjNmWda1RIq53XMHBwdTU1OXl5fHx8ff39/n5+fn5+fn5+fn5+QAA3t7eqEcW5qqM5qqM5qqM5qqM
+        5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM04Va14xj46WF5qqM4qOEu2Y6qlw0u7Wyz8/P4uLi7+/v
+        9vb2+fn5+fn5+fn5AADe3t6qShnmqozmqozmqozmqozmqozmqozmqozmqozmqozmqozmqozmqozmqozV
+        iF3ViF3WimDgn33mqozmqozHelKrUiS3oJTLy8ve3t7s7Oz09PT4+Pj5+fkAAN7e3qxNHOaqjOaqjNaK
+        YdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYd2YdOaqjOaqjNeScK9TI7OK
+        dcTExNjY2Ofn5/Ly8vj4+AAA3t7erlAg5qqM5qqM141k141k141k141k141k141k141k141k141k141k
+        141k141k141k141k141k141k25Ru5aiJ5qqM4qSFuGE0sXFQv7m20dHR5OTk8vLyAADe3t6wUyPmqozm
+        qozYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjZkWrjpYXm
+        qozmqozHeFCxXza6qaDQ0NDm5uYAAN7e3rJWJuaqjOaqjNqSa9qSa9qSa9qSa9qSa9qSa9qSa9qSa9qS
+        a9qSa9qSa9qSa9qSa9qSa9qSa9qSa9qSa9qSa9qSa+GffuaqjOaqjNKKZbZiNr2bitzc3AAA3t7etVkp
+        5qqM5qqM25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv
+        25Vv25Vv3pt45aiK5qqM3Zx7vmk90bWmAADe3t63XCzmqozmqozcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lc
+        l3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3LfnXrlqIrnsJTfo4XAbEDZva4AAN7e
+        3rlfL+aqjOaqjN6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6a
+        dt6adt6aduKiguasj+q4n9iYd79uQta0ovLy8gAA3t7eu2Iz5qqM5qqM35x535x535x535x535x535x5
+        35x535x535x535x535x535x535x535x535x535x535x535165KaH57CU7MCq0YtnwHNJ4NDH8vLy+Pj4
+        AADe3t69ZTbmqozmqozgn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33g
+        n33hoYDlqYvquqLrwq3Gd03JjGvp4+D09PT4+Pj5+fkAAN7e3r9oOeaqjOaqjOGhgOGhgOGhgOGhgOGh
+        gOGhgOGhgOGhgOGhgOGhgOGhgOGhgOGhgOGhgOGhgOOlheasj+3EsOS1ncJuQdWvmu3t7fX19fj4+Pn5
+        +fn5+QAA39/fwWs85qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM46SE46SE46SE
+        5aeJ6LKX8dHA2qCBxHNH38m+8fHx9/f3+fn5+fn5+fn5+fn5AADk5OTEbj/x0L/x0L/x0L/x0L/x0L/x
+        0L/x0L/x0L/x0L/x0L/x0L/mqozmqozkp4fkp4jlqYvrvabx1cfTkGzKhV/p5OHz8/P4+Pj5+fn5+fn5
+        +fn5+fn5+fkAAO7u7sZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ+aqjOaqjOWpi+et
+        kfDOve3Ovcx/VdWli+3t7fX19fj4+Pn5+fn5+fn5+fn5+fn5+fn5+QAA9vb28vLy7+/v7u7u7u7u7u7u
+        7u7u7u7u7u7u7e3t6Ojo1tbWyHRG5qqM5qqM6LKX9d7T5r2nzINa3cO08PDw9/f3+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5AAD5+fn4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj29vbx8fHd3d3Kd0nmqozswKv2
+        5dzcpIbPi2bj1Mvy8vL39/f5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fkAAPn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fLy8t/f38x6TPPWyPbo4NWRa9ajhuvl4/T09Pj4+Pn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+QAA+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn59PT05OTkzn1P79XH
+        0YVa3bml7+/v9vb2+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5AAD5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn39/fu7u7QgFPTjWbk1s3x8fH39/f5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fkAAPn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fb29uzY
+        zfHs6fX19fj4+Pn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+QAA+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+Pj4+Pj4+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5AAA=
+</value>
+  </data>
+  <data name="AnimalsArrow.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="AnimalsArrow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AnimalsArrow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 3</value>
+  </data>
+  <data name="AnimalsArrow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 57</value>
+  </data>
+  <data name="AnimalsArrow.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;AnimalsArrow.Name" xml:space="preserve">
+    <value>AnimalsArrow</value>
+  </data>
+  <data name="&gt;&gt;AnimalsArrow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AnimalsArrow.Parent" xml:space="preserve">
+    <value>AnimalsPage</value>
+  </data>
+  <data name="&gt;&gt;AnimalsArrow.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="AnimalsPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="AnimalsPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>443, 267</value>
+  </data>
+  <data name="AnimalsPage.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="AnimalsPage.Text" xml:space="preserve">
+    <value>Animals</value>
+  </data>
+  <data name="&gt;&gt;AnimalsPage.Name" xml:space="preserve">
+    <value>AnimalsPage</value>
+  </data>
+  <data name="&gt;&gt;AnimalsPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AnimalsPage.Parent" xml:space="preserve">
+    <value>PagesWithCategories</value>
+  </data>
+  <data name="&gt;&gt;AnimalsPage.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="AmbientsAdK.Items" xml:space="preserve">
+    <value>hightlands less birds</value>
+  </data>
+  <data name="AmbientsAdK.Items1" xml:space="preserve">
+    <value>hightlands normal birds</value>
+  </data>
+  <data name="AmbientsAdK.Items2" xml:space="preserve">
+    <value>hightlands much birds</value>
+  </data>
+  <data name="AmbientsAdK.Items3" xml:space="preserve">
+    <value>ice</value>
+  </data>
+  <data name="AmbientsAdK.Items4" xml:space="preserve">
+    <value>mountains</value>
+  </data>
+  <data name="AmbientsAdK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 0</value>
+  </data>
+  <data name="AmbientsAdK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 264</value>
+  </data>
+  <data name="AmbientsAdK.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;AmbientsAdK.Name" xml:space="preserve">
+    <value>AmbientsAdK</value>
+  </data>
+  <data name="&gt;&gt;AmbientsAdK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AmbientsAdK.Parent" xml:space="preserve">
+    <value>AmbientsPage</value>
+  </data>
+  <data name="&gt;&gt;AmbientsAdK.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Ambients10.Items" xml:space="preserve">
+    <value>Beach</value>
+  </data>
+  <data name="Ambients10.Items1" xml:space="preserve">
+    <value>Strong Desert Wind</value>
+  </data>
+  <data name="Ambients10.Items2" xml:space="preserve">
+    <value>Middle Desert Wind</value>
+  </data>
+  <data name="Ambients10.Items3" xml:space="preserve">
+    <value>Low Desert Wind</value>
+  </data>
+  <data name="Ambients10.Items4" xml:space="preserve">
+    <value>bright Forest with birds</value>
+  </data>
+  <data name="Ambients10.Items5" xml:space="preserve">
+    <value>dark Forest with owl</value>
+  </data>
+  <data name="Ambients10.Items6" xml:space="preserve">
+    <value>meadow with much crickets</value>
+  </data>
+  <data name="Ambients10.Items7" xml:space="preserve">
+    <value>meadow with some crickets and birds</value>
+  </data>
+  <data name="Ambients10.Items8" xml:space="preserve">
+    <value>small water stream</value>
+  </data>
+  <data name="Ambients10.Items9" xml:space="preserve">
+    <value>swamp</value>
+  </data>
+  <data name="Ambients10.Items10" xml:space="preserve">
+    <value>water waves</value>
+  </data>
+  <data name="Ambients10.Items11" xml:space="preserve">
+    <value>river</value>
+  </data>
+  <data name="Ambients10.Items12" xml:space="preserve">
+    <value>lava</value>
+  </data>
+  <data name="Ambients10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Ambients10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 264</value>
+  </data>
+  <data name="Ambients10.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;Ambients10.Name" xml:space="preserve">
+    <value>Ambients10</value>
+  </data>
+  <data name="&gt;&gt;Ambients10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ambients10.Parent" xml:space="preserve">
+    <value>AmbientsPage</value>
+  </data>
+  <data name="&gt;&gt;Ambients10.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="AmbientsButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AmbientsButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 241</value>
+  </data>
+  <data name="AmbientsButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="AmbientsButton.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="AmbientsButton.Text" xml:space="preserve">
+    <value>Switch</value>
+  </data>
+  <data name="&gt;&gt;AmbientsButton.Name" xml:space="preserve">
+    <value>AmbientsButton</value>
+  </data>
+  <data name="&gt;&gt;AmbientsButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AmbientsButton.Parent" xml:space="preserve">
+    <value>AmbientsPage</value>
+  </data>
+  <data name="&gt;&gt;AmbientsButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="AmbientsArrow.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk1aCwAAAAAAADYAAAAoAAAAHgAAAB8AAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn59vb28/Pz8/Pz9vb2+Pj4+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5AAD5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn39/fu
+        7u7k5OTj4+Pp6eny8vL39/f5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fkAAPn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fT09OTk5MSrnsW/vNPT0+Pj4+/v7/b29vn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+QAA+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5
+        8vLy4ODgmzUDnkcbtqOZy8vL3t7e7Ozs9PT0+Pj4+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5
+        AAD5+fn4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj29vbx8fHd3d2dOQbPhmGhQA6sgWvExMTY2Njn5+fy
+        8vL39/f5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fkAAPb29vLy8u/v7+7u7u7u7u7u7u7u7u7u7u7u
+        7u3t7ejo6NbW1p87CeaqjN2ce6xQIadpSr64tdHR0eTk5PDw8Pf39/n5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+QAA7u7u4uLi2dnZ1tbW1tbW1tbW1tbW1tbW1tbW1tbW0tLSxcXFoT4M5qqM5qqM4aOEu2Y8pFUs
+        t6Wbzc3N4ODg7e3t9fX1+Pj4+fn5+fn5+fn5+fn5+fn5+fn5AADk5OTNzc29vb25ubm4uLi4uLi4uLi4
+        uLi4uLi4uLi3t7exsbGjQhDmqozmqozmqozmqozMgl2oUCKzlIXIyMjb29vq6urz8/P4+Pj5+fn5+fn5
+        +fn5+fn5+fkAAN/f36VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE6VEE+aqjOaqjNmRauSn
+        iOaqjNmWda1RIq53XMHBwdTU1OXl5fHx8ff39/n5+fn5+fn5+fn5+QAA3t7eqEcW5qqM5qqM5qqM5qqM
+        5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM04Va14xj46WF5qqM4qOEu2Y6qlw0u7Wyz8/P4uLi7+/v
+        9vb2+fn5+fn5+fn5AADe3t6qShnmqozmqozmqozmqozmqozmqozmqozmqozmqozmqozmqozmqozmqozV
+        iF3ViF3WimDgn33mqozmqozHelKrUiS3oJTLy8ve3t7s7Oz09PT4+Pj5+fkAAN7e3qxNHOaqjOaqjNaK
+        YdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYdaKYd2YdOaqjOaqjNeScK9TI7OK
+        dcTExNjY2Ofn5/Ly8vj4+AAA3t7erlAg5qqM5qqM141k141k141k141k141k141k141k141k141k141k
+        141k141k141k141k141k141k25Ru5aiJ5qqM4qSFuGE0sXFQv7m20dHR5OTk8vLyAADe3t6wUyPmqozm
+        qozYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjYkGjZkWrjpYXm
+        qozmqozHeFCxXza6qaDQ0NDm5uYAAN7e3rJWJuaqjOaqjNqSa9qSa9qSa9qSa9qSa9qSa9qSa9qSa9qS
+        a9qSa9qSa9qSa9qSa9qSa9qSa9qSa9qSa9qSa9qSa+GffuaqjOaqjNKKZbZiNr2bitzc3AAA3t7etVkp
+        5qqM5qqM25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv25Vv
+        25Vv25Vv3pt45aiK5qqM3Zx7vmk90bWmAADe3t63XCzmqozmqozcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lc
+        l3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3Lcl3LfnXrlqIrnsJTfo4XAbEDZva4AAN7e
+        3rlfL+aqjOaqjN6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6adt6a
+        dt6adt6aduKiguasj+q4n9iYd79uQta0ovLy8gAA3t7eu2Iz5qqM5qqM35x535x535x535x535x535x5
+        35x535x535x535x535x535x535x535x535x535x535x535165KaH57CU7MCq0YtnwHNJ4NDH8vLy+Pj4
+        AADe3t69ZTbmqozmqozgn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33gn33g
+        n33hoYDlqYvquqLrwq3Gd03JjGvp4+D09PT4+Pj5+fkAAN7e3r9oOeaqjOaqjOGhgOGhgOGhgOGhgOGh
+        gOGhgOGhgOGhgOGhgOGhgOGhgOGhgOGhgOGhgOGhgOOlheasj+3EsOS1ncJuQdWvmu3t7fX19fj4+Pn5
+        +fn5+QAA39/fwWs85qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM5qqM46SE46SE46SE
+        5aeJ6LKX8dHA2qCBxHNH38m+8fHx9/f3+fn5+fn5+fn5+fn5AADk5OTEbj/x0L/x0L/x0L/x0L/x0L/x
+        0L/x0L/x0L/x0L/x0L/x0L/mqozmqozkp4fkp4jlqYvrvabx1cfTkGzKhV/p5OHz8/P4+Pj5+fn5+fn5
+        +fn5+fn5+fkAAO7u7sZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ8ZxQ+aqjOaqjOWpi+et
+        kfDOve3Ovcx/VdWli+3t7fX19fj4+Pn5+fn5+fn5+fn5+fn5+fn5+QAA9vb28vLy7+/v7u7u7u7u7u7u
+        7u7u7u7u7u7u7e3t6Ojo1tbWyHRG5qqM5qqM6LKX9d7T5r2nzINa3cO08PDw9/f3+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5AAD5+fn4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj29vbx8fHd3d3Kd0nmqozswKv2
+        5dzcpIbPi2bj1Mvy8vL39/f5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fkAAPn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fLy8t/f38x6TPPWyPbo4NWRa9ajhuvl4/T09Pj4+Pn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+QAA+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn59PT05OTkzn1P79XH
+        0YVa3bml7+/v9vb2+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5AAD5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn39/fu7u7QgFPTjWbk1s3x8fH39/f5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fkAAPn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fb29uzY
+        zfHs6fX19fj4+Pn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+QAA+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+Pj4+Pj4+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5AAA=
+</value>
+  </data>
+  <data name="AmbientsArrow.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="AmbientsArrow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AmbientsArrow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 3</value>
+  </data>
+  <data name="AmbientsArrow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 57</value>
+  </data>
+  <data name="AmbientsArrow.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;AmbientsArrow.Name" xml:space="preserve">
+    <value>AmbientsArrow</value>
+  </data>
+  <data name="&gt;&gt;AmbientsArrow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AmbientsArrow.Parent" xml:space="preserve">
+    <value>AmbientsPage</value>
+  </data>
+  <data name="&gt;&gt;AmbientsArrow.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="AmbientsPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="AmbientsPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>443, 267</value>
+  </data>
+  <data name="AmbientsPage.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="AmbientsPage.Text" xml:space="preserve">
+    <value>Ambients</value>
+  </data>
+  <data name="&gt;&gt;AmbientsPage.Name" xml:space="preserve">
+    <value>AmbientsPage</value>
+  </data>
+  <data name="&gt;&gt;AmbientsPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AmbientsPage.Parent" xml:space="preserve">
+    <value>PagesWithCategories</value>
+  </data>
+  <data name="&gt;&gt;AmbientsPage.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="PagesWithCategories.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 30</value>
+  </data>
+  <data name="PagesWithCategories.Size" type="System.Drawing.Size, System.Drawing">
+    <value>451, 293</value>
+  </data>
+  <data name="PagesWithCategories.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;PagesWithCategories.Name" xml:space="preserve">
+    <value>PagesWithCategories</value>
+  </data>
+  <data name="&gt;&gt;PagesWithCategories.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PagesWithCategories.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PagesWithCategories.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="FilePath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 4</value>
+  </data>
+  <data name="FilePath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 20</value>
+  </data>
+  <data name="FilePath.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="FilePath.Text" xml:space="preserve">
+    <value>Enter file path</value>
+  </data>
+  <data name="&gt;&gt;FilePath.Name" xml:space="preserve">
+    <value>FilePath</value>
+  </data>
+  <data name="&gt;&gt;FilePath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FilePath.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;FilePath.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LoadFile.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LoadFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>366, 2</value>
+  </data>
+  <data name="LoadFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="LoadFile.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="LoadFile.Text" xml:space="preserve">
+    <value>Load File</value>
+  </data>
+  <data name="&gt;&gt;LoadFile.Name" xml:space="preserve">
+    <value>LoadFile</value>
+  </data>
+  <data name="&gt;&gt;LoadFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LoadFile.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LoadFile.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>449, 321</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>SAdK - Unlock it!</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SAdKUnlockIt</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
