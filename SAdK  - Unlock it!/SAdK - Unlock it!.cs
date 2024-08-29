@@ -933,152 +933,152 @@ namespace SAdK____Unlock_it_
 
                 //10th Anniversary
 
-                //Wheatfield
+                //Wheatfield (field_01)
                 if (Deposits10Index == 0)
                 {
                     hexToReplace = "9e4ceddf";
                 }
-                //StoneResourceA01
+                //StoneResourceA01 (stone_01)
                 if (Deposits10Index == 1)
                 {
                     hexToReplace = "0ed61b9f";
                 }
-                //StoneResourceA02
+                //StoneResourceA02 (stone_02)
                 if (Deposits10Index == 2)
                 {
                     hexToReplace = "5e11b15b";
                 }
-                //StoneResourceA03
+                //StoneResourceA03 (stone_03)
                 if (Deposits10Index == 3)
                 {
                     hexToReplace = "ee5bef21";
                 }
-                //StoneResourceA04
+                //StoneResourceA04 (stone_04)
                 if (Deposits10Index == 4)
                 {
                     hexToReplace = "8ecd4619";
                 }
-                //StoneResourceA05
+                //StoneResourceA05 (stone_05)
                 if (Deposits10Index == 5)
                 {
                     hexToReplace = "9e6a935d";
                 }
-                //StoneResourceA06
+                //StoneResourceA06 (stone_06)
                 if (Deposits10Index == 6)
                 {
                     hexToReplace = "fea22be4";
                 }
-                //!!!MED StoneResourceA01
+                //!!!MED StoneResourceA01 (med_stone_01)
                 if (Deposits10Index == 7)
                 {
                     hexToReplace = "d07fab1d";
                 }
-                //!!!MED StoneResourceA02
+                //!!!MED StoneResourceA02 (med_stone_02)
                 if (Deposits10Index == 8)
                 {
                     hexToReplace = "d17fab1d";
                 }
-                //!!!MED StoneResourceA03
+                //!!!MED StoneResourceA03 (med_stone_03)
                 if (Deposits10Index == 9)
                 {
                     hexToReplace = "d27fab1d";
                 }
-                //!!!MED StoneResourceA04
+                //!!!MED StoneResourceA04 (med_stone_04)
                 if (Deposits10Index == 10)
                 {
                     hexToReplace = "d37fab1d";
                 }
-                //!!!MED StoneResourceA05
+                //!!!MED StoneResourceA05 (med_stone_05)
                 if (Deposits10Index == 11)
                 {
                     hexToReplace = "d47fab1d";
                 }
-                //!!!MED StoneResourceA06
+                //!!!MED StoneResourceA06 (med_stone_06)
                 if (Deposits10Index == 12)
                 {
                     hexToReplace = "d57fab1d";
                 }
-                //BirchA
+                //BirchA (tree_01)
                 if (Deposits10Index == 13)
                 {
                     hexToReplace = "73ce997e";
                 }
-                //BirchB
+                //BirchB (tree_02)
                 if (Deposits10Index == 14)
                 {
                     hexToReplace = "b3873206";
                 }
-                //BirchC
+                //BirchC (tree_03)
                 if (Deposits10Index == 15)
                 {
                     hexToReplace = "83cb9c48";
                 }
-                //BroadLeafA
+                //BroadLeafA (tree_04)
                 if (Deposits10Index == 16)
                 {
                     hexToReplace = "b3479f11";
                 }
-                //BroadLeafB
+                //BroadLeafB (tree_05)
                 if (Deposits10Index == 17)
                 {
                     hexToReplace = "d321cfe6";
                 }
-                //BroadLeafC
+                //BroadLeafC (tree_06)
                 if (Deposits10Index == 18)
                 {
                     hexToReplace = "c344efad";
                 }
-                //FirA
+                //FirA (tree_07)
                 if (Deposits10Index == 19)
                 {
                     hexToReplace = "730e2d73";
                 }
-                //FirB
+                //FirB (tree_08)
                 if (Deposits10Index == 20)
                 {
                     hexToReplace = "730ecfe6";
                 }
-                //PalmA
+                //PalmA (tree_09)
                 if (Deposits10Index == 21)
                 {
                     hexToReplace = "741ecfe7";
                 }
-                //PalmB
+                //PalmB (tree_10)
                 if (Deposits10Index == 22)
                 {
                     hexToReplace = "752ecfe8";
                 }
-                //CypressA
+                //CypressA (tree_11)
                 if (Deposits10Index == 23)
                 {
                     hexToReplace = "762ecfe8";
                 }
-                //OliveA
+                //OliveA (tree_12)
                 if (Deposits10Index == 24)
                 {
                     hexToReplace = "772ecfe8";
                 }
-                //AfricanA
+                //AfricanA (tree_13)
                 if (Deposits10Index == 25)
                 {
                     hexToReplace = "782ecfe8";
                 }
-                //LavaTreeA
+                //LavaTreeA (tree_lava01)
                 if (Deposits10Index == 26)
                 {
                     hexToReplace = "792ecfe8";
                 }
-                //LavaTreeB
+                //LavaTreeB (tree_lava02)
                 if (Deposits10Index == 27)
                 {
                     hexToReplace = "7a2ecfe8";
                 }
-                //LavaTreeC
+                //LavaTreeC (tree_lava03)
                 if (Deposits10Index == 28)
                 {
                     hexToReplace = "7b2ecfe8";
                 }
-                //AsianA
+                //AsianA (tree_14)
                 if (Deposits10Index == 29)
                 {
                     hexToReplace = "7c2ecfe8";
@@ -1086,117 +1086,117 @@ namespace SAdK____Unlock_it_
 
                 //Aufbruch der Kulturen
 
-                //field_egypt
+                //field_egypt (field_egypt)
                 if (DepositsAdKIndex == 0)
                 {
                     hexReplacement = "1a2e6ba2";
                 }
-                //__HighlandFirA
+                //__HighlandFirA (tree_15)
                 if (DepositsAdKIndex == 1)
                 {
                     hexReplacement = "7d2ecfe8";
                 }
-                //__HighlandFirB
+                //__HighlandFirB (tree_16)
                 if (DepositsAdKIndex == 2)
                 {
                     hexReplacement = "7e2ecfe8";
                 }
-                //__HighlandFirC
+                //__HighlandFirC (tree_17)
                 if (DepositsAdKIndex == 3)
                 {
                     hexReplacement = "7f2ecfe8";
                 }
-                //--SnowFirA straight pos
+                //--SnowFirA straight pos (tree_18)
                 if (DepositsAdKIndex == 4)
                 {
                     hexReplacement = "802ecfe8";
                 }
-                //--SnowFirB straight pos
+                //--SnowFirB straight pos (tree_19)
                 if (DepositsAdKIndex == 5)
                 {
                     hexReplacement = "812ecfe8";
                 }
-                //--SnowFirC straight pos
+                //--SnowFirC straight pos (tree_20)
                 if (DepositsAdKIndex == 6)
                 {
                     hexReplacement = "822ecfe8";
                 }
-                //--SnowFirA random pos
+                //--SnowFirA random pos (tree_21)
                 if (DepositsAdKIndex == 7)
                 {
                     hexReplacement = "832ecfe8";
                 }
-                //--SnowFirB random pos
+                //--SnowFirB random pos (tree_22)
                 if (DepositsAdKIndex == 8)
                 {
                     hexReplacement = "842ecfe8";
                 }
-                //--SnowFirC random pos
+                //--SnowFirC random pos (tree_23)
                 if (DepositsAdKIndex == 9)
                 {
                     hexReplacement = "852ecfe8";
                 }
-                //--SnowFirD random pos
+                //--SnowFirD random pos (tree_24)
                 if (DepositsAdKIndex == 10)
                 {
                     hexReplacement = "862ecfe8";
                 }
-                //--SnowFirE random pos
+                //--SnowFirE random pos (tree_25)
                 if (DepositsAdKIndex == 11)
                 {
                     hexReplacement = "872ecfe8";
                 }
-                //--SnowFirF random pos
+                //--SnowFirF random pos (tree_26)
                 if (DepositsAdKIndex == 12)
                 {
                     hexReplacement = "882ecfe8";
                 }
-                //Weeping Willow
+                //Weeping Willow (tree_27)
                 if (DepositsAdKIndex == 13)
                 {
                     hexReplacement = "892ecfe8";
                 }
-                //Birch New 1
+                //Birch New 1 (tree_28)
                 if (DepositsAdKIndex == 14)
                 {
                     hexReplacement = "8a2ecfe8";
                 }
-                //Birch New 2
+                //Birch New 2 (tree_29)
                 if (DepositsAdKIndex == 15)
                 {
                     hexReplacement = "8b2ecfe8";
                 }
-                //Birch New 3
+                //Birch New 3 (tree_30)
                 if (DepositsAdKIndex == 16)
                 {
                     hexReplacement = "8c2ecfe8";
                 }
-                //Chestnut 1
+                //Chestnut 1 (tree_31)
                 if (DepositsAdKIndex == 17)
                 {
                     hexReplacement = "8d2ecfe8";
                 }
-                //Chestnut 2
+                //Chestnut 2 (tree_32)
                 if (DepositsAdKIndex == 18)
                 {
                     hexReplacement = "8e2ecfe8";
                 }
-                //Chestnut 3
+                //Chestnut 3 (tree_33)
                 if (DepositsAdKIndex == 19)
                 {
                     hexReplacement = "8f2ecfe8";
                 }
-                //Apple Tree 1
+                //Apple Tree 1 (tree_34)
                 if (DepositsAdKIndex == 20)
                 {
                     hexReplacement = "902ecfe8";
                 }
-                //Apple Tree 2
+                //Apple Tree 2 (tree_35)
                 if (DepositsAdKIndex == 21)
                 {
                     hexReplacement = "912ecfe8";
                 }
-                //Tent
+                //Tent (tent)
                 if (DepositsAdKIndex == 22)
                 {
                     hexReplacement = "a3e75d77";
