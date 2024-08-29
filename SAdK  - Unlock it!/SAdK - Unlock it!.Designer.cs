@@ -31,6 +31,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SAdKUnlockIt));
             this.PagesWithCategories = new System.Windows.Forms.TabControl();
             this.SaveAndInfoPage = new System.Windows.Forms.TabPage();
+            this.GitHubIcon = new System.Windows.Forms.PictureBox();
+            this.ModDBIcon = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.GitHubEncouragement = new System.Windows.Forms.Label();
             this.GitHub = new System.Windows.Forms.LinkLabel();
             this.MapSite = new System.Windows.Forms.LinkLabel();
             this.Discord = new System.Windows.Forms.LinkLabel();
@@ -41,77 +45,73 @@
             this.SaveInfoWarning = new System.Windows.Forms.Label();
             this.PlainsPage = new System.Windows.Forms.TabPage();
             this.PlainsButton = new System.Windows.Forms.Button();
+            this.PlainsArrow = new System.Windows.Forms.PictureBox();
             this.PlainsAdK = new System.Windows.Forms.ListBox();
             this.Plains10 = new System.Windows.Forms.ListBox();
             this.RocksPage = new System.Windows.Forms.TabPage();
             this.RocksButton = new System.Windows.Forms.Button();
+            this.RocksArrow = new System.Windows.Forms.PictureBox();
             this.RocksAdK = new System.Windows.Forms.ListBox();
             this.Rocks10 = new System.Windows.Forms.ListBox();
             this.SandsPage = new System.Windows.Forms.TabPage();
             this.SandsAdK = new System.Windows.Forms.ListBox();
             this.Sands10 = new System.Windows.Forms.ListBox();
             this.SandsButton = new System.Windows.Forms.Button();
+            this.SandsArrow = new System.Windows.Forms.PictureBox();
             this.BlockedPage = new System.Windows.Forms.TabPage();
             this.BlockedAdK = new System.Windows.Forms.ListBox();
             this.Blocked10 = new System.Windows.Forms.ListBox();
             this.BlockedButton = new System.Windows.Forms.Button();
+            this.BlockedArrow = new System.Windows.Forms.PictureBox();
             this.DepositsPage = new System.Windows.Forms.TabPage();
             this.DepositsAdK = new System.Windows.Forms.ListBox();
             this.Deposits10 = new System.Windows.Forms.ListBox();
             this.DepositsButton = new System.Windows.Forms.Button();
+            this.DepositsArrow = new System.Windows.Forms.PictureBox();
             this.DoodadsPage = new System.Windows.Forms.TabPage();
             this.DoodadsAdK = new System.Windows.Forms.ListBox();
             this.Doodads10 = new System.Windows.Forms.ListBox();
             this.DoodadsButton = new System.Windows.Forms.Button();
+            this.DoodadsArrow = new System.Windows.Forms.PictureBox();
             this.BlockedDoodadsPage = new System.Windows.Forms.TabPage();
             this.BlockedDoodadsAdK = new System.Windows.Forms.ListBox();
             this.BlockedDoodads10 = new System.Windows.Forms.ListBox();
             this.BlockedDoodadsButton = new System.Windows.Forms.Button();
+            this.BlockedDoodadsArrow = new System.Windows.Forms.PictureBox();
             this.AnimalsPage = new System.Windows.Forms.TabPage();
             this.AnimalsAdK = new System.Windows.Forms.ListBox();
             this.Animals10 = new System.Windows.Forms.ListBox();
             this.AnimalsButton = new System.Windows.Forms.Button();
+            this.AnimalsArrow = new System.Windows.Forms.PictureBox();
             this.AmbientsPage = new System.Windows.Forms.TabPage();
             this.AmbientsAdK = new System.Windows.Forms.ListBox();
             this.Ambients10 = new System.Windows.Forms.ListBox();
             this.AmbientsButton = new System.Windows.Forms.Button();
+            this.AmbientsArrow = new System.Windows.Forms.PictureBox();
             this.FilePath = new System.Windows.Forms.TextBox();
             this.LoadFile = new System.Windows.Forms.Button();
-            this.GitHubEncouragement = new System.Windows.Forms.Label();
-            this.GitHubIcon = new System.Windows.Forms.PictureBox();
-            this.ModDBIcon = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.PlainsArrow = new System.Windows.Forms.PictureBox();
-            this.RocksArrow = new System.Windows.Forms.PictureBox();
-            this.SandsArrow = new System.Windows.Forms.PictureBox();
-            this.BlockedArrow = new System.Windows.Forms.PictureBox();
-            this.DepositsArrow = new System.Windows.Forms.PictureBox();
-            this.DoodadsArrow = new System.Windows.Forms.PictureBox();
-            this.BlockedDoodadsArrow = new System.Windows.Forms.PictureBox();
-            this.AnimalsArrow = new System.Windows.Forms.PictureBox();
-            this.AmbientsArrow = new System.Windows.Forms.PictureBox();
             this.PagesWithCategories.SuspendLayout();
             this.SaveAndInfoPage.SuspendLayout();
-            this.PlainsPage.SuspendLayout();
-            this.RocksPage.SuspendLayout();
-            this.SandsPage.SuspendLayout();
-            this.BlockedPage.SuspendLayout();
-            this.DepositsPage.SuspendLayout();
-            this.DoodadsPage.SuspendLayout();
-            this.BlockedDoodadsPage.SuspendLayout();
-            this.AnimalsPage.SuspendLayout();
-            this.AmbientsPage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.GitHubIcon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ModDBIcon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.PlainsPage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PlainsArrow)).BeginInit();
+            this.RocksPage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.RocksArrow)).BeginInit();
+            this.SandsPage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SandsArrow)).BeginInit();
+            this.BlockedPage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BlockedArrow)).BeginInit();
+            this.DepositsPage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DepositsArrow)).BeginInit();
+            this.DoodadsPage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DoodadsArrow)).BeginInit();
+            this.BlockedDoodadsPage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BlockedDoodadsArrow)).BeginInit();
+            this.AnimalsPage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.AnimalsArrow)).BeginInit();
+            this.AmbientsPage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.AmbientsArrow)).BeginInit();
             this.SuspendLayout();
             // 
@@ -148,6 +148,32 @@
             resources.ApplyResources(this.SaveAndInfoPage, "SaveAndInfoPage");
             this.SaveAndInfoPage.Name = "SaveAndInfoPage";
             this.SaveAndInfoPage.UseVisualStyleBackColor = true;
+            // 
+            // GitHubIcon
+            // 
+            this.GitHubIcon.BackgroundImage = global::SAdK____Unlock_it_.Properties.Resources.GitHub_Symbol;
+            resources.ApplyResources(this.GitHubIcon, "GitHubIcon");
+            this.GitHubIcon.Name = "GitHubIcon";
+            this.GitHubIcon.TabStop = false;
+            // 
+            // ModDBIcon
+            // 
+            this.ModDBIcon.BackgroundImage = global::SAdK____Unlock_it_.Properties.Resources.dd2q36t_e9a4566c_8d24_431e_b491_946f93140ced;
+            resources.ApplyResources(this.ModDBIcon, "ModDBIcon");
+            this.ModDBIcon.Name = "ModDBIcon";
+            this.ModDBIcon.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::SAdK____Unlock_it_.Properties.Resources.toppng_com_discord_logo_01_discord_logo_3126x2249;
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
+            // 
+            // GitHubEncouragement
+            // 
+            resources.ApplyResources(this.GitHubEncouragement, "GitHubEncouragement");
+            this.GitHubEncouragement.Name = "GitHubEncouragement";
             // 
             // GitHub
             // 
@@ -217,9 +243,16 @@
             this.PlainsButton.UseVisualStyleBackColor = true;
             this.PlainsButton.Click += new System.EventHandler(this.PlainsButton_Click);
             // 
+            // PlainsArrow
+            // 
+            resources.ApplyResources(this.PlainsArrow, "PlainsArrow");
+            this.PlainsArrow.Name = "PlainsArrow";
+            this.PlainsArrow.TabStop = false;
+            // 
             // PlainsAdK
             // 
             this.PlainsAdK.FormattingEnabled = true;
+            resources.ApplyResources(this.PlainsAdK, "PlainsAdK");
             this.PlainsAdK.Items.AddRange(new object[] {
             resources.GetString("PlainsAdK.Items"),
             resources.GetString("PlainsAdK.Items1"),
@@ -240,12 +273,12 @@
             resources.GetString("PlainsAdK.Items16"),
             resources.GetString("PlainsAdK.Items17"),
             resources.GetString("PlainsAdK.Items18")});
-            resources.ApplyResources(this.PlainsAdK, "PlainsAdK");
             this.PlainsAdK.Name = "PlainsAdK";
             // 
             // Plains10
             // 
             this.Plains10.FormattingEnabled = true;
+            resources.ApplyResources(this.Plains10, "Plains10");
             this.Plains10.Items.AddRange(new object[] {
             resources.GetString("Plains10.Items"),
             resources.GetString("Plains10.Items1"),
@@ -274,7 +307,6 @@
             resources.GetString("Plains10.Items24"),
             resources.GetString("Plains10.Items25"),
             resources.GetString("Plains10.Items26")});
-            resources.ApplyResources(this.Plains10, "Plains10");
             this.Plains10.Name = "Plains10";
             // 
             // RocksPage
@@ -294,9 +326,16 @@
             this.RocksButton.UseVisualStyleBackColor = true;
             this.RocksButton.Click += new System.EventHandler(this.RocksButton_Click);
             // 
+            // RocksArrow
+            // 
+            resources.ApplyResources(this.RocksArrow, "RocksArrow");
+            this.RocksArrow.Name = "RocksArrow";
+            this.RocksArrow.TabStop = false;
+            // 
             // RocksAdK
             // 
             this.RocksAdK.FormattingEnabled = true;
+            resources.ApplyResources(this.RocksAdK, "RocksAdK");
             this.RocksAdK.Items.AddRange(new object[] {
             resources.GetString("RocksAdK.Items"),
             resources.GetString("RocksAdK.Items1"),
@@ -309,12 +348,12 @@
             resources.GetString("RocksAdK.Items8"),
             resources.GetString("RocksAdK.Items9"),
             resources.GetString("RocksAdK.Items10")});
-            resources.ApplyResources(this.RocksAdK, "RocksAdK");
             this.RocksAdK.Name = "RocksAdK";
             // 
             // Rocks10
             // 
             this.Rocks10.FormattingEnabled = true;
+            resources.ApplyResources(this.Rocks10, "Rocks10");
             this.Rocks10.Items.AddRange(new object[] {
             resources.GetString("Rocks10.Items"),
             resources.GetString("Rocks10.Items1"),
@@ -339,7 +378,6 @@
             resources.GetString("Rocks10.Items20"),
             resources.GetString("Rocks10.Items21"),
             resources.GetString("Rocks10.Items22")});
-            resources.ApplyResources(this.Rocks10, "Rocks10");
             this.Rocks10.Name = "Rocks10";
             // 
             // SandsPage
@@ -355,16 +393,17 @@
             // SandsAdK
             // 
             this.SandsAdK.FormattingEnabled = true;
+            resources.ApplyResources(this.SandsAdK, "SandsAdK");
             this.SandsAdK.Items.AddRange(new object[] {
             resources.GetString("SandsAdK.Items"),
             resources.GetString("SandsAdK.Items1"),
             resources.GetString("SandsAdK.Items2")});
-            resources.ApplyResources(this.SandsAdK, "SandsAdK");
             this.SandsAdK.Name = "SandsAdK";
             // 
             // Sands10
             // 
             this.Sands10.FormattingEnabled = true;
+            resources.ApplyResources(this.Sands10, "Sands10");
             this.Sands10.Items.AddRange(new object[] {
             resources.GetString("Sands10.Items"),
             resources.GetString("Sands10.Items1"),
@@ -381,7 +420,6 @@
             resources.GetString("Sands10.Items12"),
             resources.GetString("Sands10.Items13"),
             resources.GetString("Sands10.Items14")});
-            resources.ApplyResources(this.Sands10, "Sands10");
             this.Sands10.Name = "Sands10";
             // 
             // SandsButton
@@ -390,6 +428,12 @@
             this.SandsButton.Name = "SandsButton";
             this.SandsButton.UseVisualStyleBackColor = true;
             this.SandsButton.Click += new System.EventHandler(this.SandsButton_Click);
+            // 
+            // SandsArrow
+            // 
+            resources.ApplyResources(this.SandsArrow, "SandsArrow");
+            this.SandsArrow.Name = "SandsArrow";
+            this.SandsArrow.TabStop = false;
             // 
             // BlockedPage
             // 
@@ -404,6 +448,7 @@
             // BlockedAdK
             // 
             this.BlockedAdK.FormattingEnabled = true;
+            resources.ApplyResources(this.BlockedAdK, "BlockedAdK");
             this.BlockedAdK.Items.AddRange(new object[] {
             resources.GetString("BlockedAdK.Items"),
             resources.GetString("BlockedAdK.Items1"),
@@ -413,12 +458,12 @@
             resources.GetString("BlockedAdK.Items5"),
             resources.GetString("BlockedAdK.Items6"),
             resources.GetString("BlockedAdK.Items7")});
-            resources.ApplyResources(this.BlockedAdK, "BlockedAdK");
             this.BlockedAdK.Name = "BlockedAdK";
             // 
             // Blocked10
             // 
             this.Blocked10.FormattingEnabled = true;
+            resources.ApplyResources(this.Blocked10, "Blocked10");
             this.Blocked10.Items.AddRange(new object[] {
             resources.GetString("Blocked10.Items"),
             resources.GetString("Blocked10.Items1"),
@@ -428,7 +473,6 @@
             resources.GetString("Blocked10.Items5"),
             resources.GetString("Blocked10.Items6"),
             resources.GetString("Blocked10.Items7")});
-            resources.ApplyResources(this.Blocked10, "Blocked10");
             this.Blocked10.Name = "Blocked10";
             // 
             // BlockedButton
@@ -437,6 +481,12 @@
             this.BlockedButton.Name = "BlockedButton";
             this.BlockedButton.UseVisualStyleBackColor = true;
             this.BlockedButton.Click += new System.EventHandler(this.BlockedButton_Click);
+            // 
+            // BlockedArrow
+            // 
+            resources.ApplyResources(this.BlockedArrow, "BlockedArrow");
+            this.BlockedArrow.Name = "BlockedArrow";
+            this.BlockedArrow.TabStop = false;
             // 
             // DepositsPage
             // 
@@ -451,6 +501,7 @@
             // DepositsAdK
             // 
             this.DepositsAdK.FormattingEnabled = true;
+            resources.ApplyResources(this.DepositsAdK, "DepositsAdK");
             this.DepositsAdK.Items.AddRange(new object[] {
             resources.GetString("DepositsAdK.Items"),
             resources.GetString("DepositsAdK.Items1"),
@@ -475,12 +526,12 @@
             resources.GetString("DepositsAdK.Items20"),
             resources.GetString("DepositsAdK.Items21"),
             resources.GetString("DepositsAdK.Items22")});
-            resources.ApplyResources(this.DepositsAdK, "DepositsAdK");
             this.DepositsAdK.Name = "DepositsAdK";
             // 
             // Deposits10
             // 
             this.Deposits10.FormattingEnabled = true;
+            resources.ApplyResources(this.Deposits10, "Deposits10");
             this.Deposits10.Items.AddRange(new object[] {
             resources.GetString("Deposits10.Items"),
             resources.GetString("Deposits10.Items1"),
@@ -512,7 +563,6 @@
             resources.GetString("Deposits10.Items27"),
             resources.GetString("Deposits10.Items28"),
             resources.GetString("Deposits10.Items29")});
-            resources.ApplyResources(this.Deposits10, "Deposits10");
             this.Deposits10.Name = "Deposits10";
             // 
             // DepositsButton
@@ -521,6 +571,12 @@
             this.DepositsButton.Name = "DepositsButton";
             this.DepositsButton.UseVisualStyleBackColor = true;
             this.DepositsButton.Click += new System.EventHandler(this.DepositsButton_Click);
+            // 
+            // DepositsArrow
+            // 
+            resources.ApplyResources(this.DepositsArrow, "DepositsArrow");
+            this.DepositsArrow.Name = "DepositsArrow";
+            this.DepositsArrow.TabStop = false;
             // 
             // DoodadsPage
             // 
@@ -535,6 +591,7 @@
             // DoodadsAdK
             // 
             this.DoodadsAdK.FormattingEnabled = true;
+            resources.ApplyResources(this.DoodadsAdK, "DoodadsAdK");
             this.DoodadsAdK.Items.AddRange(new object[] {
             resources.GetString("DoodadsAdK.Items"),
             resources.GetString("DoodadsAdK.Items1"),
@@ -585,12 +642,12 @@
             resources.GetString("DoodadsAdK.Items46"),
             resources.GetString("DoodadsAdK.Items47"),
             resources.GetString("DoodadsAdK.Items48")});
-            resources.ApplyResources(this.DoodadsAdK, "DoodadsAdK");
             this.DoodadsAdK.Name = "DoodadsAdK";
             // 
             // Doodads10
             // 
             this.Doodads10.FormattingEnabled = true;
+            resources.ApplyResources(this.Doodads10, "Doodads10");
             this.Doodads10.Items.AddRange(new object[] {
             resources.GetString("Doodads10.Items"),
             resources.GetString("Doodads10.Items1"),
@@ -692,7 +749,6 @@
             resources.GetString("Doodads10.Items97"),
             resources.GetString("Doodads10.Items98"),
             resources.GetString("Doodads10.Items99")});
-            resources.ApplyResources(this.Doodads10, "Doodads10");
             this.Doodads10.Name = "Doodads10";
             // 
             // DoodadsButton
@@ -701,6 +757,12 @@
             this.DoodadsButton.Name = "DoodadsButton";
             this.DoodadsButton.UseVisualStyleBackColor = true;
             this.DoodadsButton.Click += new System.EventHandler(this.DoodadsButton_Click);
+            // 
+            // DoodadsArrow
+            // 
+            resources.ApplyResources(this.DoodadsArrow, "DoodadsArrow");
+            this.DoodadsArrow.Name = "DoodadsArrow";
+            this.DoodadsArrow.TabStop = false;
             // 
             // BlockedDoodadsPage
             // 
@@ -715,6 +777,7 @@
             // BlockedDoodadsAdK
             // 
             this.BlockedDoodadsAdK.FormattingEnabled = true;
+            resources.ApplyResources(this.BlockedDoodadsAdK, "BlockedDoodadsAdK");
             this.BlockedDoodadsAdK.Items.AddRange(new object[] {
             resources.GetString("BlockedDoodadsAdK.Items"),
             resources.GetString("BlockedDoodadsAdK.Items1"),
@@ -723,12 +786,12 @@
             resources.GetString("BlockedDoodadsAdK.Items4"),
             resources.GetString("BlockedDoodadsAdK.Items5"),
             resources.GetString("BlockedDoodadsAdK.Items6")});
-            resources.ApplyResources(this.BlockedDoodadsAdK, "BlockedDoodadsAdK");
             this.BlockedDoodadsAdK.Name = "BlockedDoodadsAdK";
             // 
             // BlockedDoodads10
             // 
             this.BlockedDoodads10.FormattingEnabled = true;
+            resources.ApplyResources(this.BlockedDoodads10, "BlockedDoodads10");
             this.BlockedDoodads10.Items.AddRange(new object[] {
             resources.GetString("BlockedDoodads10.Items"),
             resources.GetString("BlockedDoodads10.Items1"),
@@ -742,7 +805,6 @@
             resources.GetString("BlockedDoodads10.Items9"),
             resources.GetString("BlockedDoodads10.Items10"),
             resources.GetString("BlockedDoodads10.Items11")});
-            resources.ApplyResources(this.BlockedDoodads10, "BlockedDoodads10");
             this.BlockedDoodads10.Name = "BlockedDoodads10";
             // 
             // BlockedDoodadsButton
@@ -751,6 +813,12 @@
             this.BlockedDoodadsButton.Name = "BlockedDoodadsButton";
             this.BlockedDoodadsButton.UseVisualStyleBackColor = true;
             this.BlockedDoodadsButton.Click += new System.EventHandler(this.BlockedDoodadsButton_Click);
+            // 
+            // BlockedDoodadsArrow
+            // 
+            resources.ApplyResources(this.BlockedDoodadsArrow, "BlockedDoodadsArrow");
+            this.BlockedDoodadsArrow.Name = "BlockedDoodadsArrow";
+            this.BlockedDoodadsArrow.TabStop = false;
             // 
             // AnimalsPage
             // 
@@ -765,6 +833,7 @@
             // AnimalsAdK
             // 
             this.AnimalsAdK.FormattingEnabled = true;
+            resources.ApplyResources(this.AnimalsAdK, "AnimalsAdK");
             this.AnimalsAdK.Items.AddRange(new object[] {
             resources.GetString("AnimalsAdK.Items"),
             resources.GetString("AnimalsAdK.Items1"),
@@ -775,17 +844,16 @@
             resources.GetString("AnimalsAdK.Items6"),
             resources.GetString("AnimalsAdK.Items7"),
             resources.GetString("AnimalsAdK.Items8")});
-            resources.ApplyResources(this.AnimalsAdK, "AnimalsAdK");
             this.AnimalsAdK.Name = "AnimalsAdK";
             // 
             // Animals10
             // 
             this.Animals10.FormattingEnabled = true;
+            resources.ApplyResources(this.Animals10, "Animals10");
             this.Animals10.Items.AddRange(new object[] {
             resources.GetString("Animals10.Items"),
             resources.GetString("Animals10.Items1"),
             resources.GetString("Animals10.Items2")});
-            resources.ApplyResources(this.Animals10, "Animals10");
             this.Animals10.Name = "Animals10";
             // 
             // AnimalsButton
@@ -794,6 +862,12 @@
             this.AnimalsButton.Name = "AnimalsButton";
             this.AnimalsButton.UseVisualStyleBackColor = true;
             this.AnimalsButton.Click += new System.EventHandler(this.AnimalsButton_Click);
+            // 
+            // AnimalsArrow
+            // 
+            resources.ApplyResources(this.AnimalsArrow, "AnimalsArrow");
+            this.AnimalsArrow.Name = "AnimalsArrow";
+            this.AnimalsArrow.TabStop = false;
             // 
             // AmbientsPage
             // 
@@ -808,18 +882,19 @@
             // AmbientsAdK
             // 
             this.AmbientsAdK.FormattingEnabled = true;
+            resources.ApplyResources(this.AmbientsAdK, "AmbientsAdK");
             this.AmbientsAdK.Items.AddRange(new object[] {
             resources.GetString("AmbientsAdK.Items"),
             resources.GetString("AmbientsAdK.Items1"),
             resources.GetString("AmbientsAdK.Items2"),
             resources.GetString("AmbientsAdK.Items3"),
             resources.GetString("AmbientsAdK.Items4")});
-            resources.ApplyResources(this.AmbientsAdK, "AmbientsAdK");
             this.AmbientsAdK.Name = "AmbientsAdK";
             // 
             // Ambients10
             // 
             this.Ambients10.FormattingEnabled = true;
+            resources.ApplyResources(this.Ambients10, "Ambients10");
             this.Ambients10.Items.AddRange(new object[] {
             resources.GetString("Ambients10.Items"),
             resources.GetString("Ambients10.Items1"),
@@ -834,7 +909,6 @@
             resources.GetString("Ambients10.Items10"),
             resources.GetString("Ambients10.Items11"),
             resources.GetString("Ambients10.Items12")});
-            resources.ApplyResources(this.Ambients10, "Ambients10");
             this.Ambients10.Name = "Ambients10";
             // 
             // AmbientsButton
@@ -843,6 +917,12 @@
             this.AmbientsButton.Name = "AmbientsButton";
             this.AmbientsButton.UseVisualStyleBackColor = true;
             this.AmbientsButton.Click += new System.EventHandler(this.AmbientsButton_Click);
+            // 
+            // AmbientsArrow
+            // 
+            resources.ApplyResources(this.AmbientsArrow, "AmbientsArrow");
+            this.AmbientsArrow.Name = "AmbientsArrow";
+            this.AmbientsArrow.TabStop = false;
             // 
             // FilePath
             // 
@@ -858,86 +938,6 @@
             this.LoadFile.UseVisualStyleBackColor = true;
             this.LoadFile.Click += new System.EventHandler(this.LoadFile_Click);
             // 
-            // GitHubEncouragement
-            // 
-            resources.ApplyResources(this.GitHubEncouragement, "GitHubEncouragement");
-            this.GitHubEncouragement.Name = "GitHubEncouragement";
-            // 
-            // GitHubIcon
-            // 
-            this.GitHubIcon.BackgroundImage = global::SAdK____Unlock_it_.Properties.Resources.GitHub_Symbol;
-            resources.ApplyResources(this.GitHubIcon, "GitHubIcon");
-            this.GitHubIcon.Name = "GitHubIcon";
-            this.GitHubIcon.TabStop = false;
-            // 
-            // ModDBIcon
-            // 
-            this.ModDBIcon.BackgroundImage = global::SAdK____Unlock_it_.Properties.Resources.dd2q36t_e9a4566c_8d24_431e_b491_946f93140ced;
-            resources.ApplyResources(this.ModDBIcon, "ModDBIcon");
-            this.ModDBIcon.Name = "ModDBIcon";
-            this.ModDBIcon.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = global::SAdK____Unlock_it_.Properties.Resources.toppng_com_discord_logo_01_discord_logo_3126x2249;
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.TabStop = false;
-            // 
-            // PlainsArrow
-            // 
-            resources.ApplyResources(this.PlainsArrow, "PlainsArrow");
-            this.PlainsArrow.Name = "PlainsArrow";
-            this.PlainsArrow.TabStop = false;
-            // 
-            // RocksArrow
-            // 
-            resources.ApplyResources(this.RocksArrow, "RocksArrow");
-            this.RocksArrow.Name = "RocksArrow";
-            this.RocksArrow.TabStop = false;
-            // 
-            // SandsArrow
-            // 
-            resources.ApplyResources(this.SandsArrow, "SandsArrow");
-            this.SandsArrow.Name = "SandsArrow";
-            this.SandsArrow.TabStop = false;
-            // 
-            // BlockedArrow
-            // 
-            resources.ApplyResources(this.BlockedArrow, "BlockedArrow");
-            this.BlockedArrow.Name = "BlockedArrow";
-            this.BlockedArrow.TabStop = false;
-            // 
-            // DepositsArrow
-            // 
-            resources.ApplyResources(this.DepositsArrow, "DepositsArrow");
-            this.DepositsArrow.Name = "DepositsArrow";
-            this.DepositsArrow.TabStop = false;
-            // 
-            // DoodadsArrow
-            // 
-            resources.ApplyResources(this.DoodadsArrow, "DoodadsArrow");
-            this.DoodadsArrow.Name = "DoodadsArrow";
-            this.DoodadsArrow.TabStop = false;
-            // 
-            // BlockedDoodadsArrow
-            // 
-            resources.ApplyResources(this.BlockedDoodadsArrow, "BlockedDoodadsArrow");
-            this.BlockedDoodadsArrow.Name = "BlockedDoodadsArrow";
-            this.BlockedDoodadsArrow.TabStop = false;
-            // 
-            // AnimalsArrow
-            // 
-            resources.ApplyResources(this.AnimalsArrow, "AnimalsArrow");
-            this.AnimalsArrow.Name = "AnimalsArrow";
-            this.AnimalsArrow.TabStop = false;
-            // 
-            // AmbientsArrow
-            // 
-            resources.ApplyResources(this.AmbientsArrow, "AmbientsArrow");
-            this.AmbientsArrow.Name = "AmbientsArrow";
-            this.AmbientsArrow.TabStop = false;
-            // 
             // SAdKUnlockIt
             // 
             resources.ApplyResources(this, "$this");
@@ -951,26 +951,26 @@
             this.PagesWithCategories.ResumeLayout(false);
             this.SaveAndInfoPage.ResumeLayout(false);
             this.SaveAndInfoPage.PerformLayout();
-            this.PlainsPage.ResumeLayout(false);
-            this.RocksPage.ResumeLayout(false);
-            this.SandsPage.ResumeLayout(false);
-            this.BlockedPage.ResumeLayout(false);
-            this.DepositsPage.ResumeLayout(false);
-            this.DoodadsPage.ResumeLayout(false);
-            this.BlockedDoodadsPage.ResumeLayout(false);
-            this.AnimalsPage.ResumeLayout(false);
-            this.AmbientsPage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.GitHubIcon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ModDBIcon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.PlainsPage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.PlainsArrow)).EndInit();
+            this.RocksPage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.RocksArrow)).EndInit();
+            this.SandsPage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.SandsArrow)).EndInit();
+            this.BlockedPage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.BlockedArrow)).EndInit();
+            this.DepositsPage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.DepositsArrow)).EndInit();
+            this.DoodadsPage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.DoodadsArrow)).EndInit();
+            this.BlockedDoodadsPage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.BlockedDoodadsArrow)).EndInit();
+            this.AnimalsPage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.AnimalsArrow)).EndInit();
+            this.AmbientsPage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.AmbientsArrow)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

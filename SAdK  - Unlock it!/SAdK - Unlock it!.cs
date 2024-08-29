@@ -236,7 +236,7 @@ namespace SAdK____Unlock_it_
         {
             if (Plains10.SelectedIndex != -1 && PlainsAdK.SelectedIndex != -1)
             {
-                // If somenthing is selected index can be read
+                // If something is selected then index can be read
                 int Plains10Index = Plains10.SelectedIndex;
                 int PlainsAdKIndex = PlainsAdK.SelectedIndex;
                 string destinationPath = Path.GetFileName(FilePath.Text);
@@ -245,137 +245,137 @@ namespace SAdK____Unlock_it_
 
                 //10th Anniversary
 
-                //DO NOT USE
+                //DO NOT USE (z_acre_00)
                 if (Plains10Index == 0)
                 {
                     hexToReplace = "1a7056ca";
                 }
-                //meadow
+                //meadow (z_meadow_00)
                 if (Plains10Index == 1)
                 {
                     hexToReplace = "e3e8e4bf";
                 }
-                //meadow yellow flowers
+                //meadow yellow flowers (z_meadow_01)
                 if (Plains10Index == 2)
                 {
                     hexToReplace = "c1fa4545";
                 }
-                //earth
+                //earth (z_meadow_02)
                 if (Plains10Index == 3)
                 {
                     hexToReplace = "c2fa4545";
                 }
-                //meadow bright
+                //meadow bright (z_meadow_03)
                 if (Plains10Index == 4)
                 {
                     hexToReplace = "c3fa4545";
                 }
-                //leaf
+                //leaf (z_meadow_04)
                 if (Plains10Index == 5)
                 {
                     hexToReplace = "c4fa4545";
                 }
-                //meadow leaf
+                //meadow leaf (z_meadow_05)
                 if (Plains10Index == 6)
                 {
                     hexToReplace = "c5fa4545";
                 }
-                //meadow dark small
+                //meadow dark small (z_meadow_06)
                 if (Plains10Index == 7)
                 {
                     hexToReplace = "c6fa4545";
                 }
-                //meadow red flowers
+                //meadow red flowers (z_meadow_07)
                 if (Plains10Index == 8)
                 {
                     hexToReplace = "c7fa4545";
                 }
-                //§§Desert meadow
+                //§§Desert meadow (z_meadow_09)
                 if (Plains10Index == 9)
                 {
                     hexToReplace = "c9fa4545";
                 }
-                //sand stones
+                //sand stones (z_sand_01)
                 if (Plains10Index == 10)
                 {
                     hexToReplace = "0eb0deba";
                 }
-                //§§Desert earth
+                //§§Desert earth (z_earth_01)
                 if (Plains10Index == 11)
                 {
                     hexToReplace = "c0a87f77";
                 }
-                //stone ground
+                //stone ground (z_rock_09)
                 if (Plains10Index == 12)
                 {
                     hexToReplace = "05cbfeca";
                 }
-                //swamp meadow (unblocked)
+                //swamp meadow (unblocked) (z_swamp_02)
                 if (Plains10Index == 13)
                 {
                     hexToReplace = "e6040068";
                 }
-                //HARBOR
+                //HARBOR (z_pavement_00)
                 if (Plains10Index == 14)
                 {
                     hexToReplace = "01decade";
                 }
-                //meadow ground
+                //meadow ground (z_ground_00)
                 if (Plains10Index == 15)
                 {
                     hexToReplace = "10115ede";
                 }
-                //((00 LAVA ground
+                //((00 LAVA ground (l_ground_00)
                 if (Plains10Index == 16)
                 {
                     hexToReplace = "02decade";
                 }
-                //((00 LAVA ground rough
+                //((00 LAVA ground rough (l_ground_02)
                 if (Plains10Index == 17)
                 {
                     hexToReplace = "07decade";
                 }
-                //((00 LAVA ground flat
+                //((00 LAVA ground flat (l_ground_04)
                 if (Plains10Index == 18)
                 {
                     hexToReplace = "09decade";
                 }
-                //((00 LAVA Meadow 00
+                //((00 LAVA Meadow 00 (l_meadow_00)
                 if (Plains10Index == 19)
                 {
                     hexToReplace = "70db7af6";
                 }
-                //!!!MED meadow 00
+                //!!!MED meadow 00 (m_meadow_00)
                 if (Plains10Index == 20)
                 {
                     hexToReplace = "60a51cfa";
                 }
-                //!!!MED meadow 01
+                //!!!MED meadow 01 (m_meadow_01)
                 if (Plains10Index == 21)
                 {
                     hexToReplace = "61a51cfa";
                 }
-                //!!!MED meadow 02
+                //!!!MED meadow 02 (m_meadow_02)
                 if (Plains10Index == 22)
                 {
                     hexToReplace = "62a51cfa";
                 }
-                //!!!MED meadow 03
+                //!!!MED meadow 03 (m_meadow_03)
                 if (Plains10Index == 23)
                 {
                     hexToReplace = "63a51cfa";
                 }
-                //!!!MED ground 00
+                //!!!MED ground 00 (m_ground_00)
                 if (Plains10Index == 24)
                 {
                     hexToReplace = "70a51cfa";
                 }
-                //!!!MED ground 01
+                //!!!MED ground 01 (m_ground_01)
                 if (Plains10Index == 25)
                 {
                     hexToReplace = "71a51cfa";
                 }
-                //!!!MED stone ground
+                //!!!MED stone ground (m_rock_10)
                 if (Plains10Index == 26)
                 {
                     hexToReplace = "8aa51cfa";
@@ -383,97 +383,97 @@ namespace SAdK____Unlock_it_
 
                 //Aufbruch der Kulturen
 
-                //__Highland meadow bright
+                //__Highland meadow bright (h_meadow_00)
                 if (PlainsAdKIndex == 0)
                 {
                     hexReplacement = "024ac47a";
                 }
-                //__Highland meadow bright rocks
+                //__Highland meadow bright rocks (h_meadow_01)
                 if (PlainsAdKIndex == 1)
                 {
                     hexReplacement = "034ac47a";
                 }
-                //__Highland meadow medium
+                //__Highland meadow medium (h_meadow_02)
                 if (PlainsAdKIndex == 2)
                 {
                     hexReplacement = "044ac47a";
                 }
-                //__Highland meadow medium rocks
+                //__Highland meadow medium rocks (h_meadow_03)
                 if (PlainsAdKIndex == 3)
                 {
                     hexReplacement = "054ac47a";
                 }
-                //__Highland meadow dark
+                //__Highland meadow dark (h_meadow_04)
                 if (PlainsAdKIndex == 4)
                 {
                     hexReplacement = "064ac47a";
                 }
-                //__Highland meadow dark rocks
+                //__Highland meadow dark rocks (h_meadow_05)
                 if (PlainsAdKIndex == 5)
                 {
                     hexReplacement = "074ac47a";
                 }
-                //__Highland earth fir moss
+                //__Highland earth fir moss (h_earth_00)
                 if (PlainsAdKIndex == 6)
                 {
                     hexReplacement = "004dc47a";
                 }
-                //__Highland earth fir
+                //__Highland earth fir (h_earth_01)
                 if (PlainsAdKIndex == 7)
                 {
                     hexReplacement = "014dc47a";
                 }
-                //__Highland earth
+                //__Highland earth (h_earth_02)
                 if (PlainsAdKIndex == 8)
                 {
                     hexReplacement = "024dc47a";
                 }
-                //__Highland stone ground
+                //__Highland stone ground (h_rock_07)
                 if (PlainsAdKIndex == 9)
                 {
                     hexReplacement = "0d4bc47a";
                 }
-                //--Snow meadow
+                //--Snow meadow (s_meadow_00)
                 if (PlainsAdKIndex == 10)
                 {
                     hexReplacement = "0b4ec47a";
                 }
-                //--Snow meadow snow
+                //--Snow meadow snow (s_meadow_01)
                 if (PlainsAdKIndex == 11)
                 {
                     hexReplacement = "0c4ec47a";
                 }
-                //--Snow meadow snow 2
+                //--Snow meadow snow 2 (s_meadow_02)
                 if (PlainsAdKIndex == 12)
                 {
                     hexReplacement = "0d4ec47a";
                 }
-                //--Snow meadow snow 3
+                //--Snow meadow snow 3 (s_meadow_03)
                 if (PlainsAdKIndex == 13)
                 {
                     hexReplacement = "0e4ec47a";
                 }
-                //--Snow meadow Treeground 80x80,200x200
+                //--Snow meadow Treeground 80x80,200x200 (s_meadow_04)
                 if (PlainsAdKIndex == 14)
                 {
                     hexReplacement = "0f4ec47a";
                 }
-                //--Snow meadow Treeground 125x125
+                //--Snow meadow Treeground 125x125 (s_meadow_04a)
                 if (PlainsAdKIndex == 15)
                 {
                     hexReplacement = "104ec47a";
                 }
-                //--Snow meadow Treeground 170x170
+                //--Snow meadow Treeground 170x170 (s_meadow_04b)
                 if (PlainsAdKIndex == 16)
                 {
                     hexReplacement = "114ec47a";
                 }
-                //--Snow meadow Treeground 255x255
+                //--Snow meadow Treeground 255x255 (s_meadow_04c)
                 if (PlainsAdKIndex == 17)
                 {
                     hexReplacement = "124ec47a";
                 }
-                //__Highland swamp meadow (unblocked)
+                //__Highland swamp meadow (unblocked) (h_swamp_02)
                 if (PlainsAdKIndex == 18)
                 {
                     hexReplacement = "124cc47a";
@@ -496,7 +496,7 @@ namespace SAdK____Unlock_it_
         {
             if (Rocks10.SelectedIndex != -1 && RocksAdK.SelectedIndex != -1)
             {
-                // If somenthing is selected index can be read
+                // If something is selected then index can be read
                 int Rocks10Index = Rocks10.SelectedIndex;
                 int RocksAdKIndex = RocksAdK.SelectedIndex;
                 string destinationPath = Path.GetFileName(FilePath.Text);
@@ -505,117 +505,117 @@ namespace SAdK____Unlock_it_
 
                 //10th Anniversary
 
-                //rock
+                //rock (z_rock_00)
                 if (Rocks10Index == 0)
                 {
-                    hexToReplace = "feaf0f0d";
+                    hexToReplace = "feaf0fd0";
                 }
-                //rock big
+                //rock big (z_rock_01)
                 if (Rocks10Index == 1)
                 {
                     hexToReplace = "efbeadde";
                 }
-                //rock small
+                //rock small (z_rock_02)
                 if (Rocks10Index == 2)
                 {
                     hexToReplace = "fecafeca";
                 }
-                //(RES) rocky earth
+                //(RES) rocky earth (z_rock_03)
                 if (Rocks10Index == 3)
                 {
                     hexToReplace = "ffcafeca";
                 }
-                //rock stretched x
+                //rock stretched x (z_rock_04)
                 if (Rocks10Index == 4)
                 {
                     hexToReplace = "00cbfeca";
                 }
-                //rock stretched y
+                //rock stretched y (z_rock_05)
                 if (Rocks10Index == 5)
                 {
                     hexToReplace = "01cbfeca";
                 }
-                //(RES) rocky earth big
+                //(RES) rocky earth big (z_rock_06)
                 if (Rocks10Index == 6)
                 {
                     hexToReplace = "02cbfeca";
                 }
-                //(RES) rocky plants
+                //(RES) rocky plants (z_rock_07)
                 if (Rocks10Index == 7)
                 {
                     hexToReplace = "03cbfeca";
                 }
-                //(RES) rocky earth dark
+                //(RES) rocky earth dark (z_rock_08)
                 if (Rocks10Index == 8)
                 {
                     hexToReplace = "04cbfeca";
                 }
-                //((00 LAVA rock
+                //((00 LAVA rock (l_rock_00)
                 if (Rocks10Index == 9)
                 {
                     hexToReplace = "04decade";
                 }
-                //((00 LAVA rock big
+                //((00 LAVA rock big (l_rock_01)
                 if (Rocks10Index == 10)
                 {
                     hexToReplace = "05decade";
                 }
-                //((00 LAVA rock small
+                //((00 LAVA rock small (l_rock_02)
                 if (Rocks10Index == 11)
                 {
                     hexToReplace = "06decade";
                 }
-                //((00 LAVA rock floating lava
+                //((00 LAVA rock floating lava (l_rock_03)
                 if (Rocks10Index == 12)
                 {
                     hexToReplace = "b0fa87ca";
                 }
-                //!!!MED rock
+                //!!!MED rock (m_rock_00)
                 if (Rocks10Index == 13)
                 {
                     hexToReplace = "80a51cfa";
                 }
-                //!!!MED rock big
+                //!!!MED rock big (m_rock_01)
                 if (Rocks10Index == 14)
                 {
                     hexToReplace = "81a51cfa";
                 }
-                //!!!MED rock small
+                //!!!MED rock small (m_rock_02)
                 if (Rocks10Index == 15)
                 {
                     hexToReplace = "82a51cfa";
                 }
-                //!!!MED rock red
+                //!!!MED rock red (m_rock_03)
                 if (Rocks10Index == 16)
                 {
                     hexToReplace = "83a51cfa";
                 }
-                //!!!MED rock red small
+                //!!!MED rock red small (m_rock_04)
                 if (Rocks10Index == 17)
                 {
                     hexToReplace = "84a51cfa";
                 }
-                //!!!MED rock red big
+                //!!!MED rock red big (m_rock_05)
                 if (Rocks10Index == 18)
                 {
                     hexToReplace = "85a51cfa";
                 }
-                //!!!MED (RES) rocky earth big
+                //!!!MED (RES) rocky earth big (m_rock_06)
                 if (Rocks10Index == 19)
                 {
                     hexToReplace = "86a51cfa";
                 }
-                //!!!MED (RES) rocky plants
+                //!!!MED (RES) rocky plants (m_rock_07)
                 if (Rocks10Index == 20)
                 {
                     hexToReplace = "87a51cfa";
                 }
-                //!!!MED (RES) rocky earth dark
+                //!!!MED (RES) rocky earth dark (m_rock_08)
                 if (Rocks10Index == 21)
                 {
                     hexToReplace = "88a51cfa";
                 }
-                //!!!MED (RES) rocky earth
+                //!!!MED (RES) rocky earth (m_rock_09)
                 if (Rocks10Index == 22)
                 {
                     hexToReplace = "89a51cfa";
@@ -623,57 +623,57 @@ namespace SAdK____Unlock_it_
 
                 //Aufbruch der Kulturen
 
-                //__Highland rock
+                //__Highland rock (h_rock_00)
                 if (RocksAdKIndex == 0)
                 {
                     hexReplacement = "024bc47a";
                 }
-                //__Highland rock big
+                //__Highland rock big (h_rock_01)
                 if (RocksAdKIndex == 1)
                 {
                     hexReplacement = "034bc47a";
                 }
-                //__Highland (RES) rocky earth
+                //__Highland (RES) rocky earth (h_rock_02)
                 if (RocksAdKIndex == 2)
                 {
                     hexReplacement = "044bc47a";
                 }
-                //__Highland rock flat
+                //__Highland rock flat (h_rock_03)
                 if (RocksAdKIndex == 3)
                 {
                     hexReplacement = "054bc47a";
                 }
-                //__Highland rock dark big
+                //__Highland rock dark big (h_rock_04)
                 if (RocksAdKIndex == 4)
                 {
                     hexReplacement = "064bc47a";
                 }
-                //__Highland rock dark flat
+                //__Highland rock dark flat (h_rock_05)
                 if (RocksAdKIndex == 5)
                 {
                     hexReplacement = "074bc47a";
                 }
-                //__Highland rock braid flat
+                //__Highland rock braid flat (h_rock_06)
                 if (RocksAdKIndex == 6)
                 {
                     hexReplacement = "084bc47a";
                 }
-                //--Snow highland rock much
+                //--Snow highland rock much (s_rock_00)
                 if (RocksAdKIndex == 7)
                 {
                     hexReplacement = "094bc47a";
                 }
-                //--Snow highland rock
+                //--Snow highland rock (s_rock_01)
                 if (RocksAdKIndex == 8)
                 {
                     hexReplacement = "0a4bc47a";
                 }
-                //--Snow highland rock part
+                //--Snow highland rock part (s_rock_02)
                 if (RocksAdKIndex == 9)
                 {
                     hexReplacement = "0b4bc47a";
                 }
-                //--Snow (RES) rocky earth
+                //--Snow (RES) rocky earth (s_rock_03)
                 if (RocksAdKIndex == 10)
                 {
                     hexReplacement = "0c4bc47a";
@@ -696,7 +696,7 @@ namespace SAdK____Unlock_it_
         {
             if (Sands10.SelectedIndex != -1 && SandsAdK.SelectedIndex != -1)
             {
-                // If somenthing is selected index can be read
+                // If something is selected then index can be read
                 int Sands10Index = Sands10.SelectedIndex;
                 int SandsAdKIndex = SandsAdK.SelectedIndex;
                 string destinationPath = Path.GetFileName(FilePath.Text);
@@ -705,77 +705,77 @@ namespace SAdK____Unlock_it_
 
                 //10th Anniversary
 
-                //sand
+                //sand (z_sand_00)
                 if (Sands10Index == 0)
                 {
                     hexToReplace = "0db0deba";
                 }
-                //§§Desert sand dune
+                //§§Desert sand dune (z_sand_02)
                 if (Sands10Index == 1)
                 {
                     hexToReplace = "0fb0deba";
                 }
-                //§§Desert sand yellow
+                //§§Desert sand yellow (z_sand_03)
                 if (Sands10Index == 2)
                 {
                     hexToReplace = "10b0deba";
                 }
-                //§§Desert sand small dune
+                //§§Desert sand small dune (z_sand_04)
                 if (Sands10Index == 3)
                 {
                     hexToReplace = "11b0deba";
                 }
-                //§§Desert sand ripple
+                //§§Desert sand ripple (z_sand_05)
                 if (Sands10Index == 4)
                 {
                     hexToReplace = "12b0deba";
                 }
-                //§§Desert sand small ripple
+                //§§Desert sand small ripple (z_sand_06)
                 if (Sands10Index == 5)
                 {
                     hexToReplace = "13b0deba";
                 }
-                //seaground
+                //seaground (z_seaground_00)
                 if (Sands10Index == 6)
                 {
                     hexToReplace = "0bb0beba";
                 }
-                //seaground plants
+                //seaground plants (z_seaground_01)
                 if (Sands10Index == 7)
                 {
                     hexToReplace = "e4743301";
                 }
-                //seaground sand
+                //seaground sand (z_seaground_02)
                 if (Sands10Index == 8)
                 {
                     hexToReplace = "e5743301";
                 }
-                //seaground plants rock
+                //seaground plants rock (z_seaground_03)
                 if (Sands10Index == 9)
                 {
                     hexToReplace = "e6743301";
                 }
-                //seaground rock
+                //seaground rock (z_seaground_04)
                 if (Sands10Index == 10)
                 {
                     hexToReplace = "e7743301";
                 }
-                //seaground rocky
+                //seaground rocky (z_seaground_05)
                 if (Sands10Index == 11)
                 {
                     hexToReplace = "e8743301";
                 }
-                //((00 LAVA Sand 00
+                //((00 LAVA Sand 00 (l_sand_00)
                 if (Sands10Index == 12)
                 {
                     hexToReplace = "70bbcaf1";
                 }
-                //!!!MED seaground rock
+                //!!!MED seaground rock (m_seaground_00)
                 if (Sands10Index == 13)
                 {
                     hexToReplace = "90a51cfa";
                 }
-                //!!!MED seaground rock red
+                //!!!MED seaground rock red (m_seaground_01)
                 if (Sands10Index == 14)
                 {
                     hexToReplace = "91a51cfa";
@@ -783,17 +783,17 @@ namespace SAdK____Unlock_it_
 
                 //Aufbruch der Kulturen
 
-                //__Highland seaground rocks
+                //__Highland seaground rocks (h_seaground_00)
                 if (SandsAdKIndex == 0)
                 {
                     hexReplacement = "024cc47a";
                 }
-                //__Highland seaground rocks dark flat
+                //__Highland seaground rocks dark flat (h_seaground_01)
                 if (SandsAdKIndex == 1)
                 {
                     hexReplacement = "034cc47a";
                 }
-                //__Highland seaground pebbles
+                //__Highland seaground pebbles (h_seaground_02)
                 if (SandsAdKIndex == 2)
                 {
                     hexReplacement = "044cc47a";
@@ -815,7 +815,7 @@ namespace SAdK____Unlock_it_
         {
             if (Blocked10.SelectedIndex != -1 && BlockedAdK.SelectedIndex != -1)
             {
-                // If somenthing is selected index can be read
+                // If something is selected then index can be read
                 int Blocked10Index = Blocked10.SelectedIndex;
                 int BlockedAdKIndex = BlockedAdK.SelectedIndex;
                 string destinationPath = Path.GetFileName(FilePath.Text);
@@ -824,42 +824,42 @@ namespace SAdK____Unlock_it_
 
                 //10th Anniversary
 
-                //border
+                //border (z_border_00)
                 if (Blocked10Index == 0)
                 {
                     hexToReplace = "7318d376";
                 }
-                //water
+                //water (z_water_00)
                 if (Blocked10Index == 1)
                 {
                     hexToReplace = "b3d16bfe";
                 }
-                //snow
+                //snow (z_snow_00)
                 if (Blocked10Index == 2)
                 {
                     hexToReplace = "ffe0ad0f";
                 }
-                //swamp land
+                //swamp land (z_swamp_00)
                 if (Blocked10Index == 3)
                 {
                     hexToReplace = "e4040068";
                 }
-                //swamp water
+                //swamp water (z_swamp_01)
                 if (Blocked10Index == 4)
                 {
                     hexToReplace = "e5040068";
                 }
-                //((00 LAVA 01
+                //((00 LAVA 01 (l_ground_01)
                 if (Blocked10Index == 5)
                 {
                     hexToReplace = "03decade";
                 }
-                //((00 LAVA 02
+                //((00 LAVA 02 (l_ground_03)
                 if (Blocked10Index == 6)
                 {
                     hexToReplace = "08decade";
                 }
-                //((00 LAVA 01 soft
+                //((00 LAVA 01 soft (l_ground_05)
                 if (Blocked10Index == 7)
                 {
                     hexToReplace = "0adecade";
@@ -867,45 +867,45 @@ namespace SAdK____Unlock_it_
 
                 //Aufbruch der Kulturen
 
-                //__Highland swamp land
+                //__Highland swamp land (h_swamp_00)
                 if (BlockedAdKIndex == 0)
                 {
                     hexReplacement = "104cc47a";
                 }
-                //__Highland swamp water
+                //__Highland swamp water (h_swamp_01)
                 if (BlockedAdKIndex == 1)
                 {
                     hexReplacement = "114cc47a";
                 }
-                //--Snow Ice Crackles
+                //--Snow Ice Crackles (s_ice_00)
                 if (BlockedAdKIndex == 2)
                 {
                     hexReplacement = "0e5ec47a";
                 }
-                //--Snow Ice Crackles Dark
+                //--Snow Ice Crackles Dark (s_ice_01)
                 if (BlockedAdKIndex == 3)
                 {
                     hexReplacement = "0f5ec47a";
                 }
-                //--Snow Ice Clean
+                //--Snow Ice Clean (s_ice_02)
                 if (BlockedAdKIndex == 4)
                 {
                     hexReplacement = "105ec47a";
                 }
-                //--Snow Ice Clean Dark
+                //--Snow Ice Clean Dark (s_ice_03)
                 if (BlockedAdKIndex == 5)
+                {
+                    hexReplacement = "135ec47a";
+                }
+                //--Snow medium border (z_snow_01)
+                if (BlockedAdKIndex == 6)
                 {
                     hexReplacement = "115ec47a";
                 }
-                //--Snow medium border
-                if (BlockedAdKIndex == 6)
-                {
-                    hexReplacement = "125ec47a";
-                }
-                //--Snow soft border
+                //--Snow soft border (z_snow_02)
                 if (BlockedAdKIndex == 7)
                 {
-                    hexReplacement = "135ec47a";
+                    hexReplacement = "125ec47a";
                 }
 
                 //MessageBox.Show(hexToReplace);
@@ -924,7 +924,7 @@ namespace SAdK____Unlock_it_
         {
             if (Deposits10.SelectedIndex != -1 && DepositsAdK.SelectedIndex != -1)
             {
-                // If somenthing is selected index can be read
+                // If something is selected then index can be read
                 int Deposits10Index = Deposits10.SelectedIndex;
                 int DepositsAdKIndex = DepositsAdK.SelectedIndex;
                 string destinationPath = Path.GetFileName(FilePath.Text);
