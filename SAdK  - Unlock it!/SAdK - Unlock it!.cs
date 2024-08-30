@@ -1218,7 +1218,7 @@ namespace SAdK____Unlock_it_
         {
             if (Doodads10.SelectedIndex != -1 && DoodadsAdK.SelectedIndex != -1)
             {
-                // If somenthing is selected index can be read
+                // If something is selected then index can be read
                 int Doodads10Index = Doodads10.SelectedIndex;
                 int DoodadsAdKIndex = DoodadsAdK.SelectedIndex;
                 string destinationPath = Path.GetFileName(FilePath.Text);
@@ -1227,502 +1227,502 @@ namespace SAdK____Unlock_it_
 
                 //10th Anniversary
 
-                //bush01
+                //bush01 (doodad_bush_0)
                 if (Doodads10Index == 0)
                 {
                     hexToReplace = "de2e276b";
                 }
-                //stone01
+                //stone01 (doodad_stones_0)
                 if (Doodads10Index == 1)
                 {
                     hexToReplace = "4e1f5c45";
                 }
-                //stone02
+                //stone02 (doodad_stones_1)
                 if (Doodads10Index == 2)
                 {
                     hexToReplace = "3e0236ea";
                 }
-                //stone03
+                //stone03 (doodad_stones_2)
                 if (Doodads10Index == 3)
                 {
                     hexToReplace = "8ed8419f";
                 }
-                //stone04
+                //stone04 (doodad_stones_3)
                 if (Doodads10Index == 4)
                 {
                     hexToReplace = "6ebecba7";
                 }
-                //stone01 grey
+                //stone01 grey (doodad_stones_4)
                 if (Doodads10Index == 5)
                 {
                     hexToReplace = "4f1f5c45";
                 }
-                //stone02 grey
+                //stone02 grey (doodad_stones_5)
                 if (Doodads10Index == 6)
                 {
                     hexToReplace = "3f0236ea";
                 }
-                //stone03 grey
+                //stone03 grey (doodad_stones_6)
                 if (Doodads10Index == 7)
                 {
                     hexToReplace = "8fd8419f";
                 }
-                //stone04 grey
+                //stone04 grey (doodad_stones_7)
                 if (Doodads10Index == 8)
                 {
                     hexToReplace = "6fbecba7";
                 }
-                //dead Tree 1
+                //dead Tree 1 (doodad_deadtree_0)
                 if (Doodads10Index == 9)
                 {
                     hexToReplace = "1ee8bff2";
                 }
-                //dead Tree 2
+                //dead Tree 2 (doodad_deadtree_1)
                 if (Doodads10Index == 10)
                 {
                     hexToReplace = "1fe8bff2";
                 }
-                //grass01
+                //grass01 (doodad_grass_0)
                 if (Doodads10Index == 11)
                 {
                     hexToReplace = "ae37d13a";
                 }
-                //grass02
+                //grass02 (doodad_grass_1)
                 if (Doodads10Index == 12)
                 {
                     hexToReplace = "af37d13a";
                 }
-                //grass03
+                //grass03 (doodad_grass_2)
                 if (Doodads10Index == 13)
                 {
                     hexToReplace = "b037d13a";
                 }
-                //grass04
+                //grass04 (doodad_grass_3)
                 if (Doodads10Index == 14)
                 {
                     hexToReplace = "b137d13a";
                 }
-                //cactus01
+                //cactus01 (doodad_plants_0)
                 if (Doodads10Index == 15)
                 {
                     hexToReplace = "ee502048";
                 }
-                //cactus02
+                //cactus02 (doodad_plants_1)
                 if (Doodads10Index == 16)
                 {
                     hexToReplace = "0e8b06a3";
                 }
-                //cactus03
+                //cactus03 (doodad_plants_2)
                 if (Doodads10Index == 17)
                 {
                     hexToReplace = "7e5b18ec";
                 }
-                //high flower white big
+                //high flower white big (doodad_plants_3)
                 if (Doodads10Index == 18)
                 {
                     hexToReplace = "fecd49fb";
                 }
-                //high flower white
+                //high flower white (doodad_plants_4)
                 if (Doodads10Index == 19)
                 {
                     hexToReplace = "be34d404";
                 }
-                //fern big
+                //fern big (doodad_plants_5)
                 if (Doodads10Index == 20)
                 {
                     hexToReplace = "ce3124a1";
                 }
-                //fern medium
+                //fern medium (doodad_plants_6)
                 if (Doodads10Index == 21)
                 {
                     hexToReplace = "33aef589";
                 }
-                //fern small
+                //fern small (doodad_plants_7)
                 if (Doodads10Index == 22)
                 {
                     hexToReplace = "34aef589";
                 }
-                //high flower red big
+                //high flower red big (doodad_plants_8)
                 if (Doodads10Index == 23)
                 {
                     hexToReplace = "35aef589";
                 }
-                //high flower red
+                //high flower red (doodad_plants_9)
                 if (Doodads10Index == 24)
                 {
                     hexToReplace = "36aef589";
                 }
-                //high flower yellow big
+                //high flower yellow big (doodad_plants_10)
                 if (Doodads10Index == 25)
                 {
                     hexToReplace = "37aef589";
                 }
-                //high flower yellow
+                //high flower yellow (doodad_plants_11)
                 if (Doodads10Index == 26)
                 {
                     hexToReplace = "38aef589";
                 }
-                //cactus04
+                //cactus04 (doodad_plants_12)
                 if (Doodads10Index == 27)
                 {
                     hexToReplace = "39aef589";
                 }
-                //swampthing01
+                //swampthing01 (doodad_swamp_0)
                 if (Doodads10Index == 28)
                 {
                     hexToReplace = "e1bedefa";
                 }
-                //swampthing02
+                //swampthing02 (doodad_swamp_1)
                 if (Doodads10Index == 29)
                 {
                     hexToReplace = "e2bedefa";
                 }
-                //swamp calmus 01
+                //swamp calmus 01 (doodad_swamp_2)
                 if (Doodads10Index == 30)
                 {
                     hexToReplace = "e3bedefa";
                 }
-                //swamp calmus 02
+                //swamp calmus 02 (doodad_swamp_3)
                 if (Doodads10Index == 31)
                 {
                     hexToReplace = "e4bedefa";
                 }
-                //swamp calmus 03
+                //swamp calmus 03 (doodad_swamp_4)
                 if (Doodads10Index == 32)
                 {
                     hexToReplace = "e5bedefa";
                 }
-                //nettle
+                //nettle (doodad_greenery_0)
                 if (Doodads10Index == 33)
                 {
                     hexToReplace = "e1afa10f";
                 }
-                //nettle big
+                //nettle big (doodad_greenery_1)
                 if (Doodads10Index == 34)
                 {
                     hexToReplace = "e2afa10f";
                 }
-                //nettle high
+                //nettle high (doodad_greenery_2)
                 if (Doodads10Index == 35)
                 {
                     hexToReplace = "e3afa10f";
                 }
-                //flower red
+                //flower red (doodad_greenery_3)
                 if (Doodads10Index == 36)
                 {
                     hexToReplace = "e4afa10f";
                 }
-                //flower red big
+                //flower red big (doodad_greenery_4)
                 if (Doodads10Index == 37)
                 {
                     hexToReplace = "e5afa10f";
                 }
-                //flower red high
+                //flower red high (doodad_greenery_5)
                 if (Doodads10Index == 38)
                 {
                     hexToReplace = "e6afa10f";
                 }
-                //flower white
+                //flower white (doodad_greenery_6)
                 if (Doodads10Index == 39)
                 {
                     hexToReplace = "e7afa10f";
                 }
-                //flower white big
+                //flower white big (doodad_greenery_7)
                 if (Doodads10Index == 40)
                 {
                     hexToReplace = "e8afa10f";
                 }
-                //flower white high
+                //flower white high (doodad_greenery_8)
                 if (Doodads10Index == 41)
                 {
                     hexToReplace = "e9afa10f";
                 }
-                //flower yellow
+                //flower yellow (doodad_greenery_9)
                 if (Doodads10Index == 42)
                 {
                     hexToReplace = "eaafa10f";
                 }
-                //flower yellow big
+                //flower yellow big (doodad_greenery_10)
                 if (Doodads10Index == 43)
                 {
                     hexToReplace = "ebafa10f";
                 }
-                //flower yellow high
+                //flower yellow high (doodad_greenery_11)
                 if (Doodads10Index == 44)
                 {
                     hexToReplace = "ecafa10f";
                 }
-                //flower violet
+                //flower violet (doodad_greenery_12)
                 if (Doodads10Index == 45)
                 {
                     hexToReplace = "edafa10f";
                 }
-                //flower violet big
+                //flower violet big (doodad_greenery_13)
                 if (Doodads10Index == 46)
                 {
                     hexToReplace = "eeafa10f";
                 }
-                //flower violet high
+                //flower violet high (doodad_greenery_14)
                 if (Doodads10Index == 47)
                 {
                     hexToReplace = "efafa10f";
                 }
-                //grass translucent
+                //grass translucent (doodad_greenery_15)
                 if (Doodads10Index == 48)
                 {
                     hexToReplace = "f0afa10f";
                 }
-                //grass translucent big dark
+                //grass translucent big dark (doodad_greenery_16)
                 if (Doodads10Index == 49)
                 {
                     hexToReplace = "f1afa10f";
                 }
-                //waterplant 1
+                //waterplant 1 (doodad_waterplant_0)
                 if (Doodads10Index == 50)
                 {
                     hexToReplace = "30a2c6f1";
                 }
-                //waterplant 2
+                //waterplant 2 (doodad_waterplant_1)
                 if (Doodads10Index == 51)
                 {
                     hexToReplace = "31a2c6f1";
                 }
-                //waterplant 3
+                //waterplant 3 (doodad_waterplant_2)
                 if (Doodads10Index == 52)
                 {
                     hexToReplace = "32a2c6f1";
                 }
-                //waterlily 1
+                //waterlily 1 (doodad_waterlily_0)
                 if (Doodads10Index == 53)
                 {
                     hexToReplace = "30a2d6f1";
                 }
-                //waterlily 2
+                //waterlily 2 (doodad_waterlily_1)
                 if (Doodads10Index == 54)
                 {
                     hexToReplace = "31a2d6f1";
                 }
-                //Empty
+                //Empty (doodad_emptySign)
                 if (Doodads10Index == 55)
                 {
                     hexToReplace = "4323f428";
                 }
-                //Water
+                //Water (doodad_waterSign)
                 if (Doodads10Index == 56)
                 {
                     hexToReplace = "43a31a12";
                 }
-                //Coal (few)
+                //Coal (few) (doodad_coalSignS)
                 if (Doodads10Index == 57)
                 {
                     hexToReplace = "93b7ee90";
                 }
-                //Coal (medium)
+                //Coal (medium) (doodad_coalSignM)
                 if (Doodads10Index == 58)
                 {
                     hexToReplace = "436109c5";
                 }
-                //Coal (much)
+                //Coal (much) (doodad_coalSignL)
                 if (Doodads10Index == 59)
                 {
                     hexToReplace = "f36fad00";
                 }
-                //Iron (few)
+                //Iron (few) (doodad_ironSignS)
                 if (Doodads10Index == 60)
                 {
                     hexToReplace = "63e5db45";
                 }
-                //Iron (medium)
+                //Iron (medium) (doodad_ironSignM)
                 if (Doodads10Index == 61)
                 {
                     hexToReplace = "e3523ad3";
                 }
-                //Iron (much)
+                //Iron (much) (doodad_ironSignL)
                 if (Doodads10Index == 62)
                 {
                     hexToReplace = "23f1824b";
                 }
-                //Gold (few)
+                //Gold (few) (doodad_goldSignS)
                 if (Doodads10Index == 63)
                 {
                     hexToReplace = "d31a7796";
                 }
-                //Gold (medium)
+                //Gold (medium) (doodad_goldSignM)
                 if (Doodads10Index == 64)
                 {
                     hexToReplace = "a3c36ae0";
                 }
-                //Gold (much)
+                //Gold (much) (doodad_goldSignL)
                 if (Doodads10Index == 65)
                 {
                     hexToReplace = "23d112e8";
                 }
-                //Granit (few)
+                //Granit (few) (doodad_granitSignS)
                 if (Doodads10Index == 66)
                 {
                     hexToReplace = "93a12431";
                 }
-                //Granit (medium)
+                //Granit (medium) (doodad_granitSignM)
                 if (Doodads10Index == 67)
                 {
                     hexToReplace = "530dcf8e";
                 }
-                //Granit (much)
+                //Granit (much) (doodad_granitSignL)
                 if (Doodads10Index == 68)
                 {
                     hexToReplace = "73476817";
                 }
-                //fingerpost E
+                //fingerpost E (doodad_fingerpost_0)
                 if (Doodads10Index == 69)
                 {
                     hexToReplace = "e0f1a0aa";
                 }
-                //fingerpost SE
+                //fingerpost SE (doodad_fingerpost_1)
                 if (Doodads10Index == 70)
                 {
                     hexToReplace = "e1f1a0aa";
                 }
-                //fingerpost S
+                //fingerpost S (doodad_fingerpost_2)
                 if (Doodads10Index == 71)
                 {
                     hexToReplace = "e2f1a0aa";
                 }
-                //fingerpost SW
+                //fingerpost SW (doodad_fingerpost_3)
                 if (Doodads10Index == 72)
                 {
                     hexToReplace = "e3f1a0aa";
                 }
-                //fingerpost W
+                //fingerpost W (doodad_fingerpost_4)
                 if (Doodads10Index == 73)
                 {
                     hexToReplace = "e4f1a0aa";
                 }
-                //fingerpost NW
+                //fingerpost NW (doodad_fingerpost_5)
                 if (Doodads10Index == 74)
                 {
                     hexToReplace = "e5f1a0aa";
                 }
-                //fingerpost N
+                //fingerpost N (doodad_fingerpost_6)
                 if (Doodads10Index == 75)
                 {
                     hexToReplace = "e6f1a0aa";
                 }
-                //fingerpost NE
+                //fingerpost NE (doodad_fingerpost_7)
                 if (Doodads10Index == 76)
                 {
                     hexToReplace = "e7f1a0aa";
                 }
-                //mushroom red
+                //mushroom red (doodad_mushroom_0)
                 if (Doodads10Index == 77)
                 {
                     hexToReplace = "f0efadac";
                 }
-                //mushroom red big
+                //mushroom red big (doodad_mushroom_1)
                 if (Doodads10Index == 78)
                 {
                     hexToReplace = "f1efadac";
                 }
-                //mushroom brown
+                //mushroom brown (doodad_mushroom_2)
                 if (Doodads10Index == 79)
                 {
                     hexToReplace = "f2efadac";
                 }
-                //mushroom brown big
+                //mushroom brown big (doodad_mushroom_3)
                 if (Doodads10Index == 80)
                 {
                     hexToReplace = "f3efadac";
                 }
-                //agave big
+                //agave big (doodad_agave_0)
                 if (Doodads10Index == 81)
                 {
                     hexToReplace = "f07ca68f";
                 }
-                //agave medium
+                //agave medium (doodad_agave_1)
                 if (Doodads10Index == 82)
                 {
                     hexToReplace = "f17ca68f";
                 }
-                //agave small
+                //agave small (doodad_agave_2)
                 if (Doodads10Index == 83)
                 {
                     hexToReplace = "f27ca68f";
                 }
-                //bones0
+                //bones0 (doodad_bones_0)
                 if (Doodads10Index == 84)
                 {
                     hexToReplace = "9da7f5d5";
                 }
-                //bones1
+                //bones1 (doodad_bones_1)
                 if (Doodads10Index == 85)
                 {
                     hexToReplace = "cd225117";
                 }
-                //bones2
+                //bones2 (doodad_bones_2)
                 if (Doodads10Index == 86)
                 {
                     hexToReplace = "ada44572";
                 }
-                //bones3
+                //bones3 (doodad_bones_3)
                 if (Doodads10Index == 87)
                 {
                     hexToReplace = "5d6e8337";
                 }
-                //wreck
+                //wreck (doodad_wreck_0)
                 if (Doodads10Index == 88)
                 {
                     hexToReplace = "10e211fa";
                 }
-                //wreck big
+                //wreck big (doodad_wreck_1)
                 if (Doodads10Index == 89)
                 {
                     hexToReplace = "11e211fa";
                 }
-                //shell
+                //shell (doodad_shell_0)
                 if (Doodads10Index == 90)
                 {
                     hexToReplace = "10e311fa";
                 }
-                //shell small
+                //shell small (doodad_shell_1)
                 if (Doodads10Index == 91)
                 {
                     hexToReplace = "11e311fa";
                 }
-                //((LAVA fog
+                //((LAVA fog (doodad_lavafog_1)
                 if (Doodads10Index == 92)
                 {
                     hexToReplace = "c017ffaa";
                 }
-                //((LAVA fog high
+                //((LAVA fog high (doodad_lavafog_2)
                 if (Doodads10Index == 93)
                 {
                     hexToReplace = "c117ffaa";
                 }
-                //((LAVA fog highest
+                //((LAVA fog highest (doodad_lavafog_3)
                 if (Doodads10Index == 94)
                 {
                     hexToReplace = "c217ffaa";
                 }
-                //((LAVA fog vertical
+                //((LAVA fog vertical (doodad_lavafog_4)
                 if (Doodads10Index == 95)
                 {
                     hexToReplace = "c317ffaa";
                 }
-                //!!MED nettle
+                //!!MED nettle (doodad_med_greenery_0)
                 if (Doodads10Index == 96)
                 {
                     hexToReplace = "3042a7bc";
                 }
-                //!!MED nettle big
+                //!!MED nettle big (doodad_med_greenery_1)
                 if (Doodads10Index == 97)
                 {
                     hexToReplace = "3142a7bc";
                 }
-                //!!MED nettle high
+                //!!MED nettle high (doodad_med_greenery_2)
                 if (Doodads10Index == 98)
                 {
                     hexToReplace = "3242a7bc";
                 }
-                //DoNotUse-Skull01
+                //DoNotUse-Skull01 (doodad_deadsettler)
                 if (Doodads10Index == 99)
                 {
                     hexToReplace = "130acbda";
@@ -1730,247 +1730,247 @@ namespace SAdK____Unlock_it_
 
                 //Aufbruch der Kulturen
 
-                //Chest
+                //Chest (doodad_chest)
                 if (DoodadsAdKIndex == 0)
                 {
                     hexReplacement = "74be457a";
                 }
-                //OpenChest
+                //OpenChest (doodad_openChest)
                 if (DoodadsAdKIndex == 1)
                 {
                     hexReplacement = "34bff916";
                 }
-                //Anchor
+                //Anchor (doodad_anchor)
                 if (DoodadsAdKIndex == 2)
                 {
                     hexReplacement = "001bfff1";
                 }
-                //Coal (endless)
+                //Coal (endless) (doodad_coalSignX)
                 if (DoodadsAdKIndex == 3)
                 {
                     hexReplacement = "63a05ac5";
                 }
-                //Iron (endless)
+                //Iron (endless) (doodad_ironSignX)
                 if (DoodadsAdKIndex == 4)
                 {
                     hexReplacement = "739d5d8f";
                 }
-                //Gold (endless)
+                //Gold (endless) (doodad_goldSignX)
                 if (DoodadsAdKIndex == 5)
                 {
                     hexReplacement = "63c0ca28";
                 }
-                //Granite (endless)
+                //Granite (endless) (doodad_granitSignX)
                 if (DoodadsAdKIndex == 6)
                 {
                     hexReplacement = "e3d245b2";
                 }
-                //Gemstones (few)
+                //Gemstones (few) (doodad_gemstonesSignS)
                 if (DoodadsAdKIndex == 7)
                 {
                     hexReplacement = "33d2284e";
                 }
-                //Gemstones (medium)
+                //Gemstones (medium) (doodad_gemstonesSignM)
                 if (DoodadsAdKIndex == 8)
                 {
                     hexReplacement = "037696e8";
                 }
-                //Gemstones (much)
+                //Gemstones (much) (doodad_gemstonesSignL)
                 if (DoodadsAdKIndex == 9)
                 {
                     hexReplacement = "536cc52e";
                 }
-                //Gemstones (endless)
+                //Gemstones (endless) (doodad_gemstonesSignX)
                 if (DoodadsAdKIndex == 10)
                 {
                     hexReplacement = "030ddf3a";
                 }
-                //Salt (few)
+                //Salt (few) (doodad_saltSignS)
                 if (DoodadsAdKIndex == 11)
                 {
                     hexReplacement = "c3dc20f2";
                 }
-                //Salt (medium)
+                //Salt (medium) (doodad_saltSignM)
                 if (DoodadsAdKIndex == 12)
                 {
                     hexReplacement = "c33cd777";
                 }
-                //Salt (much)
+                //Salt (much) (doodad_saltSignL)
                 if (DoodadsAdKIndex == 13)
                 {
                     hexReplacement = "f35823bb";
                 }
-                //Salt (endless)
+                //Salt (endless) (doodad_saltSignX)
                 if (DoodadsAdKIndex == 14)
                 {
                     hexReplacement = "a37e3632";
                 }
-                //--Snow Ice Floe 01 moving
+                //--Snow Ice Floe 01 moving (doodad_ice_01moving)
                 if (DoodadsAdKIndex == 15)
                 {
                     hexReplacement = "01bb81a1";
                 }
-                //--Snow Ice Floe 01 static
+                //--Snow Ice Floe 01 static (doodad_ice_01static)
                 if (DoodadsAdKIndex == 16)
                 {
                     hexReplacement = "02bb81a1";
                 }
-                //--Snow Ice Floe 02 static
+                //--Snow Ice Floe 02 static (doodad_ice_02static)
                 if (DoodadsAdKIndex == 17)
                 {
                     hexReplacement = "03bb81a1";
                 }
-                //--Snow Ice Floe 03 static
+                //--Snow Ice Floe 03 static (doodad_ice_03static)
                 if (DoodadsAdKIndex == 18)
                 {
                     hexReplacement = "04bb81a1";
                 }
-                //--Snow Ice Floe 04 static
+                //--Snow Ice Floe 04 static (doodad_ice_04static)
                 if (DoodadsAdKIndex == 19)
                 {
                     hexReplacement = "05bb81a1";
                 }
-                //--Snow Ice Floe 05 static
+                //--Snow Ice Floe 05 static (doodad_ice_05static)
                 if (DoodadsAdKIndex == 20)
                 {
                     hexReplacement = "06bb81a1";
                 }
-                //--Snow Ice Floe 06 moving
+                //--Snow Ice Floe 06 moving (doodad_ice_06moving)
                 if (DoodadsAdKIndex == 21)
                 {
                     hexReplacement = "07bb81a1";
                 }
-                //--Snow Ice Floe 07 moving
+                //--Snow Ice Floe 07 moving (doodad_ice_07moving)
                 if (DoodadsAdKIndex == 22)
                 {
                     hexReplacement = "08bb81a1";
                 }
-                //--Snow Ice Floe 08 moving
+                //--Snow Ice Floe 08 moving (doodad_ice_08moving)
                 if (DoodadsAdKIndex == 23)
                 {
                     hexReplacement = "09bb81a1";
                 }
-                //--Snow Ice Floe 09 moving
+                //--Snow Ice Floe 09 moving (doodad_ice_09moving)
                 if (DoodadsAdKIndex == 24)
                 {
                     hexReplacement = "0abb81a1";
                 }
-                //__Highland fern big
+                //__Highland fern big (doodad_fernHighland_00)
                 if (DoodadsAdKIndex == 25)
                 {
                     hexReplacement = "20bb81a1";
                 }
-                //__Highland fern miedium
+                //__Highland fern miedium (doodad_fernHighland_01)
                 if (DoodadsAdKIndex == 26)
                 {
                     hexReplacement = "21bb81a1";
                 }
-                //__Highland fern small
+                //__Highland fern small (doodad_fernHighland_02)
                 if (DoodadsAdKIndex == 27)
                 {
                     hexReplacement = "22bb81a1";
                 }
-                //__Highland nettle
+                //__Highland nettle (doodad_greeneryHighland_00)
                 if (DoodadsAdKIndex == 28)
                 {
                     hexReplacement = "30bb81a1";
                 }
-                //__Highland nettle big
+                //__Highland nettle big (doodad_greeneryHighland_01)
                 if (DoodadsAdKIndex == 29)
                 {
                     hexReplacement = "31bb81a1";
                 }
-                //__Highland nettle high
+                //__Highland nettle high (doodad_greeneryHighland_02)
                 if (DoodadsAdKIndex == 30)
                 {
                     hexReplacement = "32bb81a1";
                 }
-                //__Highland Edelweiss 1
+                //__Highland Edelweiss 1 (doodad_greeneryHighland_03)
                 if (DoodadsAdKIndex == 31)
                 {
                     hexReplacement = "33bb81a1";
                 }
-                //__Highland Edelweiss 2
+                //__Highland Edelweiss 2 (doodad_greeneryHighland_04)
                 if (DoodadsAdKIndex == 32)
                 {
                     hexReplacement = "34bb81a1";
                 }
-                //__Highland Edelweiss 3
+                //__Highland Edelweiss 3 (doodad_greeneryHighland_05)
                 if (DoodadsAdKIndex == 33)
                 {
                     hexReplacement = "35bb81a1";
                 }
-                //__Highland Snowdrop
+                //__Highland Snowdrop (doodad_greeneryHighland_06)
                 if (DoodadsAdKIndex == 34)
                 {
                     hexReplacement = "36bb81a1";
                 }
-                //__Highland Crocus
+                //__Highland Crocus (doodad_greeneryHighland_07)
                 if (DoodadsAdKIndex == 35)
                 {
                     hexReplacement = "37bb81a1";
                 }
-                //__Highland Foundling 1
+                //__Highland Foundling 1 (doodad_stoneHighland_00)
                 if (DoodadsAdKIndex == 36)
                 {
                     hexReplacement = "40bb81a1";
                 }
-                //__Highland Foundling 2
+                //__Highland Foundling 2 (doodad_stoneHighland_01)
                 if (DoodadsAdKIndex == 37)
                 {
                     hexReplacement = "41bb81a1";
                 }
-                //__Highland Foundling 3
+                //__Highland Foundling 3 (doodad_stoneHighland_02)
                 if (DoodadsAdKIndex == 38)
                 {
                     hexReplacement = "42bb81a1";
                 }
-                //__Highland Underwater Foundling 1
+                //__Highland Underwater Foundling 1 (doodad_stoneHighland_03)
                 if (DoodadsAdKIndex == 39)
                 {
                     hexReplacement = "43bb81a1";
                 }
-                //__Highland Underwater Foundling 2
+                //__Highland Underwater Foundling 2 (doodad_stoneHighland_04)
                 if (DoodadsAdKIndex == 40)
                 {
                     hexReplacement = "44bb81a1";
                 }
-                //__Highland Underwater Foundling 3
+                //__Highland Underwater Foundling 3 (doodad_stoneHighland_05)
                 if (DoodadsAdKIndex == 41)
                 {
                     hexReplacement = "45bb81a1";
                 }
-                //__Highland swamp calmus 01
+                //__Highland swamp calmus 01 (doodad_swamp_Highland2)
                 if (DoodadsAdKIndex == 42)
                 {
                     hexReplacement = "40bc81a1";
                 }
-                //__Highland swamp calmus 02
+                //__Highland swamp calmus 02 (doodad_swamp_Highland3)
                 if (DoodadsAdKIndex == 43)
                 {
                     hexReplacement = "41bc81a1";
                 }
-                //__Highland swamp calmus 03
+                //__Highland swamp calmus 03 (doodad_swamp_Highland4)
                 if (DoodadsAdKIndex == 44)
                 {
                     hexReplacement = "42bc81a1";
                 }
-                //__Highland Fog 01
+                //__Highland Fog 01 (doodad_fogHighland_00)
                 if (DoodadsAdKIndex == 45)
                 {
                     hexReplacement = "00bd81a1";
                 }
-                //__Highland Fog 02
+                //__Highland Fog 02 (doodad_fogHighland_01)
                 if (DoodadsAdKIndex == 46)
                 {
                     hexReplacement = "01bd81a1";
                 }
-                //Male Duck
+                //Male Duck (doodad_duck_00)
                 if (DoodadsAdKIndex == 47)
                 {
                     hexReplacement = "10bd81a1";
                 }
-                //Female Duck
+                //Female Duck (doodad_duck_01)
                 if (DoodadsAdKIndex == 48)
                 {
                     hexReplacement = "11bd81a1";
@@ -1992,7 +1992,7 @@ namespace SAdK____Unlock_it_
         {
             if (BlockedDoodads10.SelectedIndex != -1 && BlockedDoodadsAdK.SelectedIndex != -1)
             {
-                // If somenthing is selected index can be read
+                // If something is selected then index can be read
                 int BlockedDoodads10Index = BlockedDoodads10.SelectedIndex;
                 int BlockedDoodadsAdKIndex = BlockedDoodadsAdK.SelectedIndex;
                 string destinationPath = Path.GetFileName(FilePath.Text);
@@ -2001,62 +2001,62 @@ namespace SAdK____Unlock_it_
 
                 //10th Anniversary
 
-                //Gate01
+                //Gate01 (doodad_gate_0)
                 if (BlockedDoodads10Index == 0)
                 {
                     hexToReplace = "e6bedefa";
                 }
-                //rock 1
+                //rock 1 (doodad_rock_0)
                 if (BlockedDoodads10Index == 1)
                 {
                     hexToReplace = "a0e0af6f";
                 }
-                //rock 2
+                //rock 2 (doodad_rock_1)
                 if (BlockedDoodads10Index == 2)
                 {
                     hexToReplace = "a1e0af6f";
                 }
-                //rock 3
+                //rock 3 (doodad_rock_2)
                 if (BlockedDoodads10Index == 3)
                 {
                     hexToReplace = "a2e0af6f";
                 }
-                //rock 4
+                //rock 4 (doodad_rock_3)
                 if (BlockedDoodads10Index == 4)
                 {
                     hexToReplace = "a3e0af6f";
                 }
-                //((LAVA rock 0
+                //((LAVA rock 0 (doodad_lavarock_0)
                 if (BlockedDoodads10Index == 5)
                 {
                     hexToReplace = "a0eeffca";
                 }
-                //((LAVA rock 1
+                //((LAVA rock 1 (doodad_lavarock_1)
                 if (BlockedDoodads10Index == 6)
                 {
                     hexToReplace = "a1eeffca";
                 }
-                //((LAVA rock 2
+                //((LAVA rock 2 (doodad_lavarock_2)
                 if (BlockedDoodads10Index == 7)
                 {
                     hexToReplace = "a2eeffca";
                 }
-                //!!MED rock 1
+                //!!MED rock 1 (doodad_medrock_0)
                 if (BlockedDoodads10Index == 8)
                 {
                     hexToReplace = "a0c091fa";
                 }
-                //!!MED rock 2
+                //!!MED rock 2 (doodad_medrock_1)
                 if (BlockedDoodads10Index == 9)
                 {
                     hexToReplace = "a1c091fa";
                 }
-                //!MED rock 3
+                //!MED rock 3 (doodad_medrock_2)
                 if (BlockedDoodads10Index == 10)
                 {
                     hexToReplace = "a2c091fa";
                 }
-                //!!MED rock 4
+                //!!MED rock 4 (doodad_medrock_3)
                 if (BlockedDoodads10Index == 11)
                 {
                     hexToReplace = "a3c091fa";
@@ -2064,37 +2064,37 @@ namespace SAdK____Unlock_it_
 
                 //Aufbruch der Kulturen
 
-                //__Highland rock 1
+                //__Highland rock 1 (doodad_rockHighland_00)
                 if (BlockedDoodadsAdKIndex == 0)
                 {
                     hexReplacement = "10bb81a1";
                 }
-                //__Highland rock 2
+                //__Highland rock 2 (doodad_rockHighland_01)
                 if (BlockedDoodadsAdKIndex == 1)
                 {
                     hexReplacement = "11bb81a1";
                 }
-                //__Highland rock 3
+                //__Highland rock 3 (doodad_rockHighland_02)
                 if (BlockedDoodadsAdKIndex == 2)
                 {
                     hexReplacement = "12bb81a1";
                 }
-                //__Highland rock 4
+                //__Highland rock 4 (doodad_rockHighland_03)
                 if (BlockedDoodadsAdKIndex == 3)
                 {
                     hexReplacement = "13bb81a1";
                 }
-                //--Snow Iceberg 1
+                //--Snow Iceberg 1 (doodad_iceberg_00)
                 if (BlockedDoodadsAdKIndex == 4)
                 {
                     hexReplacement = "20102ff2";
                 }
-                //--Snow Iceberg 2
+                //--Snow Iceberg 2 (doodad_iceberg_01)
                 if (BlockedDoodadsAdKIndex == 5)
                 {
                     hexReplacement = "21102ff2";
                 }
-                //Tent
+                //Tent (doodad_tent)
                 if (BlockedDoodadsAdKIndex == 6)
                 {
                     hexReplacement = "032d663d";
@@ -2116,7 +2116,7 @@ namespace SAdK____Unlock_it_
         {
             if (Animals10.SelectedIndex != -1 && AnimalsAdK.SelectedIndex != -1)
             {
-                // If somenthing is selected index can be read
+                // If something is then selected index can be read
                 int Animals10Index = Animals10.SelectedIndex;
                 int AnimalsAdKIndex = AnimalsAdK.SelectedIndex;
                 string destinationPath = Path.GetFileName(FilePath.Text);
@@ -2205,7 +2205,7 @@ namespace SAdK____Unlock_it_
         {
             if (Ambients10.SelectedIndex != -1 && AmbientsAdK.SelectedIndex != -1)
             {
-                // If somenthing is selected index can be read
+                // If something is selected then index can be read
                 int Ambients10Index = Ambients10.SelectedIndex;
                 int AmbientsAdKIndex = AmbientsAdK.SelectedIndex;
                 string destinationPath = Path.GetFileName(FilePath.Text);
