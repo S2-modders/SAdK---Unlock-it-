@@ -173,7 +173,7 @@ namespace SAdK____Unlock_it_
         private void GitHub_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
 
-            string url = "https://github.com/S2-modders";
+            string url = "https://github.com/S2-modders/SAdK---Unlock-it-/issues";
             Process.Start(url);
         }
 

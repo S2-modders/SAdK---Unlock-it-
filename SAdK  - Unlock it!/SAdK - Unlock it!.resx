@@ -126,13 +126,13 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="GitHubIcon.Location" type="System.Drawing.Point, System.Drawing">
-    <value>93, 277</value>
+    <value>159, 357</value>
   </data>
   <data name="GitHubIcon.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="GitHubIcon.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 48</value>
+    <value>117, 62</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="GitHubIcon.TabIndex" type="System.Int32, mscorlib">
@@ -157,13 +157,13 @@
     <value>NoControl</value>
   </data>
   <data name="ModDBIcon.Location" type="System.Drawing.Point, System.Drawing">
-    <value>392, 130</value>
+    <value>522, 152</value>
   </data>
   <data name="ModDBIcon.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="ModDBIcon.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 62</value>
+    <value>86, 71</value>
   </data>
   <data name="ModDBIcon.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -187,13 +187,13 @@
     <value>NoControl</value>
   </data>
   <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>93, 130</value>
+    <value>193, 152</value>
   </data>
   <data name="pictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 55</value>
+    <value>99, 64</value>
   </data>
   <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -214,19 +214,19 @@
     <value>True</value>
   </data>
   <data name="GitHubEncouragement.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14.25pt</value>
+    <value>Microsoft Sans Serif, 16.2pt</value>
   </data>
   <data name="GitHubEncouragement.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="GitHubEncouragement.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 244</value>
+    <value>106, 307</value>
   </data>
   <data name="GitHubEncouragement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
   <data name="GitHubEncouragement.Size" type="System.Drawing.Size, System.Drawing">
-    <value>492, 29</value>
+    <value>582, 32</value>
   </data>
   <data name="GitHubEncouragement.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -250,19 +250,19 @@
     <value>True</value>
   </data>
   <data name="GitHub.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14.25pt</value>
+    <value>Microsoft Sans Serif, 16.2pt</value>
   </data>
   <data name="GitHub.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="GitHub.Location" type="System.Drawing.Point, System.Drawing">
-    <value>191, 290</value>
+    <value>284, 387</value>
   </data>
   <data name="GitHub.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
   <data name="GitHub.Size" type="System.Drawing.Size, System.Drawing">
-    <value>181, 29</value>
+    <value>212, 32</value>
   </data>
   <data name="GitHub.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -286,19 +286,19 @@
     <value>True</value>
   </data>
   <data name="MapSite.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14.25pt</value>
+    <value>Microsoft Sans Serif, 16.2pt</value>
   </data>
   <data name="MapSite.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="MapSite.Location" type="System.Drawing.Point, System.Drawing">
-    <value>123, 190</value>
+    <value>207, 216</value>
   </data>
   <data name="MapSite.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
   <data name="MapSite.Size" type="System.Drawing.Size, System.Drawing">
-    <value>321, 29</value>
+    <value>375, 32</value>
   </data>
   <data name="MapSite.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -322,19 +322,19 @@
     <value>True</value>
   </data>
   <data name="Discord.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14.25pt</value>
+    <value>Microsoft Sans Serif, 16.2pt</value>
   </data>
   <data name="Discord.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="Discord.Location" type="System.Drawing.Point, System.Drawing">
-    <value>191, 160</value>
+    <value>300, 184</value>
   </data>
   <data name="Discord.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
   <data name="Discord.Size" type="System.Drawing.Size, System.Drawing">
-    <value>185, 29</value>
+    <value>214, 32</value>
   </data>
   <data name="Discord.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -358,19 +358,19 @@
     <value>True</value>
   </data>
   <data name="SupportUs.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14.25pt</value>
+    <value>Microsoft Sans Serif, 16.2pt</value>
   </data>
   <data name="SupportUs.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="SupportUs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>215, 130</value>
+    <value>317, 152</value>
   </data>
   <data name="SupportUs.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
   <data name="SupportUs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 29</value>
+    <value>159, 32</value>
   </data>
   <data name="SupportUs.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -391,19 +391,19 @@
     <value>7</value>
   </data>
   <data name="SaveButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
+    <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="SaveButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="SaveButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>223, 98</value>
+    <value>309, 107</value>
   </data>
   <data name="SaveButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="SaveButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 28</value>
+    <value>174, 38</value>
   </data>
   <data name="SaveButton.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -427,19 +427,19 @@
     <value>True</value>
   </data>
   <data name="SaveInfoConsequences.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 15pt</value>
+    <value>Microsoft Sans Serif, 16.2pt</value>
   </data>
   <data name="SaveInfoConsequences.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="SaveInfoConsequences.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 64</value>
+    <value>63, 71</value>
   </data>
   <data name="SaveInfoConsequences.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
   <data name="SaveInfoConsequences.Size" type="System.Drawing.Size, System.Drawing">
-    <value>573, 29</value>
+    <value>644, 32</value>
   </data>
   <data name="SaveInfoConsequences.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -463,19 +463,19 @@
     <value>True</value>
   </data>
   <data name="SaveInfoAutomatically.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 11.25pt</value>
+    <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="SaveInfoAutomatically.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="SaveInfoAutomatically.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 42</value>
+    <value>90, 46</value>
   </data>
   <data name="SaveInfoAutomatically.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
   <data name="SaveInfoAutomatically.Size" type="System.Drawing.Size, System.Drawing">
-    <value>544, 24</value>
+    <value>565, 25</value>
   </data>
   <data name="SaveInfoAutomatically.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -499,19 +499,19 @@
     <value>True</value>
   </data>
   <data name="SaveInfoWarning.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 20.25pt</value>
+    <value>Microsoft Sans Serif, 22.2pt</value>
   </data>
   <data name="SaveInfoWarning.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="SaveInfoWarning.Location" type="System.Drawing.Point, System.Drawing">
-    <value>167, 4</value>
+    <value>251, 4</value>
   </data>
   <data name="SaveInfoWarning.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
   <data name="SaveInfoWarning.Size" type="System.Drawing.Size, System.Drawing">
-    <value>238, 39</value>
+    <value>263, 42</value>
   </data>
   <data name="SaveInfoWarning.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -541,7 +541,7 @@
     <value>4, 4, 4, 4</value>
   </data>
   <data name="SaveAndInfoPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>593, 332</value>
+    <value>748, 462</value>
   </data>
   <data name="SaveAndInfoPage.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -561,713 +561,11 @@
   <data name="&gt;&gt;SaveAndInfoPage.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;PlainsButton.Name" xml:space="preserve">
-    <value>PlainsButton</value>
-  </data>
-  <data name="&gt;&gt;PlainsButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;PlainsButton.Parent" xml:space="preserve">
-    <value>PlainsPage</value>
-  </data>
-  <data name="&gt;&gt;PlainsButton.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;PlainsArrow.Name" xml:space="preserve">
-    <value>PlainsArrow</value>
-  </data>
-  <data name="&gt;&gt;PlainsArrow.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;PlainsArrow.Parent" xml:space="preserve">
-    <value>PlainsPage</value>
-  </data>
-  <data name="&gt;&gt;PlainsArrow.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;PlainsAdK.Name" xml:space="preserve">
-    <value>PlainsAdK</value>
-  </data>
-  <data name="&gt;&gt;PlainsAdK.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;PlainsAdK.Parent" xml:space="preserve">
-    <value>PlainsPage</value>
-  </data>
-  <data name="&gt;&gt;PlainsAdK.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;Plains10.Name" xml:space="preserve">
-    <value>Plains10</value>
-  </data>
-  <data name="&gt;&gt;Plains10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Plains10.Parent" xml:space="preserve">
-    <value>PlainsPage</value>
-  </data>
-  <data name="&gt;&gt;Plains10.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="PlainsPage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 25</value>
-  </data>
-  <data name="PlainsPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="PlainsPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="PlainsPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>593, 332</value>
-  </data>
-  <data name="PlainsPage.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="PlainsPage.Text" xml:space="preserve">
-    <value>Plains</value>
-  </data>
-  <data name="&gt;&gt;PlainsPage.Name" xml:space="preserve">
-    <value>PlainsPage</value>
-  </data>
-  <data name="&gt;&gt;PlainsPage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;PlainsPage.Parent" xml:space="preserve">
-    <value>PagesWithCategories</value>
-  </data>
-  <data name="&gt;&gt;PlainsPage.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;RocksButton.Name" xml:space="preserve">
-    <value>RocksButton</value>
-  </data>
-  <data name="&gt;&gt;RocksButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;RocksButton.Parent" xml:space="preserve">
-    <value>RocksPage</value>
-  </data>
-  <data name="&gt;&gt;RocksButton.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;RocksArrow.Name" xml:space="preserve">
-    <value>RocksArrow</value>
-  </data>
-  <data name="&gt;&gt;RocksArrow.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;RocksArrow.Parent" xml:space="preserve">
-    <value>RocksPage</value>
-  </data>
-  <data name="&gt;&gt;RocksArrow.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;RocksAdK.Name" xml:space="preserve">
-    <value>RocksAdK</value>
-  </data>
-  <data name="&gt;&gt;RocksAdK.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;RocksAdK.Parent" xml:space="preserve">
-    <value>RocksPage</value>
-  </data>
-  <data name="&gt;&gt;RocksAdK.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;Rocks10.Name" xml:space="preserve">
-    <value>Rocks10</value>
-  </data>
-  <data name="&gt;&gt;Rocks10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Rocks10.Parent" xml:space="preserve">
-    <value>RocksPage</value>
-  </data>
-  <data name="&gt;&gt;Rocks10.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="RocksPage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 25</value>
-  </data>
-  <data name="RocksPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="RocksPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>593, 332</value>
-  </data>
-  <data name="RocksPage.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="RocksPage.Text" xml:space="preserve">
-    <value>Rocks</value>
-  </data>
-  <data name="&gt;&gt;RocksPage.Name" xml:space="preserve">
-    <value>RocksPage</value>
-  </data>
-  <data name="&gt;&gt;RocksPage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;RocksPage.Parent" xml:space="preserve">
-    <value>PagesWithCategories</value>
-  </data>
-  <data name="&gt;&gt;RocksPage.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;SandsAdK.Name" xml:space="preserve">
-    <value>SandsAdK</value>
-  </data>
-  <data name="&gt;&gt;SandsAdK.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SandsAdK.Parent" xml:space="preserve">
-    <value>SandsPage</value>
-  </data>
-  <data name="&gt;&gt;SandsAdK.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;Sands10.Name" xml:space="preserve">
-    <value>Sands10</value>
-  </data>
-  <data name="&gt;&gt;Sands10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Sands10.Parent" xml:space="preserve">
-    <value>SandsPage</value>
-  </data>
-  <data name="&gt;&gt;Sands10.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;SandsButton.Name" xml:space="preserve">
-    <value>SandsButton</value>
-  </data>
-  <data name="&gt;&gt;SandsButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SandsButton.Parent" xml:space="preserve">
-    <value>SandsPage</value>
-  </data>
-  <data name="&gt;&gt;SandsButton.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;SandsArrow.Name" xml:space="preserve">
-    <value>SandsArrow</value>
-  </data>
-  <data name="&gt;&gt;SandsArrow.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SandsArrow.Parent" xml:space="preserve">
-    <value>SandsPage</value>
-  </data>
-  <data name="&gt;&gt;SandsArrow.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="SandsPage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 25</value>
-  </data>
-  <data name="SandsPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="SandsPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>593, 332</value>
-  </data>
-  <data name="SandsPage.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="SandsPage.Text" xml:space="preserve">
-    <value>Sands</value>
-  </data>
-  <data name="&gt;&gt;SandsPage.Name" xml:space="preserve">
-    <value>SandsPage</value>
-  </data>
-  <data name="&gt;&gt;SandsPage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SandsPage.Parent" xml:space="preserve">
-    <value>PagesWithCategories</value>
-  </data>
-  <data name="&gt;&gt;SandsPage.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;BlockedAdK.Name" xml:space="preserve">
-    <value>BlockedAdK</value>
-  </data>
-  <data name="&gt;&gt;BlockedAdK.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BlockedAdK.Parent" xml:space="preserve">
-    <value>BlockedPage</value>
-  </data>
-  <data name="&gt;&gt;BlockedAdK.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;Blocked10.Name" xml:space="preserve">
-    <value>Blocked10</value>
-  </data>
-  <data name="&gt;&gt;Blocked10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Blocked10.Parent" xml:space="preserve">
-    <value>BlockedPage</value>
-  </data>
-  <data name="&gt;&gt;Blocked10.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;BlockedButton.Name" xml:space="preserve">
-    <value>BlockedButton</value>
-  </data>
-  <data name="&gt;&gt;BlockedButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BlockedButton.Parent" xml:space="preserve">
-    <value>BlockedPage</value>
-  </data>
-  <data name="&gt;&gt;BlockedButton.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;BlockedArrow.Name" xml:space="preserve">
-    <value>BlockedArrow</value>
-  </data>
-  <data name="&gt;&gt;BlockedArrow.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BlockedArrow.Parent" xml:space="preserve">
-    <value>BlockedPage</value>
-  </data>
-  <data name="&gt;&gt;BlockedArrow.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="BlockedPage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 25</value>
-  </data>
-  <data name="BlockedPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="BlockedPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>593, 332</value>
-  </data>
-  <data name="BlockedPage.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="BlockedPage.Text" xml:space="preserve">
-    <value>Blocked</value>
-  </data>
-  <data name="&gt;&gt;BlockedPage.Name" xml:space="preserve">
-    <value>BlockedPage</value>
-  </data>
-  <data name="&gt;&gt;BlockedPage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BlockedPage.Parent" xml:space="preserve">
-    <value>PagesWithCategories</value>
-  </data>
-  <data name="&gt;&gt;BlockedPage.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;DepositsAdK.Name" xml:space="preserve">
-    <value>DepositsAdK</value>
-  </data>
-  <data name="&gt;&gt;DepositsAdK.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DepositsAdK.Parent" xml:space="preserve">
-    <value>DepositsPage</value>
-  </data>
-  <data name="&gt;&gt;DepositsAdK.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;Deposits10.Name" xml:space="preserve">
-    <value>Deposits10</value>
-  </data>
-  <data name="&gt;&gt;Deposits10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Deposits10.Parent" xml:space="preserve">
-    <value>DepositsPage</value>
-  </data>
-  <data name="&gt;&gt;Deposits10.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;DepositsButton.Name" xml:space="preserve">
-    <value>DepositsButton</value>
-  </data>
-  <data name="&gt;&gt;DepositsButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DepositsButton.Parent" xml:space="preserve">
-    <value>DepositsPage</value>
-  </data>
-  <data name="&gt;&gt;DepositsButton.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;DepositsArrow.Name" xml:space="preserve">
-    <value>DepositsArrow</value>
-  </data>
-  <data name="&gt;&gt;DepositsArrow.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DepositsArrow.Parent" xml:space="preserve">
-    <value>DepositsPage</value>
-  </data>
-  <data name="&gt;&gt;DepositsArrow.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="DepositsPage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 25</value>
-  </data>
-  <data name="DepositsPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="DepositsPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>593, 332</value>
-  </data>
-  <data name="DepositsPage.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="DepositsPage.Text" xml:space="preserve">
-    <value>Deposits</value>
-  </data>
-  <data name="&gt;&gt;DepositsPage.Name" xml:space="preserve">
-    <value>DepositsPage</value>
-  </data>
-  <data name="&gt;&gt;DepositsPage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DepositsPage.Parent" xml:space="preserve">
-    <value>PagesWithCategories</value>
-  </data>
-  <data name="&gt;&gt;DepositsPage.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;DoodadsAdK.Name" xml:space="preserve">
-    <value>DoodadsAdK</value>
-  </data>
-  <data name="&gt;&gt;DoodadsAdK.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DoodadsAdK.Parent" xml:space="preserve">
-    <value>DoodadsPage</value>
-  </data>
-  <data name="&gt;&gt;DoodadsAdK.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;Doodads10.Name" xml:space="preserve">
-    <value>Doodads10</value>
-  </data>
-  <data name="&gt;&gt;Doodads10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Doodads10.Parent" xml:space="preserve">
-    <value>DoodadsPage</value>
-  </data>
-  <data name="&gt;&gt;Doodads10.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;DoodadsButton.Name" xml:space="preserve">
-    <value>DoodadsButton</value>
-  </data>
-  <data name="&gt;&gt;DoodadsButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DoodadsButton.Parent" xml:space="preserve">
-    <value>DoodadsPage</value>
-  </data>
-  <data name="&gt;&gt;DoodadsButton.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;DoodadsArrow.Name" xml:space="preserve">
-    <value>DoodadsArrow</value>
-  </data>
-  <data name="&gt;&gt;DoodadsArrow.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DoodadsArrow.Parent" xml:space="preserve">
-    <value>DoodadsPage</value>
-  </data>
-  <data name="&gt;&gt;DoodadsArrow.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="DoodadsPage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 25</value>
-  </data>
-  <data name="DoodadsPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="DoodadsPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>593, 332</value>
-  </data>
-  <data name="DoodadsPage.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="DoodadsPage.Text" xml:space="preserve">
-    <value>Doodads</value>
-  </data>
-  <data name="&gt;&gt;DoodadsPage.Name" xml:space="preserve">
-    <value>DoodadsPage</value>
-  </data>
-  <data name="&gt;&gt;DoodadsPage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DoodadsPage.Parent" xml:space="preserve">
-    <value>PagesWithCategories</value>
-  </data>
-  <data name="&gt;&gt;DoodadsPage.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;BlockedDoodadsAdK.Name" xml:space="preserve">
-    <value>BlockedDoodadsAdK</value>
-  </data>
-  <data name="&gt;&gt;BlockedDoodadsAdK.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BlockedDoodadsAdK.Parent" xml:space="preserve">
-    <value>BlockedDoodadsPage</value>
-  </data>
-  <data name="&gt;&gt;BlockedDoodadsAdK.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;BlockedDoodads10.Name" xml:space="preserve">
-    <value>BlockedDoodads10</value>
-  </data>
-  <data name="&gt;&gt;BlockedDoodads10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BlockedDoodads10.Parent" xml:space="preserve">
-    <value>BlockedDoodadsPage</value>
-  </data>
-  <data name="&gt;&gt;BlockedDoodads10.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;BlockedDoodadsButton.Name" xml:space="preserve">
-    <value>BlockedDoodadsButton</value>
-  </data>
-  <data name="&gt;&gt;BlockedDoodadsButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BlockedDoodadsButton.Parent" xml:space="preserve">
-    <value>BlockedDoodadsPage</value>
-  </data>
-  <data name="&gt;&gt;BlockedDoodadsButton.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;BlockedDoodadsArrow.Name" xml:space="preserve">
-    <value>BlockedDoodadsArrow</value>
-  </data>
-  <data name="&gt;&gt;BlockedDoodadsArrow.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BlockedDoodadsArrow.Parent" xml:space="preserve">
-    <value>BlockedDoodadsPage</value>
-  </data>
-  <data name="&gt;&gt;BlockedDoodadsArrow.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="BlockedDoodadsPage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 25</value>
-  </data>
-  <data name="BlockedDoodadsPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="BlockedDoodadsPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>593, 332</value>
-  </data>
-  <data name="BlockedDoodadsPage.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="BlockedDoodadsPage.Text" xml:space="preserve">
-    <value>Blocked Doodads</value>
-  </data>
-  <data name="&gt;&gt;BlockedDoodadsPage.Name" xml:space="preserve">
-    <value>BlockedDoodadsPage</value>
-  </data>
-  <data name="&gt;&gt;BlockedDoodadsPage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BlockedDoodadsPage.Parent" xml:space="preserve">
-    <value>PagesWithCategories</value>
-  </data>
-  <data name="&gt;&gt;BlockedDoodadsPage.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;AnimalsAdK.Name" xml:space="preserve">
-    <value>AnimalsAdK</value>
-  </data>
-  <data name="&gt;&gt;AnimalsAdK.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;AnimalsAdK.Parent" xml:space="preserve">
-    <value>AnimalsPage</value>
-  </data>
-  <data name="&gt;&gt;AnimalsAdK.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;Animals10.Name" xml:space="preserve">
-    <value>Animals10</value>
-  </data>
-  <data name="&gt;&gt;Animals10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Animals10.Parent" xml:space="preserve">
-    <value>AnimalsPage</value>
-  </data>
-  <data name="&gt;&gt;Animals10.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;AnimalsButton.Name" xml:space="preserve">
-    <value>AnimalsButton</value>
-  </data>
-  <data name="&gt;&gt;AnimalsButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;AnimalsButton.Parent" xml:space="preserve">
-    <value>AnimalsPage</value>
-  </data>
-  <data name="&gt;&gt;AnimalsButton.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;AnimalsArrow.Name" xml:space="preserve">
-    <value>AnimalsArrow</value>
-  </data>
-  <data name="&gt;&gt;AnimalsArrow.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;AnimalsArrow.Parent" xml:space="preserve">
-    <value>AnimalsPage</value>
-  </data>
-  <data name="&gt;&gt;AnimalsArrow.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="AnimalsPage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 25</value>
-  </data>
-  <data name="AnimalsPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="AnimalsPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>593, 332</value>
-  </data>
-  <data name="AnimalsPage.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="AnimalsPage.Text" xml:space="preserve">
-    <value>Animals</value>
-  </data>
-  <data name="&gt;&gt;AnimalsPage.Name" xml:space="preserve">
-    <value>AnimalsPage</value>
-  </data>
-  <data name="&gt;&gt;AnimalsPage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;AnimalsPage.Parent" xml:space="preserve">
-    <value>PagesWithCategories</value>
-  </data>
-  <data name="&gt;&gt;AnimalsPage.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;AmbientsAdK.Name" xml:space="preserve">
-    <value>AmbientsAdK</value>
-  </data>
-  <data name="&gt;&gt;AmbientsAdK.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;AmbientsAdK.Parent" xml:space="preserve">
-    <value>AmbientsPage</value>
-  </data>
-  <data name="&gt;&gt;AmbientsAdK.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;Ambients10.Name" xml:space="preserve">
-    <value>Ambients10</value>
-  </data>
-  <data name="&gt;&gt;Ambients10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Ambients10.Parent" xml:space="preserve">
-    <value>AmbientsPage</value>
-  </data>
-  <data name="&gt;&gt;Ambients10.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;AmbientsButton.Name" xml:space="preserve">
-    <value>AmbientsButton</value>
-  </data>
-  <data name="&gt;&gt;AmbientsButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;AmbientsButton.Parent" xml:space="preserve">
-    <value>AmbientsPage</value>
-  </data>
-  <data name="&gt;&gt;AmbientsButton.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;AmbientsArrow.Name" xml:space="preserve">
-    <value>AmbientsArrow</value>
-  </data>
-  <data name="&gt;&gt;AmbientsArrow.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;AmbientsArrow.Parent" xml:space="preserve">
-    <value>AmbientsPage</value>
-  </data>
-  <data name="&gt;&gt;AmbientsArrow.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="AmbientsPage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 25</value>
-  </data>
-  <data name="AmbientsPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="AmbientsPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>593, 332</value>
-  </data>
-  <data name="AmbientsPage.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="AmbientsPage.Text" xml:space="preserve">
-    <value>Ambients</value>
-  </data>
-  <data name="&gt;&gt;AmbientsPage.Name" xml:space="preserve">
-    <value>AmbientsPage</value>
-  </data>
-  <data name="&gt;&gt;AmbientsPage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;AmbientsPage.Parent" xml:space="preserve">
-    <value>PagesWithCategories</value>
-  </data>
-  <data name="&gt;&gt;AmbientsPage.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="PagesWithCategories.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-1, 37</value>
-  </data>
-  <data name="PagesWithCategories.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="PagesWithCategories.Size" type="System.Drawing.Size, System.Drawing">
-    <value>601, 361</value>
-  </data>
-  <data name="PagesWithCategories.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;PagesWithCategories.Name" xml:space="preserve">
-    <value>PagesWithCategories</value>
-  </data>
-  <data name="&gt;&gt;PagesWithCategories.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;PagesWithCategories.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;PagesWithCategories.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="PlainsButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="PlainsButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 297</value>
+    <value>317, 426</value>
   </data>
   <data name="PlainsButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -1353,7 +651,7 @@
     <value>NoControl</value>
   </data>
   <data name="PlainsArrow.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 7</value>
+    <value>317, 4</value>
   </data>
   <data name="PlainsArrow.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -1437,13 +735,13 @@
     <value>__Highland swamp meadow (unblocked)</value>
   </data>
   <data name="PlainsAdK.Location" type="System.Drawing.Point, System.Drawing">
-    <value>328, 0</value>
+    <value>439, 4</value>
   </data>
   <data name="PlainsAdK.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="PlainsAdK.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 324</value>
+    <value>305, 452</value>
   </data>
   <data name="PlainsAdK.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1545,13 +843,13 @@
     <value>!!!MED stone ground</value>
   </data>
   <data name="Plains10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+    <value>4, 4</value>
   </data>
   <data name="Plains10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="Plains10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 324</value>
+    <value>305, 452</value>
   </data>
   <data name="Plains10.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1568,11 +866,41 @@
   <data name="&gt;&gt;Plains10.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="PlainsPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="PlainsPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="PlainsPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="PlainsPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>748, 462</value>
+  </data>
+  <data name="PlainsPage.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="PlainsPage.Text" xml:space="preserve">
+    <value>Plains</value>
+  </data>
+  <data name="&gt;&gt;PlainsPage.Name" xml:space="preserve">
+    <value>PlainsPage</value>
+  </data>
+  <data name="&gt;&gt;PlainsPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PlainsPage.Parent" xml:space="preserve">
+    <value>PagesWithCategories</value>
+  </data>
+  <data name="&gt;&gt;PlainsPage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="RocksButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="RocksButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>256, 297</value>
+    <value>317, 428</value>
   </data>
   <data name="RocksButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -1658,7 +986,7 @@
     <value>NoControl</value>
   </data>
   <data name="RocksArrow.Location" type="System.Drawing.Point, System.Drawing">
-    <value>256, 4</value>
+    <value>317, 4</value>
   </data>
   <data name="RocksArrow.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -1718,13 +1046,13 @@
     <value>--Snow (RES) rocky earth</value>
   </data>
   <data name="RocksAdK.Location" type="System.Drawing.Point, System.Drawing">
-    <value>364, 0</value>
+    <value>439, 4</value>
   </data>
   <data name="RocksAdK.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="RocksAdK.Size" type="System.Drawing.Size, System.Drawing">
-    <value>225, 324</value>
+    <value>305, 452</value>
   </data>
   <data name="RocksAdK.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1814,13 +1142,13 @@
     <value>!!!MED (RES) rocky earth</value>
   </data>
   <data name="Rocks10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+    <value>4, 4</value>
   </data>
   <data name="Rocks10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="Rocks10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>247, 324</value>
+    <value>305, 452</value>
   </data>
   <data name="Rocks10.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1837,6 +1165,33 @@
   <data name="&gt;&gt;Rocks10.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="RocksPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="RocksPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="RocksPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>748, 462</value>
+  </data>
+  <data name="RocksPage.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="RocksPage.Text" xml:space="preserve">
+    <value>Rocks</value>
+  </data>
+  <data name="&gt;&gt;RocksPage.Name" xml:space="preserve">
+    <value>RocksPage</value>
+  </data>
+  <data name="&gt;&gt;RocksPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RocksPage.Parent" xml:space="preserve">
+    <value>PagesWithCategories</value>
+  </data>
+  <data name="&gt;&gt;RocksPage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="SandsAdK.ItemHeight" type="System.Int32, mscorlib">
     <value>16</value>
   </data>
@@ -1850,13 +1205,13 @@
     <value>__Highland seaground pebbles</value>
   </data>
   <data name="SandsAdK.Location" type="System.Drawing.Point, System.Drawing">
-    <value>337, 0</value>
+    <value>439, 4</value>
   </data>
   <data name="SandsAdK.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="SandsAdK.Size" type="System.Drawing.Size, System.Drawing">
-    <value>252, 324</value>
+    <value>305, 452</value>
   </data>
   <data name="SandsAdK.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -1922,13 +1277,13 @@
     <value>!!!MED seaground rock red</value>
   </data>
   <data name="Sands10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+    <value>4, 4</value>
   </data>
   <data name="Sands10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="Sands10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 324</value>
+    <value>305, 452</value>
   </data>
   <data name="Sands10.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -1949,7 +1304,7 @@
     <value>NoControl</value>
   </data>
   <data name="SandsButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>229, 297</value>
+    <value>317, 428</value>
   </data>
   <data name="SandsButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -2035,7 +1390,7 @@
     <value>NoControl</value>
   </data>
   <data name="SandsArrow.Location" type="System.Drawing.Point, System.Drawing">
-    <value>229, 4</value>
+    <value>317, 4</value>
   </data>
   <data name="SandsArrow.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -2056,6 +1411,33 @@
     <value>SandsPage</value>
   </data>
   <data name="&gt;&gt;SandsArrow.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="SandsPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="SandsPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="SandsPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>748, 462</value>
+  </data>
+  <data name="SandsPage.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="SandsPage.Text" xml:space="preserve">
+    <value>Sands</value>
+  </data>
+  <data name="&gt;&gt;SandsPage.Name" xml:space="preserve">
+    <value>SandsPage</value>
+  </data>
+  <data name="&gt;&gt;SandsPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SandsPage.Parent" xml:space="preserve">
+    <value>PagesWithCategories</value>
+  </data>
+  <data name="&gt;&gt;SandsPage.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="BlockedAdK.ItemHeight" type="System.Int32, mscorlib">
@@ -2086,13 +1468,13 @@
     <value>--Snow soft border</value>
   </data>
   <data name="BlockedAdK.Location" type="System.Drawing.Point, System.Drawing">
-    <value>356, 0</value>
+    <value>439, 4</value>
   </data>
   <data name="BlockedAdK.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="BlockedAdK.Size" type="System.Drawing.Size, System.Drawing">
-    <value>233, 324</value>
+    <value>305, 452</value>
   </data>
   <data name="BlockedAdK.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -2137,13 +1519,13 @@
     <value>((00 LAVA 01 soft</value>
   </data>
   <data name="Blocked10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+    <value>4, 4</value>
   </data>
   <data name="Blocked10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="Blocked10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>239, 324</value>
+    <value>305, 452</value>
   </data>
   <data name="Blocked10.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -2164,7 +1546,7 @@
     <value>NoControl</value>
   </data>
   <data name="BlockedButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>248, 297</value>
+    <value>317, 428</value>
   </data>
   <data name="BlockedButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -2250,7 +1632,7 @@
     <value>NoControl</value>
   </data>
   <data name="BlockedArrow.Location" type="System.Drawing.Point, System.Drawing">
-    <value>248, 4</value>
+    <value>317, 4</value>
   </data>
   <data name="BlockedArrow.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -2272,6 +1654,33 @@
   </data>
   <data name="&gt;&gt;BlockedArrow.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="BlockedPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="BlockedPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="BlockedPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>748, 462</value>
+  </data>
+  <data name="BlockedPage.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="BlockedPage.Text" xml:space="preserve">
+    <value>Blocked</value>
+  </data>
+  <data name="&gt;&gt;BlockedPage.Name" xml:space="preserve">
+    <value>BlockedPage</value>
+  </data>
+  <data name="&gt;&gt;BlockedPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlockedPage.Parent" xml:space="preserve">
+    <value>PagesWithCategories</value>
+  </data>
+  <data name="&gt;&gt;BlockedPage.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="DepositsAdK.ItemHeight" type="System.Int32, mscorlib">
     <value>16</value>
@@ -2346,13 +1755,13 @@
     <value>Tent</value>
   </data>
   <data name="DepositsAdK.Location" type="System.Drawing.Point, System.Drawing">
-    <value>348, 0</value>
+    <value>439, 4</value>
   </data>
   <data name="DepositsAdK.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="DepositsAdK.Size" type="System.Drawing.Size, System.Drawing">
-    <value>241, 324</value>
+    <value>305, 452</value>
   </data>
   <data name="DepositsAdK.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -2463,13 +1872,13 @@
     <value>AsianA</value>
   </data>
   <data name="Deposits10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+    <value>4, 4</value>
   </data>
   <data name="Deposits10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="Deposits10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>231, 324</value>
+    <value>305, 452</value>
   </data>
   <data name="Deposits10.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -2490,7 +1899,7 @@
     <value>NoControl</value>
   </data>
   <data name="DepositsButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>240, 297</value>
+    <value>317, 428</value>
   </data>
   <data name="DepositsButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -2576,7 +1985,7 @@
     <value>NoControl</value>
   </data>
   <data name="DepositsArrow.Location" type="System.Drawing.Point, System.Drawing">
-    <value>240, 4</value>
+    <value>317, 4</value>
   </data>
   <data name="DepositsArrow.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -2598,6 +2007,33 @@
   </data>
   <data name="&gt;&gt;DepositsArrow.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="DepositsPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="DepositsPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="DepositsPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>748, 462</value>
+  </data>
+  <data name="DepositsPage.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="DepositsPage.Text" xml:space="preserve">
+    <value>Deposits</value>
+  </data>
+  <data name="&gt;&gt;DepositsPage.Name" xml:space="preserve">
+    <value>DepositsPage</value>
+  </data>
+  <data name="&gt;&gt;DepositsPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DepositsPage.Parent" xml:space="preserve">
+    <value>PagesWithCategories</value>
+  </data>
+  <data name="&gt;&gt;DepositsPage.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="DoodadsAdK.ItemHeight" type="System.Int32, mscorlib">
     <value>16</value>
@@ -2750,13 +2186,13 @@
     <value>Female Duck</value>
   </data>
   <data name="DoodadsAdK.Location" type="System.Drawing.Point, System.Drawing">
-    <value>320, 0</value>
+    <value>439, 4</value>
   </data>
   <data name="DoodadsAdK.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="DoodadsAdK.Size" type="System.Drawing.Size, System.Drawing">
-    <value>269, 324</value>
+    <value>305, 452</value>
   </data>
   <data name="DoodadsAdK.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -3077,13 +2513,13 @@
     <value>DoNotUse-Skull01</value>
   </data>
   <data name="Doodads10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+    <value>5, 4</value>
   </data>
   <data name="Doodads10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="Doodads10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 324</value>
+    <value>305, 452</value>
   </data>
   <data name="Doodads10.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -3104,7 +2540,7 @@
     <value>NoControl</value>
   </data>
   <data name="DoodadsButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>212, 297</value>
+    <value>318, 428</value>
   </data>
   <data name="DoodadsButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -3190,7 +2626,7 @@
     <value>NoControl</value>
   </data>
   <data name="DoodadsArrow.Location" type="System.Drawing.Point, System.Drawing">
-    <value>212, 4</value>
+    <value>318, 4</value>
   </data>
   <data name="DoodadsArrow.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -3212,6 +2648,33 @@
   </data>
   <data name="&gt;&gt;DoodadsArrow.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="DoodadsPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="DoodadsPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="DoodadsPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>748, 462</value>
+  </data>
+  <data name="DoodadsPage.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="DoodadsPage.Text" xml:space="preserve">
+    <value>Doodads</value>
+  </data>
+  <data name="&gt;&gt;DoodadsPage.Name" xml:space="preserve">
+    <value>DoodadsPage</value>
+  </data>
+  <data name="&gt;&gt;DoodadsPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DoodadsPage.Parent" xml:space="preserve">
+    <value>PagesWithCategories</value>
+  </data>
+  <data name="&gt;&gt;DoodadsPage.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="BlockedDoodadsAdK.ItemHeight" type="System.Int32, mscorlib">
     <value>16</value>
@@ -3238,13 +2701,13 @@
     <value>Tent</value>
   </data>
   <data name="BlockedDoodadsAdK.Location" type="System.Drawing.Point, System.Drawing">
-    <value>349, 0</value>
+    <value>439, 4</value>
   </data>
   <data name="BlockedDoodadsAdK.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="BlockedDoodadsAdK.Size" type="System.Drawing.Size, System.Drawing">
-    <value>240, 324</value>
+    <value>305, 452</value>
   </data>
   <data name="BlockedDoodadsAdK.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -3301,13 +2764,13 @@
     <value>!!MED rock 4</value>
   </data>
   <data name="BlockedDoodads10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+    <value>4, 4</value>
   </data>
   <data name="BlockedDoodads10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="BlockedDoodads10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 324</value>
+    <value>305, 452</value>
   </data>
   <data name="BlockedDoodads10.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -3328,7 +2791,7 @@
     <value>NoControl</value>
   </data>
   <data name="BlockedDoodadsButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>241, 297</value>
+    <value>317, 428</value>
   </data>
   <data name="BlockedDoodadsButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -3414,7 +2877,7 @@
     <value>NoControl</value>
   </data>
   <data name="BlockedDoodadsArrow.Location" type="System.Drawing.Point, System.Drawing">
-    <value>241, 4</value>
+    <value>317, 4</value>
   </data>
   <data name="BlockedDoodadsArrow.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -3436,6 +2899,33 @@
   </data>
   <data name="&gt;&gt;BlockedDoodadsArrow.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="BlockedDoodadsPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="BlockedDoodadsPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="BlockedDoodadsPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>748, 462</value>
+  </data>
+  <data name="BlockedDoodadsPage.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="BlockedDoodadsPage.Text" xml:space="preserve">
+    <value>Blocked Doodads</value>
+  </data>
+  <data name="&gt;&gt;BlockedDoodadsPage.Name" xml:space="preserve">
+    <value>BlockedDoodadsPage</value>
+  </data>
+  <data name="&gt;&gt;BlockedDoodadsPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BlockedDoodadsPage.Parent" xml:space="preserve">
+    <value>PagesWithCategories</value>
+  </data>
+  <data name="&gt;&gt;BlockedDoodadsPage.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
   <data name="AnimalsAdK.ItemHeight" type="System.Int32, mscorlib">
     <value>16</value>
@@ -3468,13 +2958,13 @@
     <value>Camel</value>
   </data>
   <data name="AnimalsAdK.Location" type="System.Drawing.Point, System.Drawing">
-    <value>352, 0</value>
+    <value>439, 4</value>
   </data>
   <data name="AnimalsAdK.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="AnimalsAdK.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 324</value>
+    <value>305, 452</value>
   </data>
   <data name="AnimalsAdK.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -3504,13 +2994,13 @@
     <value>Elk</value>
   </data>
   <data name="Animals10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+    <value>4, 4</value>
   </data>
   <data name="Animals10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="Animals10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>235, 324</value>
+    <value>305, 452</value>
   </data>
   <data name="Animals10.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -3531,7 +3021,7 @@
     <value>NoControl</value>
   </data>
   <data name="AnimalsButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>244, 297</value>
+    <value>317, 428</value>
   </data>
   <data name="AnimalsButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -3617,7 +3107,7 @@
     <value>NoControl</value>
   </data>
   <data name="AnimalsArrow.Location" type="System.Drawing.Point, System.Drawing">
-    <value>244, 4</value>
+    <value>317, 4</value>
   </data>
   <data name="AnimalsArrow.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -3640,6 +3130,33 @@
   <data name="&gt;&gt;AnimalsArrow.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="AnimalsPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="AnimalsPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="AnimalsPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>748, 462</value>
+  </data>
+  <data name="AnimalsPage.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="AnimalsPage.Text" xml:space="preserve">
+    <value>Animals</value>
+  </data>
+  <data name="&gt;&gt;AnimalsPage.Name" xml:space="preserve">
+    <value>AnimalsPage</value>
+  </data>
+  <data name="&gt;&gt;AnimalsPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AnimalsPage.Parent" xml:space="preserve">
+    <value>PagesWithCategories</value>
+  </data>
+  <data name="&gt;&gt;AnimalsPage.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
   <data name="AmbientsAdK.ItemHeight" type="System.Int32, mscorlib">
     <value>16</value>
   </data>
@@ -3659,13 +3176,13 @@
     <value>mountains</value>
   </data>
   <data name="AmbientsAdK.Location" type="System.Drawing.Point, System.Drawing">
-    <value>361, 0</value>
+    <value>439, 4</value>
   </data>
   <data name="AmbientsAdK.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="AmbientsAdK.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 324</value>
+    <value>305, 452</value>
   </data>
   <data name="AmbientsAdK.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -3725,13 +3242,13 @@
     <value>lava</value>
   </data>
   <data name="Ambients10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+    <value>4, 4</value>
   </data>
   <data name="Ambients10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="Ambients10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>244, 324</value>
+    <value>305, 452</value>
   </data>
   <data name="Ambients10.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -3752,7 +3269,7 @@
     <value>NoControl</value>
   </data>
   <data name="AmbientsButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>253, 297</value>
+    <value>317, 428</value>
   </data>
   <data name="AmbientsButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -3838,7 +3355,7 @@
     <value>NoControl</value>
   </data>
   <data name="AmbientsArrow.Location" type="System.Drawing.Point, System.Drawing">
-    <value>253, 4</value>
+    <value>317, 4</value>
   </data>
   <data name="AmbientsArrow.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -3861,14 +3378,71 @@
   <data name="&gt;&gt;AmbientsArrow.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="AmbientsPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="AmbientsPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="AmbientsPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>748, 462</value>
+  </data>
+  <data name="AmbientsPage.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="AmbientsPage.Text" xml:space="preserve">
+    <value>Ambients</value>
+  </data>
+  <data name="&gt;&gt;AmbientsPage.Name" xml:space="preserve">
+    <value>AmbientsPage</value>
+  </data>
+  <data name="&gt;&gt;AmbientsPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AmbientsPage.Parent" xml:space="preserve">
+    <value>PagesWithCategories</value>
+  </data>
+  <data name="&gt;&gt;AmbientsPage.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="PagesWithCategories.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.8pt</value>
+  </data>
+  <data name="PagesWithCategories.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 49</value>
+  </data>
+  <data name="PagesWithCategories.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="PagesWithCategories.Size" type="System.Drawing.Size, System.Drawing">
+    <value>756, 491</value>
+  </data>
+  <data name="PagesWithCategories.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;PagesWithCategories.Name" xml:space="preserve">
+    <value>PagesWithCategories</value>
+  </data>
+  <data name="&gt;&gt;PagesWithCategories.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PagesWithCategories.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PagesWithCategories.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="FilePath.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
   <data name="FilePath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 5</value>
+    <value>13, 17</value>
   </data>
   <data name="FilePath.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="FilePath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>475, 22</value>
+    <value>648, 24</value>
   </data>
   <data name="FilePath.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -3892,7 +3466,7 @@
     <value>NoControl</value>
   </data>
   <data name="LoadFile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>488, 2</value>
+    <value>669, 13</value>
   </data>
   <data name="LoadFile.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -3925,10 +3499,7 @@
     <value>8, 16</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>599, 395</value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+    <value>782, 553</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>

@@ -926,8 +926,8 @@
             // 
             // FilePath
             // 
-            this.FilePath.ForeColor = System.Drawing.SystemColors.ActiveBorder;
             resources.ApplyResources(this.FilePath, "FilePath");
+            this.FilePath.ForeColor = System.Drawing.SystemColors.ActiveBorder;
             this.FilePath.Name = "FilePath";
             this.FilePath.Click += new System.EventHandler(this.FilePath_Click);
             // 
