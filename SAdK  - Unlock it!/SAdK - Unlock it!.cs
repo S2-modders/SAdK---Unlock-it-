@@ -2125,17 +2125,17 @@ namespace SAdK____Unlock_it_
 
                 //10th Anniversary
 
-                //Deer
+                //Deer (animal_deer)
                 if (Animals10Index == 0)
                 {
                     hexToReplace = "83ef9b4a";
                 }
-                //Rabbit
+                //Rabbit (animal_rabbit)
                 if (Animals10Index == 1)
                 {
                     hexToReplace = "767b7941";
                 }
-                //Elk
+                //Elk (animal_elk)
                 if (Animals10Index == 2)
                 {
                     hexToReplace = "947c6e70";
@@ -2143,47 +2143,47 @@ namespace SAdK____Unlock_it_
 
                 //Aufbruch der Kulturen
 
-                //Sheep
+                //Sheep (animal_sheep)
                 if (AnimalsAdKIndex == 0)
                 {
                     hexReplacement = "33caae62";
                 }
-                //Bear
+                //Bear (animal_bear)
                 if (AnimalsAdKIndex == 1)
                 {
                     hexReplacement = "72a51f10";
                 }
-                //Ox
+                //Ox (animal_ox)
                 if (AnimalsAdKIndex == 2)
                 {
                     hexReplacement = "73a51f10";
                 }
-                //Highland Cattle
+                //Highland Cattle (animal_highlandcattle)
                 if (AnimalsAdKIndex == 3)
                 {
                     hexReplacement = "79a51f10";
                 }
-                //Goat
+                //Goat (animal_goat)
                 if (AnimalsAdKIndex == 4)
                 {
                     hexReplacement = "74a51f10";
                 }
-                //Polarbear
+                //Polarbear (animal_polarbear)
                 if (AnimalsAdKIndex == 5)
                 {
                     hexReplacement = "75a51f10";
                 }
-                //Mountain Hare
+                //Mountain Hare (animal_mountainhare)
                 if (AnimalsAdKIndex == 6)
                 {
                     hexReplacement = "76a51f10";
                 }
-                //Boar
+                //Boar (animal_boar)
                 if (AnimalsAdKIndex == 7)
                 {
                     hexReplacement = "77a51f10";
                 }
-                //Camel
+                //Camel (animal_camel)
                 if (AnimalsAdKIndex == 8)
                 {
                     hexReplacement = "78a51f10";
@@ -2214,67 +2214,67 @@ namespace SAdK____Unlock_it_
 
                 //10th Anniversary
 
-                //Beach
+                //Beach (ambient_beach)
                 if (Ambients10Index == 0)
                 {
                     hexToReplace = "7348dc5b";
                 }
-                //Strong Desert Wind
+                //Strong Desert Wind (ambient_desert1)
                 if (Ambients10Index == 1)
                 {
                     hexToReplace = "f30256df";
                 }
-                //Middle Desert Wind
+                //Middle Desert Wind (ambient_desert2)
                 if (Ambients10Index == 2)
                 {
                     hexToReplace = "133def67";
                 }
-                //Low Desert Wind
+                //Low Desert Wind (ambient_desert3)
                 if (Ambients10Index == 3)
                 {
                     hexToReplace = "233af231";
                 }
-                //bright Forest with birds
+                //bright Forest with birds (ambient_forest1)
                 if (Ambients10Index == 4)
                 {
                     hexToReplace = "239af589";
                 }
-                //dark Forest with owl
+                //dark Forest with owl (ambient_forest2)
                 if (Ambients10Index == 5)
                 {
                     hexToReplace = "63538e11";
                 }
-                //meadow with much crickets
+                //meadow with much crickets (ambient_meadow1)
                 if (Ambients10Index == 6)
                 {
                     hexToReplace = "d3d2aa5a";
                 }
-                //meadow with some crickets and birds
+                //meadow with some crickets and birds (ambient_meadow2)
                 if (Ambients10Index == 7)
                 {
                     hexToReplace = "d3373462";
                 }
-                //small water stream
+                //small water stream (ambient_water1)
                 if (Ambients10Index == 8)
                 {
                     hexToReplace = "d35757f3";
                 }
-                //swamp
+                //swamp (ambient_water2)
                 if (Ambients10Index == 9)
                 {
                     hexToReplace = "63a7683b";
                 }
-                //water waves
+                //water waves (ambient_water3)
                 if (Ambients10Index == 10)
                 {
                     hexToReplace = "1371a600";
                 }
-                //river
+                //river (ambient_water4)
                 if (Ambients10Index == 11)
                 {
                     hexToReplace = "f3515d87";
                 }
-                //lava
+                //lava (ambient_lava)
                 if (Ambients10Index == 12)
                 {
                     hexToReplace = "a3bb52a9";
@@ -2282,27 +2282,27 @@ namespace SAdK____Unlock_it_
 
                 //Aufbruch der Kulturen
 
-                //hightlands less birds
+                //hightlands less birds (ambient_highlands1)
                 if (AmbientsAdKIndex == 0)
                 {
                     hexReplacement = "530d69a4";
                 }
-                //hightlands normal birds
+                //hightlands normal birds (ambient_highlands2)
                 if (AmbientsAdKIndex == 1)
                 {
                     hexReplacement = "23b1896c";
                 }
-                //hightlands much birds
+                //hightlands much birds (ambient_highlands3)
                 if (AmbientsAdKIndex == 2)
                 {
                     hexReplacement = "83e44e71";
                 }
-                //ice
+                //ice (ambient_ice)
                 if (AmbientsAdKIndex == 3)
                 {
                     hexReplacement = "630a6c6e";
                 }
-                //mountains
+                //mountains (ambient_mountains)
                 if (AmbientsAdKIndex == 4)
                 {
                     hexReplacement = "43eb22f5";
